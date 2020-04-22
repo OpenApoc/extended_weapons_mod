@@ -1,0 +1,47 @@
+*********************************
+***Current Install Information***
+*********************************
+
+Extract/Copy the "extended weapons mod" folder to your "<<openapoc install>>\data\mods\" folder. This should create something like:
+
+C:\Program Files\OpenApoc\data\mods\extended weapons mod\<<MOD CONTENT>>
+
+Without the stuff in between << >> of course
+
+Go to the folder where OpenApoc is installed and run the launcher ( OpenApoc_Launcher.exe )
+
+Click on the Mods tab at the top of the launcher.
+
+"Extended Weapons Mod" should appear under Disabled Mods.
+
+Click on "Extended Weapons Mod" and click on Enable, it should move it to the Enabled Mods.
+
+Click Play and the game will run.
+
+If all done correctly, the new stuff should appear in the market on the start of a new campaign, and will be available in skirmish also.
+
+ENJOY!
+
+*****************************
+***OLD Pre-V5 INSTALL INFO***
+*****************************
+
+The following files go into to the gamestate_common as replacement (you have to replace the XML files in the gamestate_common zip*):
+
+agent equipment.xml
+economy.xml	**
+equipment_sets_by_level.xml
+
+
+Copy these folders to the data folder which is located in the OpenApoc directory, overwrite the folders that are already there:
+
+imagepacks
+tacdata
+ufodata
+XCOM3	***
+
+If all done correctly, the new stuff should appear in the market on the start of a new campaign, and will be available in skirmish also
+
+*	=	It's in the data subdirectory, but it doesn't have a file extension
+**	=	You can edit economy.xml to adjust availability
+***	=	This contains the beta anthropod files and the new loading screen, if you do not want these, don't extract these files. (Or extract them then delete them from the openapoc data directory)

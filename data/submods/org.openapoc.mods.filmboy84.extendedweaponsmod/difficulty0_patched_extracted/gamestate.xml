@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamestate>
+	<serialization_version>187ae05936db8b9fa62b9b1928fa40ea13701b29</serialization_version>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="organisations.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="vehicle_equipment.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cities.xml"/>
+	<micronoidRainChance>10</micronoidRainChance>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="equipment_sets_by_score.xml"/>
+</gamestate>

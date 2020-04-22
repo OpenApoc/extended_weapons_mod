@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checksums>
+  <file>gamestate.xml</file>
+  <file>gamestate/cities.xml</file>
+  <file>gamestate/cities/CITYMAP_HUMAN.xml</file>
+  <file>gamestate/cities/CITYMAP_HUMAN/buildings.xml</file>
+  <file>gamestate/cities/CITYMAP_HUMAN/initial_tiles.xml</file>
+  <file>gamestate/cities/CITYMAP_HUMAN/tile_types.xml</file>
+  <file>gamestate/equipment_sets_by_score.xml</file>
+  <file>gamestate/organisations.xml</file>
+  <file>gamestate/vehicle_equipment.xml</file>
+</checksums>

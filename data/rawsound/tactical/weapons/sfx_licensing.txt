@@ -1,0 +1,37 @@
+*****************
+***Mike Koenig***
+*****************
+
+flamearrow1
+largefireball1
+smallfireball1
+
+Source:		http://soundbible.com
+License:	Attribution 3.0
+
+
+*******************************
+***UFO: Enemy Unknown (1994)***
+*******************************
+
+laserrifle1
+laserhit1
+plasmagun1
+plasmahit1
+
+ADAPTED FROM THE ABOVE BY FILMBOY84
+
+laserpistol1
+heavylasergun1
+plasmapistol1
+heavyplasmagun1
+
+
+*********************************
+***X-COM: Terror from the Deep***
+*********************************
+
+gausshit1
+gausspistol1
+gaussrifle1
+heavygauss1

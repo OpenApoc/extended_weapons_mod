@@ -1,0 +1,456 @@
+**************
+***Creators***
+**************
+
+FilmBoy84		-	Development from V2 onwards
+JonnyH			-	OpenApoc Core Developer, Extended Weapons Mod QA Testing and Bug-whacker
+Quickmind		-	EWM Tester and Stream Video Creator
+Proselyte Ethan	-	EWM Tester
+SupSuper		-	UFO/TFTD SFX Advice
+Zastaver		-	Real-World Munitions Advisor
+Makus/Ankor		-	Additional Materials
+Voiddweller		-	Original Idea and V1 Development
+
+
+************************
+***WIP FUTURE VERSION***
+************************
+
+[Add]				EWM Weapons to Alien Equipment Load-Outs
+[Add]				New Alien Weapons to Equipment Load-Outs
+[Add]				Dart Pistol
+[Add]				Dart Pistol UFOPaedia Entries (Including Clips)
+[Add]				Dart Rifle
+[Add]				Dart Rifle UFOPaedia Entries (Including Clips)
+[Add]				Gas Cannon (TFTD) [The Heavy Cannon (UFO) is basically the same, but with a stupidly large barrel so i'm not doing that one]
+[Add]				Gas Cannon UFOPaedia Entries (Including Clips)
+[Add]				Toxi-Rifle (Cut Item) from either the OG mod (If i can find it) or new sprites
+[Add]				Toxi-Rifle UFOPaedia Entries (Including Clips)
+[Add]				A new disruptor shield for the aliens only giving 2.5x the HP of the original, but for only twice the inventory space. It should be finished and accessible to them in future versions
+[Add]				Alternative Marsec F1000 Flame-Thrower Fuels???
+[Add]				Marsec F1000 Flame-Thrower IN Tank Battlescape Objects (Using M4000 Clip as a placeholder at present)
+[Add]				Gender Specific Surnames from around the world (Requires new code)
+[Add]				Unisex First Names from around the world (Requires new code)
+[Change]/[Balance]	Further weapon, equipment and armour balancing
+[Change]/[Balance]	Confirm that OG items are using the same stats as OG (In other words, fix OpenApoc bugs and report them to be fixed in core game also)
+
+
+******************
+***THIS RELEASE***
+******************
+==V9==
+
+[Add]		00_agent_and_vehicle_equipment_xml_keys_1.ods which lists the current XML tags and descriptions for Agent and Vehicle Equipment (OpenDocument Format)
+[Add]		00_ewm_agent_equipment_id_list_1.txt which lists every Agent Equipment ID available to organisations, aliens and X-COM (SPOILERS WITHIN)
+[Add]		00_ewm_human_tech_level_equipment_list_1.txt which lists every piece of equipment available to human organisations at every tech level (SPOILERS WITHIN)
+[Add]		00_agent_and_vehicle_equipment_xml_keys_1.xml which lists the current XML tags for Agent and Vehicle Equipment
+
+[Add]		Dimension Missile ENTROPY added to the Agent Equipment List (To be implemented as an alien weapon)
+
+[Add]		Vortex Boomeroid added to the Agent Equipment List. This tracks like a boomeroid but has slightly less power than a Vortex Mine at 130 instead of 150 (To be implemented as an alien weapon)
+
+[Add]		Megapol Dart Pistol added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Dart Pistol Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Dart Pistol STUN Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+
+[Add]		Megapol Dart Rifle added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Dart Rifle Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Dart Rifle STUN Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+
+[Add]		Megapol Gas Cannon added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Megapol Gas Cannon AG Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Megapol Gas Cannon AP Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Megapol Gas Cannon HE Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Megapol Gas Cannon IN Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Megapol Gas Cannon SMART Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Megapol Gas Cannon STUN Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+
+[Add]		Toxirifle added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Toxirifle A-Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Toxirifle B-Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+[Add]		Toxirifle C-Clip added to the Agent Equipment List to be implemented later (Awaiting Battlescape Sprites)
+
+[Add]		All above equipment to the economy list for further implementation later.
+
+[Fix]		[Test for OpenApoc trunk] Civilian Organisation relations to X-COM increased from 0 to 50 (Hopefully this will help stop civilian hostile if X-COM doesn't kill civilians in blasts)
+[Fix]		[Test for OpenApoc trunk] X-COM Organisation relations to Civilian increased from 0 to 100 (Hopefully this will help stop civilian hostile if X-COM doesn't kill civilians in blasts)
+
+[Fix]		[Test for OpenApoc trunk] Security Station Turrets in Original Game shoot PLASMA, the EWM now ensures that all standard base defences use plasma damage, sprites, and sounds for shooting
+[Fix]		[Test for OpenApoc trunk] Advanced Security Station Turrets in Original Game shoot DISRUPTOR, the EWM now ensures that all advanced base defences use DISRUPTOR damage, sprites, and sounds for shooting
+
+[Fix]		[Test for OpenApoc trunk] DAMAGETYPE_LASER_BEAM made <non_violent>true</non_violent> to allow it to not blow up poppers - NOTE - Plasma should have this too as per OG, but that makes no sense; a burning ball of energy is not "none-violent" so not adding to plasma weapons for now
+
+[Change]	The whole EWM has had it's file names checked to ensure that EVERYTHING is in lowercase and, where possible, without spaces. This aids compatibility with none-windows operating systems.
+[Change]	In accordance with the above, the EWM mod folder is now extended_weapons_mod
+
+[Change]	Several EWM Weapons, including, Gauss, Plasma and laser ones have had their object and equip sprite name changed to aid bug whacking
+
+[Change]	Difficulty Files changed to submod folder and LUA script added. Files renamed 0-4 instead of 1-5 to conform to JonnyH's changes to base mod.
+
+[Change]	UFO_GROWTH_LIMIT is doubled for all UFOs. This doubles the maximum number of UFOs of each type you can face (providing they grow them fast enough)
+
+[Change]	Weekly number of UFOs grown by the aliens is doubled, except for UFO_GROWTH_DEFAULT which has different values to keep the aliens alive longer; expect more incursions, even when you are destroying the alien dimension! The end game is no longer easy and X-COM will have to fight in two places as well as avoid UFOs when navigating the alien dimension instead of attempting to butcher them...
+
+[Change]	Agent Equipment Code re-ordered and restructured into a more alphabetised form with clips beneath the related weapon
+
+[Change]	Human Tech Levels altered drastically to allow for more human enemy damage from a variety of new and old weapons. Expect to see nearly all of the EWM weapons in use at least once in the list, if only for one tech level.
+
+[Change]	Average number of guards doubled for all organisations except Aliens, X-COM and Civilian.
+
+[Change]	[Economy] Auto Cannon SMART Clip <minStock> changed to 10
+[Change]	[Economy] Auto Cannon SMART Clip <maxStock> changed to 20
+
+[Change]	[Economy] Auto Cannon STUN GAS Clip <minStock> changed to 5
+[Change]	[Economy] Auto Cannon STUN GAS Clip <maxStock> changed to 10
+
+[Change]	[Economy] Surplus Gauss Pistol <basePrice> changed to 1100
+[Change]	[Economy] Surplus Gauss Pistol <minStock> changed to 3
+[Change]	[Economy] Surplus Gauss Pistol <maxStock> changed to 9
+[Change]	[Economy] Surplus Gauss Pistol Clip <minStock> changed to 9
+[Change]	[Economy] Surplus Gauss Pistol Clip <maxStock> changed to 27
+
+[Change]	[Economy] Surplus Gauss Rifle <basePrice> changed to 1300
+[Change]	[Economy] Surplus Gauss Rifle <minStock> changed to 5
+[Change]	[Economy] Surplus Gauss Rifle <maxStock> changed to 15
+[Change]	[Economy] Surplus Gauss Rifle Clip <basePrice> changed to 75
+[Change]	[Economy] Surplus Gauss Rifle Clip <minStock> changed to 15
+[Change]	[Economy] Surplus Gauss Rifle Clip <maxStock> changed to 45
+
+[Change]	[Economy] Surplus Heavy Gauss <basePrice> changed to 1500
+[Change]	[Economy] Surplus Heavy Gauss <minStock> changed to 3
+[Change]	[Economy] Surplus Heavy Gauss <maxStock> changed to 7
+[Change]	[Economy] Surplus Heavy Gauss Clip <basePrice> changed to 100
+[Change]	[Economy] Surplus Heavy Gauss Clip <minStock> changed to 9
+[Change]	[Economy] Surplus Heavy Gauss Clip <maxStock> changed to 27
+
+[Change]	[Economy] Surplus Laser Pistol <basePrice> changed to 800
+
+[Change]	[Economy] Surplus Laser Rifle <basePrice> changed to 1000
+
+[Change]	[Economy] Surplus Heavy Laser <basePrice> changed to 1200
+
+[Change]	[Economy] Megapol Laser Pistol <basePrice> changed to 650
+
+[Change]	[Economy] Megapol Laser Sniper Gun (Self Recharging) <basePrice> changed to 1200
+[Change]	[Economy] Megapol Laser Sniper Gun (Self Recharging) <minStock> changed to 3
+[Change]	[Economy] Megapol Laser Sniper Gun (Self Recharging) <maxStock> changed to 9
+
+[Change]	[Economy] Megapol Lawpistol SMART AP Clip <basePrice> changed to 65
+[Change]	[Economy] Megapol Lawpistol SMART AP Clip <minStock> changed to 20
+[Change]	[Economy] Megapol Lawpistol SMART AP Clip <maxStock> changed to 80
+
+[Change]	[Economy] Megapol Lawpistol STUN Clip <basePrice> changed to 45
+[Change]	[Economy] Megapol Lawpistol STUN Clip <minStock> changed to 10
+[Change]	[Economy] Megapol Lawpistol STUN Clip <maxStock> changed to 40
+
+[Change]	[Economy] Surplus Plasma Pistol <basePrice> changed to 1750
+[Change]	[Economy] Surplus Plasma Pistol Clip <minStock> changed to 6
+[Change]	[Economy] Surplus Plasma Pistol Clip <maxStock> changed to 18
+
+[Change]	[Economy] Surplus Plasma Rifle Clip <minStock> changed to 12
+[Change]	[Economy] Surplus Plasma Rifle Clip <maxStock> changed to 36
+
+[Change]	[Economy] Surplus Heavy Plasma Clip <minStock> changed to 6
+[Change]	[Economy] Surplus Heavy Plasma Clip <maxStock> changed to 18
+
+[Change]	[Economy] Cultist Body Armour <basePrice> changed to 425
+[Change]	[Economy] Cultist Helmet <basePrice> changed to 425
+[Change]	[Economy] Cultist Left Arm Armour <basePrice> changed to 375
+[Change]	[Economy] Cultist Right Arm Armour <basePrice> changed to 375
+[Change]	[Economy] Cultist Leg Armour <basePrice> changed to 425
+
+[Change]	[Economy] Cultist Heavy Body Armour <basePrice> changed to 500
+[Change]	[Economy] Cultist Heavy Helmet <basePrice> changed to 500
+[Change]	[Economy] Cultist Heavy Left Arm Armour <basePrice> changed to 400
+[Change]	[Economy] Cultist Heavy Right Arm Armour <basePrice> changed to 400
+[Change]	[Economy] Cultist Heavy Leg Armour <basePrice> changed to 500
+
+[Change]	[Economy] Power Armour Body <basePrice> changed to 450
+[Change]	[Economy] Power Armour Helmet <basePrice> changed to 450
+[Change]	[Economy] Power Armour Left Arm <basePrice> changed to 350
+[Change]	[Economy] Power Armour Right Arm <basePrice> changed to 350
+[Change]	[Economy] Power Armour Legs <basePrice> changed to 450
+
+[Change]	[Economy] Civilian Car <basePrice> changed from 4000 to 3500
+
+[Change]	Surplus Gauss Pistol Clip <burst> added at a value of 1
+[Change]	Surplus Gauss Pistol Clip <speed> changed to 60
+[Change]	Surplus Gauss Pistol Clip <fire_delay> changed to 240
+
+[Change]	Surplus Gauss Rifle Clip <burst> added at a value of 2
+[Change]	Surplus Gauss Rifle Clip <speed> changed to 60
+[Change]	Surplus Gauss Rifle Clip <fire_delay> changed to 240
+
+[Change]	Surplus Heavy Gauss Clip <burst> added at a value of 3
+[Change]	Surplus Heavy Gauss Clip <speed> changed to 60
+[Change]	Surplus Heavy Gauss Clip <fire_delay> changed to 240
+
+[Change]	Cultist Body Armour <weight> changed to 10
+[Change]	Cultist Body Armour <armor> changed to 30
+[Change]	Cultist Helmet <weight> changed to 6
+[Change]	Cultist Helmet <armor> changed to 26
+[Change]	Cultist Left Arm Armour <weight> changed to 7
+[Change]	Cultist Left Arm Armour <armor> changed to 22
+[Change]	Cultist Right Arm Armour <weight> changed to 7
+[Change]	Cultist Right Arm Armour <armor> changed to 22
+[Change]	Cultist Leg Armour <weight> changed to 10
+[Change]	Cultist Leg Armour <armor> changed to 28
+
+[Change]	Cultist Heavy Body Armour <weight> changed to 12
+[Change]	Cultist Heavy Body Armour <armor> changed to 38
+[Change]	Cultist Heavy Helmet <weight> changed to 10
+[Change]	Cultist Heavy Helmet <armor> changed to 32
+[Change]	Cultist Heavy Left Arm Armour <weight> changed to 9
+[Change]	Cultist Heavy Left Arm Armour <armor> changed to 30
+[Change]	Cultist Heavy Right Arm Armour <weight> changed to 9
+[Change]	Cultist Heavy Right Arm Armour <armor> changed to 30
+[Change]	Cultist Heavy Leg Armour <weight> changed to 12
+[Change]	Cultist Heavy Leg Armour <armor> changed to 36
+
+[Change]	<name>Power Armour</name> changed to <name>Power Armour Body</name>
+[Change]	Power Armour Body <weight> changed to 8
+[Change]	Power Armour Helmet <weight> changed to 4
+[Change]	Power Armour Left Arm <weight> changed to 5
+[Change]	Power Armour Left Arm <armor> changed to 18
+[Change]	Power Armour Right Arm <weight> changed to 5
+[Change]	Power Armour Right Arm <armor> changed to 18
+[Change]	Power Armour Legs <weight> changed to 8
+
+[Change]	[Test for OpenApoc trunk] Security Station Turret damage decreased to 42 from 78 (Plasma Gun [35] +20%~)
+[Change]	[Test for OpenApoc trunk] Advanced Security Station Turret damage decreased to 50 from 75 (Disruptor Gun [42] +20%~)
+
+[Change]	All score requirements for Alien Equipment Sets (equipment by score xml) DOUBLED at all difficulties. This makes the EWM run for a longer war... To get the highest Alien Tech level (8) on easy, the players score now has to be 84000!
+			THESE VALUES WILL CONTINUE TO BE TWEAKED AS INBALANCES IN AGENT WEAPON PROGRESSION AND RESEARCH ARE FOUND
+[Change]	All score requirements for Alien Vehicle Equipment (vehicle equipment xml) DOUBLED at all difficulties. This makes the EWM run for a longer war... To get the highest Alien Tech level (8) on easy, the players score now has to be 84000!
+			THESE VALUES WILL CONTINUE TO BE TWEAKED AS INBALANCES IN AGENT WEAPON PROGRESSION AND RESEARCH ARE FOUND
+
+[Change]	X-COM Starting funds decreased by 25% for all difficulty levels; X-COM is going to have to think harder and use alternative sources of funding their efforts against the aliens.
+
+[Change]	Slightly tweaked civiliancar1.png to remove some "bluriness"
+
+
+==V8.1==
+
+[Add]		Equip Screen for Civilian Car
+[Add]		Equip Screen for Police Car
+[Add]		Equip Screen for Police Hovercar
+[Add]		Placeholder bigveh sprite for Civilian Car
+[Add]		Placeholder bigveh sprite for Police Car
+[Add]		Placeholder bigveh sprite Police Hovercar
+[Add]		Placeholder smalveh sprite for Civilian Car
+[Add]		Placeholder smalveh sprite for Police Car
+[Add]		Placeholder smalveh sprite Police Hovercar
+[Change]	Civilian Car Icon from OG Blue to Match OG Green on Cityscape (Don't know why they were different?)
+
+==V8==
+
+[Add]		2417 Male First Names from around the world
+[Add]		1431 Female First Names from around the world
+[Add]		2968 Unisex Surnames from around the world
+[Add]		Civilian Car available to purchase from week 1 [GIVES EQUIP SCREEN ERROR BUT WORKS] 
+[Add]		Megapol Police Car available to purchase from week 2 if Megapol is friendly to X-COM [GIVES EQUIP SCREEN ERROR BUT WORKS] 
+[Add]		Megapol Police Hovercar available to purchase from week 2 if Megapol is friendly to X-COM [GIVES EQUIP SCREEN ERROR BUT WORKS] 
+[Change]	Stripped most Original Game AGENT Weapons and Equipment from the economy.xml
+[Change]	Megapol Auto Cannon SMART Clip week available changed to week 2 from week 1
+[Change]	Megapol Auto Cannon SMART Clip price increased to 180 from 80
+[Change]	Megapol Auto Cannon STUN GAS Clip price increased to 100 from 60
+[Change]	Marsec Proximity Mine STUN GAS price decreased to 400 from 500
+[Change]	Cultist Body Armour Set week available changed to week 2 from week 1
+[Change]	Cultist Heavy Body Armour Set week available changed to week 3 from week 1
+[Change]	Surplus Laser Pistol minimum stock changed to 4 from 10
+[Change]	Surplus Laser Pistol maximum stock changed to 12 from 25
+[Change]	Surplus Laser Rifle minimum stock changed to 6 from 10
+[Change]	Surplus Laser Rifle maximum stock changed to 18 from 25
+[Change]	Surplus Heavy Laser minimum stock changed to 2 from 10
+[Change]	Surplus Heavy Laser maximum stock changed to 6 from 25
+[Change]	Surplus Gauss Pistol minimum stock changed to 3 from 10
+[Change]	Surplus Gauss Pistol maximum stock changed to 9 from 25
+[Change]	Surplus Gauss Pistol Clip minimum stock changed to 15 from 30
+[Change]	Surplus Gauss Pistol Clip maximum stock changed to 45 from 50
+[Change]	Surplus Gauss Rifle minimum stock changed to 5 from 10
+[Change]	Surplus Gauss Rifle maximum stock changed to 15 from 25
+[Change]	Surplus Gauss Rifle Clip minimum stock changed to 25 from 30
+[Change]	Surplus Gauss Rifle Clip maximum stock changed to 75 from 50
+[Change]	Surplus Heavy Gauss minimum stock changed to 3 from 10
+[Change]	Surplus Heavy Gauss maximum stock changed to 7 from 25
+[Change]	Surplus Heavy Gauss Clip minimum stock changed to 15 from 30
+[Change]	Surplus Heavy Gauss Clip maximum stock changed to 35 from 50
+[Change]	Surplus Plasma Pistol minimum stock changed to 2 from 10
+[Change]	Surplus Plasma Pistol maximum stock changed to 8 from 25
+[Change]	Surplus Plasma Pistol Clip minimum stock changed to 10 from 30
+[Change]	Surplus Plasma Pistol Clip maximum stock changed to 40 from 50
+[Change]	Surplus Plasma Rifle minimum stock changed to 4 from 10
+[Change]	Surplus Plasma Rifle maximum stock changed to 12 from 25
+[Change]	Surplus Plasma Rifle Clip minimum stock changed to 20 from 30
+[Change]	Surplus Plasma Rifle Clip maximum stock changed to 60 from 50
+[Change]	Surplus Heavy Plasma minimum stock changed to 2 from 10
+[Change]	Surplus Heavy Plasma maximum stock changed to 5 from 25
+[Change]	Surplus Heavy Plasma Clip minimum stock changed to 10 from 30
+[Change]	Surplus Heavy Plasma Clip maximum stock changed to 25 from 50
+[Change]	Megapol Laser Pistol minimum stock changed to 6 from 10
+[Change]	Megapol Laser Pistol maximum stock changed to 18 from 25
+[Change]	Megapol Laser Sniper Gun (Self Recharging) minimum stock changed to 8 from 5
+[Change]	Megapol Laser Sniper Gun (Self Recharging) maximum stock changed to 24 from 15
+[Change]	Mind Shield name changed to Marsec Mind Shield
+[Change]	Marsec Mind Shield week available changed to week 2 from week 1
+[Change]	Marsec Psi-Grenade minimum stock changed to 6 from 2
+[Change]	Marsec Psi-Grenade maximum stock changed to 18 from 2
+
+
+==V7.1==
+
+[Add]		Difficulty Level GameState Files (For adding new weapons and equipment to aliens [WIP])
+[Add]		agent_generator.xml in preparation for adding new name combinations to the EWM (Currently Bugged OpenApoc side, but may as well prep now)
+[Fix]		Increase size of gun clips to a minimum 15x15 size so it's easier to select some ammunition types (Thanks Quickmind)
+[Change]	All Original Game Weapons stripped from agent_equipment.xml (Thanks for advice JonnyH)
+[Change]	Reordering of some weapons/equipment/ammo in agent_equipment.xml
+[Change]	Add a new equip-pic sprite for smoke grenades to better match the UFOPaedia entry
+[Change]	equipscreen_size for Marsec F1000 Flame-Thrower from 2x4 to 2x5
+[Change]	equipscreen_size for Surplus Laser Rifle changed from 1x4 to 2x4
+[Change]	equipscreen_size for Surplus Heavy Laser changed from 2x4 to 2x5
+[Change]	equipscreen_size for Surplus Gauss Rifle changed from 1x4 to 2x4
+[Change]	equipscreen_size for Surplus Plasma Rifle changed from 1x4 to 2x4
+[Change]	equipscreen_size for Surplus Heavy Plasma changed from 2x4 to 2x5
+[Change]	PSI-Grenade renamed to Marsec Psi-Grenade
+[Change]	Marsec Psi-Grenade recovery score value changed from 2 to 3, less than the Alien Gas Grenade, but more than some other grenades
+[Change]	Megapol Laser Sniper Gun (Self Recharging) Damage Decreased from 78 to 40; more powerful than the regular sniper rifle, but not so OP it one-shots most enemies
+
+
+==V7==
+
+[Add] Laser Gun Sound Effects from UFO to Laser Rifle (Thanks SupSuper)
+[Add] / [Change] Adapt above effects to fit Laser Pistol and Heavy Laser
+[Add] Plasma Gun Sound Effects from UFO to Plasma Rifle (Thanks SupSuper)
+[Add] / [Change] Adapt above effects to fit Plasma Pistol and Heavy Plasma
+[Add] Gauss Sound Effects from TFTD to Gauss Pistol, Gauss Rifle and Heavy Gauss (Thanks SupSuper)
+[Change] Rename Laser Pistol to Surplus Laser Pistol
+[Change] Rename Laser Rifle to Surplus Laser Rifle
+[Change] Rename Heavy Laser to Surplus Heavy Laser
+[Change] Rename Plasma Pistol to Surplus Plasma Pistol
+[Change] Rename Plasma Pistol Clip to Surplus Plasma Pistol Clip
+[Change] Rename Plasma Rifle to Surplus Plasma Rifle
+[Change] Rename Plasma Rifle Clip to Surplus Plasma Rifle Clip
+[Change] Rename Heavy Plasma to Surplus Heavy Plasma
+[Change] Rename Heavy Plasma Clip to Surplus Heavy Plasma Clip
+[Change] Rename Gauss Pistol to Surplus Gauss Pistol
+[Change] Rename Gauss Pistol Clip to Surplus Gauss Pistol Clip
+[Change] Rename Gauss Rifle to Surplus Gauss Rifle
+[Change] Rename Gauss Rifle Clip to Surplus Gauss Rifle Clip
+[Change] Rename Heavy Gauss to Surplus Heavy Gauss
+[Change] Rename Heavy Gauss Clip to Surplus Heavy Gauss Clip
+[Change] Rename Heavy Launcher SMART AP Missile to Heavy Launcher SMART Kinetic Kill AP Missile (Thanks Zastaver)
+[Change] Rename MiniLauncher SMART AP Missile to MiniLauncher SMART Kinetic Kill AP Missile (Thanks Zastaver)
+[Change] Surplus Laser Pistol Ammo Decreased from 25 to 15
+[Change] Surplus Laser Rifle Ammo Decreased from 20 to 10
+[Change] Heavy Launcher SMART Kinetic Kill AP (SMART-KK-AP) Missile Speed Increased from 14 to 28 (Thanks Zastaver)
+[Change] MiniLauncher SMART Kinetic Kill AP (SMART-KK-AP) Missile Speed Increased from 14 to 28 (Thanks Zastaver)
+[Change] Surplus Laser Pistol Damage Decreased from 36 to 34
+[Change] Surplus Laser Rifle Damage Decreased from 50 to 45
+[Change] Surplus Heavy Laser Damage Decreased from 110 to 64
+[Change] Surplus Plasma Pistol Damage Decreased 25% from 52 to 39
+[Change] Surplus Plasma Rifle Damage Decreased 25% from 80 to 60
+[Change] Surplus Heavy Plasma Damage Decreased 25% from 115 to 86
+[Change] Surplus Laser Pistol Accuracy Decreased to 40
+[Change] Surplus Laser Rifle Accuracy Decreased to 65
+[Change] Surplus Heavy Laser Accuracy Increased from 45 to 50
+[Change] Surplus Plasma Rifle Accuracy Increased from 55 to 76
+[Change] Surplus Heavy Plasma Accuracy Increased from 55 to 65
+[Change] Surplus Gauss Pistol Accuracy Decreased to 40
+[Change] Surplus Gauss Rifle Accuracy Decreased to 65
+[Change] Surplus Heavy Gauss Accuracy Decreased to 50
+
+
+==V6.1 BUGFIX & BALANCE==
+
+[Fix] Incorrect SFX Location for Marsec F1000 Flame-Thrower IN Fuel Tank (It worked, but best to sort out now, just in case - Thanks for heads up JonnyH]
+[Change] Marsec F1000 Flame-Thrower Weight Increased from 8 to 16
+[Change] Marsec F1000 Flame-Thrower IN Tank Name changed from Marsec F1000 Flame-Thrower IN Fuel Tank
+[Change] Marsec F1000 Flame-Thrower IN Tank Weight Increased from 24 to 48
+[Change] Marsec F1000 Flame-Thrower IN Tank Damage Increased from 8 to 64
+[Change] Marsec F1000 Flame-Thrower IN Tank Accuracy Decreased from 30 to 20
+[Change] Marsec F1000 Flame-Thrower IN Tank Tail Size Increased from 300 to 600
+[Change] Marsec F1000 Flame-Thrower IN Tank Range Increased from 200 to 380 (Approximately 15 tiles)
+[Change] Marsec F1000 Flame-Thrower IN Tank Bullet TTL (Time to Live) Decreased from 2700 to 320 ( Fire falls to the ground at approximately 13 tiles. This means that the range allows the target to be identified and flame dropped a tile or two IN FRONT of it)
+[Change] Marsec F1000 Flame-Thrower IN Tank Explosion Depletion Rate Increased from 4 to 32 (Meaning the size of fireball decreases by 32 for each full tile from a point of impact, with a damage of 64 this means the maximum fireball size is 3x3 and is typically 2x2)
+
+
+==V6==
+
+[Add] OpenApoc Launcher Mod Support (Thanks JonnyH!!!)
+[Add] New title screen (1152x864 resolution and higher supported, 720p and 480p are no longer supported)
+[Add] Marsec F1000 Flame-Thrower and Marsec F1000 Flame-Thrower IN Tank (From a suggestion by Proselyte Ethan on the OpenApoc Discord; feel free to suggest your own weapons for the mod there). Note the Flamethrower Tank does not appear on agents in battlescape; i've yet to work out how to do this.
+[Add] Marsec F1000 Flame-Thrower Firing Sound (smallfireball1, Mike Koenig, Attribution 3.0)
+[Add] Marsec F1000 Flame-Thrower Impact Sound (largefireball1, Mike Koenig, Attribution 3.0)
+[Add]/[Change]/[Fix] Human Enemies from Tech Level 2 through Tech Level 8 now use Stun Grenades (OG Fix)
+[Add] Credits for all involved in the project in changelog.txt
+
+[Fix] The Power Armour EquipPic Sprites now go on to the agent correctly
+
+[Change] All mod files are now in lowercase
+
+
+==V5==
+
+[Add] Changelog now included in package
+[Add] The paler, BETA, Anthropod sprites (Optional, see Instructions.txt)
+
+[Change] Version numbers now follow the format of major releases, those that add new content, will have a new whole number. Minor releases, those that only bug-fix or balance, will have a .XX suffix to the major revision that they apply to
+[Change] Version numbers can be split into A/B/C/etc. releases for staggered release versions
+
+
+==V4==
+
+[Add] Psi-Grenade (A cut item from the original game) with a powerful psionic blast
+[Add] Popper Incendiary Bomb (New weapon for the Aliens)
+[Add] Popper Stun Bomb (New weapon for the Aliens)
+[Add] The Laser Pistol of DOOM! (LPoD) for testing purposes, it's a weapon disabled by default and only accessible with some basic XML coding knowledge
+
+[Fix] The Laser Pistol was two-handed for some reason
+
+[Balance] Further changes to both the economy/market and some weapons stats added by the mod (original weapons remain unchanged)
+
+
+==V3==
+
+[Add] Marsec Proximity Stun Mine (Creates a powerful stun gas cloud on triggering, available from Week 2 in the market)
+
+[Balance] Lots of pricing changes to all new weapons and equipment
+
+[Change] MegaPol Laser Sniper Gun is available in TWO versions, the original, clip, based form and a recharging but more expensive version with lower shot capacity (Different sprites for each version, the rechargeable one has a none-removeable RED clip)
+[Change] Removed art.zip from the archive, just copy the three folders to the data directory of OpenApoc
+
+
+==V2==
+
+[Add] Laser Pistol (UFO) with auto-recharge
+[Add] Laser Rifle (UFO) with auto-recharge
+[Add] Heavy Laser (UFO) with auto-recharge
+[Add] Plasma Pistol (UFO) with Plasma Pistol Clip
+[Add] Plasma Rifle (UFO) with Plasma Rifle Clip
+[Add] Heavy Plasma (UFO) with Heavy Plasma Clip
+[Add] Gauss Pistol (TFTD) with Gauss Pistol Clip
+[Add] Gauss Rifle (TFTD) with Gauss Rifle Clip
+[Add] Heavy Gauss (TFTD) with Heavy Gauss Clip
+[Add] MegaPol Laser Pistol (based on the cut Dimension Destabilizer sprites) with auto-recharge
+[Add] MegaPol Lawpistol SMART AP Ammunition (Smart Bullet with minor tracking)
+[Add] MegaPol Lawpistol STUN Ammunition (Causes a minor stun effect on impact)
+[Add] MegaPol Auto Cannon SMART AP Ammunition (Smart Bullet with minor tracking)
+[Add] MegaPol Auto Cannon STUN GAS Ammunition (Creates small clouds of stun gas on impact)
+[Add] Marsec Heavy Launcher SMART AP Missile (Smart AP Missile with minor tracking, does no splash damage, but causes massive AP damage for taking down heavy targets)
+[Add] Marsec Heavy Launcher STUN GAS Missile (Creates a massive cloud of stun gas on impact)
+[Add] Marsec Mini Launcher SMART AP Missile (Smart AP Missile with minor tracking, does no splash damage, but causes moderate AP damage for taking down heavy targets)
+[Add] Marsec Mini Launcher STUN GAS Missile (Creates a moderately sized cloud of stun gas on impact, smaller than a grenade, but larger than the Auto Cannon)
+[Change] MegaPol Laser Sniper Gun now recharges and no longer needs MegaPol Laser Pods
+[Change] MegaPol Laser Pod is now the MegaPol Laser Pistol above (This leads to bugs on the equip screen, will likely remove the Laser Pod and make the Laser Pistol a new weapon entirely)
+
+Armor:
+[Add] Cultist Heavy Armour (REQUIRES PAPER DOLL AND EQUIP SCREEN SPRITES)
+[Add] Cultist Armour (REQUIRES PAPER DOLL AND EQUIP SCREEN SPRITES)
+[Add] Power Armour (PLACEHOLDER PAPER DOLL AND EQUIP SCREEN SPRITES, NOT ALIGNED)
+
+Equipment:
+[Unlock] Marsec Mind Shield (Cut from Original Game) - IVE YET TO TEST IT'S EFFECT, PLEASE REPORT BACK
+
+==V1==
+
+VOIDDWELLER's original release
