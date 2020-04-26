@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vehicle_equipment>
+<vehicle_equipment op="delete">
 	<entry>
 		<key>VEQUIPMENTTYPE_40MM_AUTO_CANNON</key>
 		<value>
@@ -114,6 +114,7 @@
 			<name>Airguard Anti-Air Cannon</name>
 			<weight>25</weight>
 			<max_ammo>600</max_ammo>
+			<burst>2</burst>
 			<ammo_type>VEQUIPMENTAMMOTYPE_AIRGUARD_52MM_CANNON_ROUND</ammo_type>
 			<equipscreen_sprite>PCK:xcom3/ufodata/vehequip.pck:xcom3/ufodata/vehequip.tab:25:xcom3/ufodata/vhawk.pcx</equipscreen_sprite>
 			<equipscreen_size>

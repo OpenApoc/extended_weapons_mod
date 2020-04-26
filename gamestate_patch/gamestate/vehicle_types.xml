@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vehicle_types>
+<vehicle_types op="delete">
 	<entry>
 		<key>VEHICLETYPE_AIRTAXI</key>
 		<value>
@@ -14065,7 +14065,7 @@
 		<key>VEHICLETYPE_DIMENSION_PROBE</key>
 		<value>
 			<name>Dimension Probe</name>
-			<manufacturer>ORG_MARSEC</manufacturer>
+			<manufacturer>ORG_X-COM</manufacturer>
 			<image_offset>
 				<x>32</x>
 				<y>24</y>
@@ -14707,6 +14707,7 @@
 				</entry>
 			</equipment_layout_slots>
 			<ufopaedia_entry>PAEDIAENTRY_DIMENSION_PROBE</ufopaedia_entry>
+			<canEnterDimensionGate>true</canEnterDimensionGate>
 		</value>
 	</entry>
 	<entry>

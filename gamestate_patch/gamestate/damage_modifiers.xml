@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<damage_modifiers>
+	<entry>
+		<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+		<value/>
+	</entry>
+	<entry>
+		<key>DAMAGEMODIFIER_POPPER_IN</key>
+		<value/>
+	</entry>
+	<entry>
+		<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+		<value/>
+	</entry>
+	<entry>
+		<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+		<value/>
+	</entry>
+	<entry>
+		<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+		<value/>
+	</entry>
+	</damage_modifiers>

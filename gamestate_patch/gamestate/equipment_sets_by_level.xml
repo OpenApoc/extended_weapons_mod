@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<equipment_sets_by_level>
+<equipment_sets_by_level op="delete">
 	<entry>
 		<key>EQUIPMENTSET_HUMAN_1</key>
 		<value>

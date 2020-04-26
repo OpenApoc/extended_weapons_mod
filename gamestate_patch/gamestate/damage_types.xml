@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<damage_types>
+<damage_types op="delete">
 	<entry>
 		<key>DAMAGETYPE_ANTI-ALIEN_GAS</key>
 		<value>
@@ -70,6 +70,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>100</value>
 				</entry>
 				<entry>
@@ -181,6 +201,26 @@
 					<value>100</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>100</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>100</value>
 				</entry>
@@ -279,6 +319,27 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>0</value>
+				</entry>
+				
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>0</value>
 				</entry>
 				<entry>
@@ -384,6 +445,26 @@
 					<value>0</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>0</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>0</value>
 				</entry>
@@ -483,6 +564,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>100</value>
 				</entry>
 				<entry>
@@ -587,6 +688,26 @@
 					<value>0</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>0</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>0</value>
 				</entry>
@@ -685,6 +806,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>0</value>
 				</entry>
 				<entry>
@@ -787,6 +928,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>100</value>
 				</entry>
 				<entry>
@@ -896,6 +1057,26 @@
 					<value>100</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>100</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>100</value>
 				</entry>
@@ -1002,6 +1183,26 @@
 					<value>100</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>100</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>100</value>
 				</entry>
@@ -1101,6 +1302,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>100</value>
 				</entry>
 				<entry>
@@ -1212,6 +1433,26 @@
 					<value>100</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>100</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>100</value>
 				</entry>
@@ -1310,6 +1551,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>100</value>
 				</entry>
 				<entry>
@@ -1412,6 +1673,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>30</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>30</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>30</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>30</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>30</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>30</value>
 				</entry>
 				<entry>
@@ -1519,6 +1800,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>0</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>0</value>
 				</entry>
 				<entry>
@@ -1631,6 +1932,26 @@
 					<value>100</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>100</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>40</value>
 				</entry>
@@ -1731,6 +2052,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>60</value>
 				</entry>
 				<entry>
@@ -1844,6 +2185,26 @@
 					<value>60</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>60</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>60</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>60</value>
 				</entry>
@@ -1946,6 +2307,26 @@
 					<value>80</value>
 				</entry>
 				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>80</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>80</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>80</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>80</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
+					<value>80</value>
+				</entry>
+				<entry>
 					<key>DAMAGEMODIFIER_PSIMORPH</key>
 					<value>80</value>
 				</entry>
@@ -2045,6 +2426,26 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_POPPER</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_IN</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_PSIONIC_BLAST</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_SMOKE</key>
+					<value>100</value>
+				</entry>
+				<entry>
+					<key>DAMAGEMODIFIER_POPPER_STUN_GAS</key>
 					<value>100</value>
 				</entry>
 				<entry>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facility_types>
+	<entry>
+		<key>FACILITYTYPE_ADVANCED_ALIEN_CONTAINMENT</key>
+		<value>
+			<name>Advanced Alien Containment</name>
+			<buildCost>14000</buildCost>
+			<buildTime>7</buildTime>
+			<weeklyCost>700</weeklyCost>
+			<capacityType>Aliens</capacityType>
+			<capacityAmount>20</capacityAmount>
+			<size>2</size>
+			<sprite>PCK:xcom3/ufodata/base.pck:xcom3/ufodata/base.tab:42:xcom3/ufodata/base.pcx</sprite>
+			<dependency>
+				<topics>
+					<entry>RESEARCH_ADVANCED_ALIEN_CONTAINMENT</entry>
+				</topics>
+			</dependency>
+			<ufopaedia_entry>PAEDIAENTRY_ADVANCED_ALIEN_CONTAINMENT</ufopaedia_entry>
+			<sector>46</sector>
+		</value>
+	</entry>
+	<entry>
+		<key>FACILITYTYPE_CELLS</key>
+		<value>
+			<name>Cells</name>
+			<buildCost>1200</buildCost>
+			<buildTime>2</buildTime>
+			<weeklyCost>100</weeklyCost>
+			<capacityType>Aliens</capacityType>
+			<capacityAmount>10</capacityAmount>
+			<sprite>PCK:xcom3/ufodata/base.pck:xcom3/ufodata/base.tab:30:xcom3/ufodata/base.pcx</sprite>
+			<dependency>
+				<topics>
+					<entry>RESEARCH_UNLOCK_CELLS</entry>
+				</topics>
+			</dependency>
+			<sector>34</sector>
+		</value>
+	</entry>
+</facility_types>

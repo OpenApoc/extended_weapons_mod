@@ -1,67 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <agent_equipment>
 	<entry>
-		<key>AEQUIPMENTTYPE_MARSEC_PROXIMITY_MINE</key>
-		<value>
-			<type>Grenade</type>
-			<id>AEQUIPMENTTYPE_MARSEC_PROXIMITY_MINE</id>
-			<name>Marsec Proximity Mine</name>
-			<weight>3</weight>
-			<held_image_pack>BATTLEUNITIMAGEPACK_item3</held_image_pack>
-			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:3</dropped_sprite>
-			<dropped_offset>
-				<x>23</x>
-				<y>34</y>
-			</dropped_offset>
-			<dropped_shadow_sprite>PCKSHADOW:xcom3/tacdata/oshadow.pck:xcom3/tacdata/oshadow.tab:3</dropped_shadow_sprite>
-			<shadow_offset>
-				<x>23</x>
-				<y>6</y>
-			</shadow_offset>
-			<equipscreen_sprite>PCK:xcom3/ufodata/pequip.pck:xcom3/ufodata/pequip.tab:3:xcom3/tacdata/tactical.pal</equipscreen_sprite>
-			<equipscreen_size>
-				<x>2</x>
-				<y>1</y>
-			</equipscreen_size>
-			<manufacturer>ORG_MARSEC</manufacturer>
-			<store_space>10</store_space>
-			<armor>60</armor>
-			<score>2</score>
-			<research_dependency>
-				<type>All</type>
-			</research_dependency>
-			<max_ammo>1</max_ammo>
-			<speed>4</speed>
-			<projectile_sprites>
-				<entry>bulletsprites/battle/15.png</entry>
-				<entry>bulletsprites/battle/00.png</entry>
-				<entry>bulletsprites/battle/01.png</entry>
-				<entry>bulletsprites/battle/02.png</entry>
-				<entry>bulletsprites/battle/03.png</entry>
-				<entry>bulletsprites/battle/04.png</entry>
-				<entry>bulletsprites/battle/05.png</entry>
-				<entry>bulletsprites/battle/06.png</entry>
-				<entry>bulletsprites/battle/07.png</entry>
-				<entry>bulletsprites/battle/08.png</entry>
-				<entry>bulletsprites/battle/09.png</entry>
-				<entry/>
-				<entry>bulletsprites/battle/09.png</entry>
-				<entry/>
-				<entry/>
-				<entry>bulletsprites/battle/09.png</entry>
-			</projectile_sprites>
-			<damage>75</damage>
-			<accuracy>100</accuracy>
-			<fire_delay>240</fire_delay>
-			<tail_size>16</tail_size>
-			<range>400</range>
-			<ttl>1000</ttl>
-			<damage_type>DAMAGETYPE_EXPLOSIVE</damage_type>
-			<trigger_type>Proximity</trigger_type>
-			<explosion_depletion_rate>9</explosion_depletion_rate>
-		</value>
-	</entry>
-	<entry>
 		<key>AEQUIPMENTTYPE_MARSEC_PROXIMITY_STUN_MINE</key>
 		<value>
 			<type>Grenade</type>
@@ -1121,87 +1060,6 @@
 			<fire_sfx>RAWSOUND:xcom3/rawsound/tactical/weapons/bullet1.raw:22050</fire_sfx>
 			<impact_sfx>RAWSOUND:xcom3/rawsound/tactical/weapons/bullet2.raw:22050</impact_sfx>
 			<damage_type>DAMAGETYPE_STUN</damage_type>
-			<trigger_type>Timed</trigger_type>
-		</value>
-	</entry>
-	<entry>
-		<key>AEQUIPMENTTYPE_DEBUGGER_CANNON</key>
-		<value>
-			<type>Weapon</type>
-			<id>AEQUIPMENTTYPE_DEBUGGER_CANNON</id>
-			<name>Debugger Cannon</name>
-			<weight>8</weight>
-			<held_image_pack>BATTLEUNITIMAGEPACK_item31</held_image_pack>
-			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:31</dropped_sprite>
-			<dropped_offset>
-				<x>23</x>
-				<y>34</y>
-			</dropped_offset>
-			<dropped_shadow_sprite>PCKSHADOW:xcom3/tacdata/oshadow.pck:xcom3/tacdata/oshadow.tab:31</dropped_shadow_sprite>
-			<shadow_offset>
-				<x>23</x>
-				<y>6</y>
-			</shadow_offset>
-			<equipscreen_sprite>PCK:xcom3/ufodata/pequip.pck:xcom3/ufodata/pequip.tab:31:xcom3/tacdata/tactical.pal</equipscreen_sprite>
-			<equipscreen_size>
-				<x>1</x>
-				<y>3</y>
-			</equipscreen_size>
-			<manufacturer>ORG_X-COM</manufacturer>
-			<store_space>30</store_space>
-			<armor>70</armor>
-			<score>10</score>
-			<two_handed>true</two_handed>
-			<max_ammo>100</max_ammo>
-			<recharge>100</recharge>
-			<rechargeTB>100</rechargeTB>
-			<speed>26</speed>
-			<projectile_sprites>
-				<entry>bulletsprites/battle/34.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/23.png</entry>
-				<entry>bulletsprites/battle/50.png</entry>
-			</projectile_sprites>
-			<damage>9001</damage>
-			<accuracy>75</accuracy>
-			<fire_delay>10</fire_delay>
-			<tail_size>35</tail_size>
-			<range>1000</range>
-			<ttl>3000</ttl>
-			<explosion_graphic>DOODAD_25_DEVASTATOR</explosion_graphic>
-			<fire_sfx>RAWSOUND:xcom3/rawsound/tactical/weapons/dstablsr.raw:22050</fire_sfx>
-			<damage_type>DAMAGETYPE_DISRUPTOR_BEAM</damage_type>
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
@@ -5830,72 +5688,6 @@
 		</value>
 	</entry>
 	<entry>
-		<key>AEQUIPMENTTYPE_BOOMEROID</key>
-		<value>
-			<type>Grenade</type>
-			<id>AEQUIPMENTTYPE_BOOMEROID</id>
-			<name>Boomeroid</name>
-			<weight>3</weight>
-			<held_image_pack>BATTLEUNITIMAGEPACK_item42</held_image_pack>
-			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:42</dropped_sprite>
-			<dropped_offset>
-				<x>23</x>
-				<y>34</y>
-			</dropped_offset>
-			<dropped_shadow_sprite>PCKSHADOW:xcom3/tacdata/oshadow.pck:xcom3/tacdata/oshadow.tab:42</dropped_shadow_sprite>
-			<shadow_offset>
-				<x>23</x>
-				<y>6</y>
-			</shadow_offset>
-			<equipscreen_sprite>PCK:xcom3/ufodata/pequip.pck:xcom3/ufodata/pequip.tab:42:xcom3/tacdata/tactical.pal</equipscreen_sprite>
-			<equipscreen_size>
-				<x>2</x>
-				<y>2</y>
-			</equipscreen_size>
-			<manufacturer>ORG_X-COM</manufacturer>
-			<store_space>10</store_space>
-			<armor>30</armor>
-			<score>7</score>
-			<research_dependency>
-				<type>All</type>
-				<topics>
-					<entry>RESEARCH_BOOMEROID</entry>
-				</topics>
-			</research_dependency>
-			<max_ammo>1</max_ammo>
-			<speed>4</speed>
-			<projectile_sprites>
-				<entry>bulletsprites/battle/15.png</entry>
-				<entry>bulletsprites/battle/00.png</entry>
-				<entry>bulletsprites/battle/01.png</entry>
-				<entry>bulletsprites/battle/02.png</entry>
-				<entry>bulletsprites/battle/03.png</entry>
-				<entry>bulletsprites/battle/04.png</entry>
-				<entry>bulletsprites/battle/05.png</entry>
-				<entry>bulletsprites/battle/06.png</entry>
-				<entry>bulletsprites/battle/07.png</entry>
-				<entry>bulletsprites/battle/08.png</entry>
-				<entry>bulletsprites/battle/09.png</entry>
-				<entry/>
-				<entry>bulletsprites/battle/09.png</entry>
-				<entry/>
-				<entry/>
-				<entry>bulletsprites/battle/09.png</entry>
-			</projectile_sprites>
-			<damage>70</damage>
-			<accuracy>100</accuracy>
-			<fire_delay>240</fire_delay>
-			<tail_size>16</tail_size>
-			<guided>true</guided>
-			<turn_rate>30</turn_rate>
-			<range>400</range>
-			<ttl>1800</ttl>
-			<damage_type>DAMAGETYPE_EXPLOSIVE</damage_type>
-			<trigger_type>Boomeroid</trigger_type>
-			<explosion_depletion_rate>9</explosion_depletion_rate>
-		</value>
-	</entry>
-	<entry>
 		<key>AEQUIPMENTTYPE_BOOMEROID_VORTEX</key>
 		<value>
 			<type>Grenade</type>
@@ -6185,11 +5977,11 @@
 		</value>
 	</entry>
 	<entry>
-		<key>AEQUIPMENTTYPE_POPPER_S_BOMB</key>
+		<key>AEQUIPMENTTYPE_POPPER_S_ENTROPY_SPECIAL_BOMB</key>
 		<value>
 			<type>Popper</type>
-			<id>AEQUIPMENTTYPE_POPPER_S_BOMB</id>
-			<name>Popper's Bomb</name>
+			<id>AEQUIPMENTTYPE_POPPER_S_ENTROPY_SPECIAL_BOMB</id>
+			<name>Popper's ENTROPY SPECIAL Bomb</name>
 			<weight>6</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
 			<dropped_offset>
@@ -6200,7 +5992,7 @@
 				<x>23</x>
 				<y>6</y>
 			</shadow_offset>
-			<equipscreen_sprite>PCK:xcom3/ufodata/pequip.pck:xcom3/ufodata/pequip.tab:81:xcom3/tacdata/tactical.pal</equipscreen_sprite>
+			<equipscreen_sprite>ufodata/pequip/popperbombincendiary.png</equipscreen_sprite>
 			<equipscreen_size>
 				<x>3</x>
 				<y>3</y>
@@ -6237,7 +6029,7 @@
 			<tail_size>16</tail_size>
 			<range>400</range>
 			<ttl>1200</ttl>
-			<damage_type>DAMAGETYPE_EXPLOSIVE</damage_type>
+			<damage_type>DAMAGETYPE_ENTROPY_ENZYME_SPECIAL</damage_type>
 			<trigger_type>Timed</trigger_type>
 			<explosion_depletion_rate>22</explosion_depletion_rate>
 		</value>
@@ -6298,6 +6090,122 @@
 			<damage_type>DAMAGETYPE_INCENDIARY</damage_type>
 			<trigger_type>Timed</trigger_type>
 			<explosion_depletion_rate>22</explosion_depletion_rate>
+		</value>
+	</entry>
+	<entry>
+		<key>AEQUIPMENTTYPE_POPPER_S_PSIONIC_BLAST_BOMB</key>
+		<value>
+			<type>Popper</type>
+			<id>AEQUIPMENTTYPE_POPPER_S_PSIONIC_BLAST_BOMB</id>
+			<name>Popper's PSI-BLAST Bomb</name>
+			<weight>6</weight>
+			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
+			<dropped_offset>
+				<x>23</x>
+				<y>34</y>
+			</dropped_offset>
+			<shadow_offset>
+				<x>23</x>
+				<y>6</y>
+			</shadow_offset>
+			<equipscreen_sprite>ufodata/pequip/popperbombstungas.png</equipscreen_sprite>
+			<equipscreen_size>
+				<x>3</x>
+				<y>3</y>
+			</equipscreen_size>
+			<manufacturer>ORG_ALIEN</manufacturer>
+			<store_space>5</store_space>
+			<armor>70</armor>
+			<research_dependency>
+				<type>All</type>
+			</research_dependency>
+			<max_ammo>1</max_ammo>
+			<speed>4</speed>
+			<projectile_sprites>
+				<entry>bulletsprites/battle/15.png</entry>
+				<entry>bulletsprites/battle/00.png</entry>
+				<entry>bulletsprites/battle/01.png</entry>
+				<entry>bulletsprites/battle/02.png</entry>
+				<entry>bulletsprites/battle/03.png</entry>
+				<entry>bulletsprites/battle/04.png</entry>
+				<entry>bulletsprites/battle/05.png</entry>
+				<entry>bulletsprites/battle/06.png</entry>
+				<entry>bulletsprites/battle/07.png</entry>
+				<entry>bulletsprites/battle/08.png</entry>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+			</projectile_sprites>
+			<damage>100</damage>
+			<accuracy>90</accuracy>
+			<fire_delay>240</fire_delay>
+			<tail_size>16</tail_size>
+			<range>400</range>
+			<ttl>1200</ttl>
+			<damage_type>DAMAGETYPE_PSIONIC_BLAST</damage_type>
+			<trigger_type>Timed</trigger_type>
+			<explosion_depletion_rate>14</explosion_depletion_rate>
+		</value>
+	</entry>
+	<entry>
+		<key>AEQUIPMENTTYPE_POPPER_S_SMOKE_BOMB</key>
+		<value>
+			<type>Popper</type>
+			<id>AEQUIPMENTTYPE_POPPER_S_SMOKE_BOMB</id>
+			<name>Popper's Smoke Bomb</name>
+			<weight>6</weight>
+			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
+			<dropped_offset>
+				<x>23</x>
+				<y>34</y>
+			</dropped_offset>
+			<shadow_offset>
+				<x>23</x>
+				<y>6</y>
+			</shadow_offset>
+			<equipscreen_sprite>ufodata/pequip/popperbombstungas.png</equipscreen_sprite>
+			<equipscreen_size>
+				<x>3</x>
+				<y>3</y>
+			</equipscreen_size>
+			<manufacturer>ORG_ALIEN</manufacturer>
+			<store_space>5</store_space>
+			<armor>70</armor>
+			<research_dependency>
+				<type>All</type>
+			</research_dependency>
+			<max_ammo>1</max_ammo>
+			<speed>4</speed>
+			<projectile_sprites>
+				<entry>bulletsprites/battle/15.png</entry>
+				<entry>bulletsprites/battle/00.png</entry>
+				<entry>bulletsprites/battle/01.png</entry>
+				<entry>bulletsprites/battle/02.png</entry>
+				<entry>bulletsprites/battle/03.png</entry>
+				<entry>bulletsprites/battle/04.png</entry>
+				<entry>bulletsprites/battle/05.png</entry>
+				<entry>bulletsprites/battle/06.png</entry>
+				<entry>bulletsprites/battle/07.png</entry>
+				<entry>bulletsprites/battle/08.png</entry>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+			</projectile_sprites>
+			<damage>90</damage>
+			<accuracy>90</accuracy>
+			<fire_delay>240</fire_delay>
+			<tail_size>16</tail_size>
+			<range>400</range>
+			<ttl>1200</ttl>
+			<damage_type>DAMAGETYPE_SMOKE</damage_type>
+			<trigger_type>Timed</trigger_type>
+			<explosion_depletion_rate>10</explosion_depletion_rate>
 		</value>
 	</entry>
 	<entry>

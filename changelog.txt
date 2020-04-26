@@ -40,10 +40,28 @@ Voiddweller		-	Original Idea and V1 Development
 ******************
 ==V9==
 
+[Change]		Archives removed from mod, directories renamed to match archive names
+
+[op="delete"]	agent_types.xml
+[op="delete"]	damage_types.xml
+[op="delete"]	doodad_types.xml
+[op="delete"]	equipment_sets_by_level.xml
+[op="delete"]	organisations.xml (relations XML under normal gamestate, not difficulty)
+[op="delete"]	research.xml
+[op="delete"]	ufo_growth_lists.xml
+[op="delete"]	ufo_incursions.xml
+[op="delete"]	ufo_mission_preference.xml
+[op="delete"]	ufopaedia.xml
+[op="delete"]	vehicle_ammo.xml
+[op="delete"]	vehicle_equipment.xml
+[op="delete"]	vehicle_types.xml
+
 [Add]		00_agent_and_vehicle_equipment_xml_keys_1.ods which lists the current XML tags and descriptions for Agent and Vehicle Equipment (OpenDocument Format)
 [Add]		00_ewm_agent_equipment_id_list_1.txt which lists every Agent Equipment ID available to organisations, aliens and X-COM (SPOILERS WITHIN)
 [Add]		00_ewm_human_tech_level_equipment_list_1.txt which lists every piece of equipment available to human organisations at every tech level (SPOILERS WITHIN)
 [Add]		00_agent_and_vehicle_equipment_xml_keys_1.xml which lists the current XML tags for Agent and Vehicle Equipment
+
+[Add]		agent_types.xml (For future alien variants and load-outs)
 
 [Add]		Dimension Missile ENTROPY added to the Agent Equipment List (To be implemented as an alien weapon)
 
@@ -72,6 +90,18 @@ Voiddweller		-	Original Idea and V1 Development
 
 [Add]		All above equipment to the economy list for further implementation later.
 
+[Add]		AEQUIPMENTTYPE_POPPER_S_ENTROPY_SPECIAL_BOMB (Special Entropy Effect Bomb for Popper) Added to agent_equipment.xml AND economy.xml
+[Change]	AEQUIPMENTTYPE_POPPER_S_IN_BOMB Modified in agent_equipment.xml AND economy.xml
+[Add]		AEQUIPMENTTYPE_POPPER_S_PSIONIC_BLAST_BOMB (Psionic Blast Effect Bomb for Popper) Added to agent_equipment.xml AND economy.xml
+[Add]		AEQUIPMENTTYPE_POPPER_S_SMOKE_BOMB (Smoke Effect Bomb for Popper) Added to agent_equipment.xml AND economy.xml
+[Change]	AEQUIPMENTTYPE_POPPER_S_STUN_GAS_BOMB Modified in agent_equipment.xml AND economy.xml
+
+[Add]		DAMAGEMODIFIER_POPPER_ENTROPY_SPECIAL (Special Entropy Damage Modifier for Popper) to both damage_modifiers.xml AND damage_types.xml
+[Add]		DAMAGEMODIFIER_POPPER_IN (Incendiary Damage Modifier for Popper) to both damage_modifiers.xml AND damage_types.xml
+[Add]		DAMAGEMODIFIER_POPPER_PSIONIC_BLAST (Psionic-Blast Damage Modifier for Popper) to both damage_modifiers.xml AND damage_types.xml
+[Add]		DAMAGEMODIFIER_POPPER_SMOKE (Smoke Damage Modifier for Popper) to both damage_modifiers.xml AND damage_types.xml
+[Add]		DAMAGEMODIFIER_POPPER_STUN_GAS (Stun Gas Damage Modifier for Popper) to both damage_modifiers.xml AND damage_types.xml
+
 [Fix]		[Test for OpenApoc trunk] Civilian Organisation relations to X-COM increased from 0 to 50 (Hopefully this will help stop civilian hostile if X-COM doesn't kill civilians in blasts)
 [Fix]		[Test for OpenApoc trunk] X-COM Organisation relations to Civilian increased from 0 to 100 (Hopefully this will help stop civilian hostile if X-COM doesn't kill civilians in blasts)
 
@@ -96,6 +126,8 @@ Voiddweller		-	Original Idea and V1 Development
 [Change]	Human Tech Levels altered drastically to allow for more human enemy damage from a variety of new and old weapons. Expect to see nearly all of the EWM weapons in use at least once in the list, if only for one tech level.
 
 [Change]	Average number of guards doubled for all organisations except Aliens, X-COM and Civilian.
+
+[Change]	[Economy] Remove duplicated items that are in base gamestate (unless part of a tree modified by the mod)
 
 [Change]	[Economy] Auto Cannon SMART Clip <minStock> changed to 10
 [Change]	[Economy] Auto Cannon SMART Clip <maxStock> changed to 20
@@ -227,6 +259,13 @@ Voiddweller		-	Original Idea and V1 Development
 [Change]	X-COM Starting funds decreased by 25% for all difficulty levels; X-COM is going to have to think harder and use alternative sources of funding their efforts against the aliens.
 
 [Change]	Slightly tweaked civiliancar1.png to remove some "bluriness"
+
+[Remove]	AEQUIPMENTTYPE_MARSEC_PROXIMITY_MINE from mod-side agent_equipment.xml
+[Remove]	AEQUIPMENTTYPE_DEBUGGER_CANNON from mod-side agent_equipment.xml
+[Remove]	AEQUIPMENTTYPE_BOOMEROID from mod-side agent_equipment.xml
+[Remove]	AEQUIPMENTTYPE_POPPER_S_BOMB mod-side from agent_equipment.xml
+
+
 
 
 ==V8.1==

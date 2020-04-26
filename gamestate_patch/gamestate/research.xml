@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<research>
+<research op="delete">
 	<topics>
 		<entry>
 			<key>MANUFACTURE_ALIEN_GAS_GRENADE</key>
