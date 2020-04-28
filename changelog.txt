@@ -5,7 +5,7 @@
 FilmBoy84		-	Development from V2 onwards
 JonnyH			-	OpenApoc Core Developer, Extended Weapons Mod QA Testing and Bug-whacker
 Quickmind		-	EWM Tester and Stream Video Creator
-Proselyte Ethan	-	EWM Tester
+Proselyte Ethan		-	EWM Tester
 SupSuper		-	UFO/TFTD SFX Advice
 Zastaver		-	Real-World Munitions Advisor
 Makus/Ankor		-	Additional Materials
@@ -40,7 +40,7 @@ Voiddweller		-	Original Idea and V1 Development
 ******************
 ==V9==
 
-[Change]		Archives removed from mod, directories renamed to match archive names
+[Change]		Archives removed from mod, directories renamed to match archive names (EXCEPT SUBMODS RELATING TO GAMESTATE_DIFFICULTY AS THERE ARE CTDs)
 
 [op="delete"]	agent_types.xml
 [op="delete"]	damage_types.xml
