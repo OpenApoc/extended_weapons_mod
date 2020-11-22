@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <facility_types>
-	<entry>
+	<entry op="delete">
 		<key>FACILITYTYPE_ADVANCED_ALIEN_CONTAINMENT</key>
 		<value>
 			<name>Advanced Alien Containment</name>
@@ -8,7 +8,7 @@
 			<buildTime>7</buildTime>
 			<weeklyCost>700</weeklyCost>
 			<capacityType>Aliens</capacityType>
-			<capacityAmount>20</capacityAmount>
+			<capacityAmount>80</capacityAmount>
 			<size>2</size>
 			<sprite>PCK:xcom3/ufodata/base.pck:xcom3/ufodata/base.tab:42:xcom3/ufodata/base.pcx</sprite>
 			<dependency>
@@ -20,7 +20,7 @@
 			<sector>46</sector>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>FACILITYTYPE_CELLS</key>
 		<value>
 			<name>Cells</name>

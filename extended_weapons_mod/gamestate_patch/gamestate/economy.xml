@@ -9,7 +9,7 @@
 			<maxStock>30</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_PSI-GRENADE</key>
 		<value>
 			<weekAvailable>2</weekAvailable>
@@ -18,7 +18,7 @@
 			<maxStock>18</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_SMOKE_GRENADE</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -27,13 +27,13 @@
 			<maxStock>60</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_ALIEN_DETECTOR</key>
 		<value>
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_AUTO_CANNON</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -42,7 +42,7 @@
 			<maxStock>8</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_AP_CLIP</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -51,7 +51,7 @@
 			<maxStock>40</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_HE_CLIP</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -60,7 +60,7 @@
 			<maxStock>40</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_IN_CLIP</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -123,25 +123,25 @@
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_DESTABILISER</key>
 		<value>
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_ENERGY_POD</key>
 		<value>
 			<maxStock>20</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_FORCE_FIELD</key>
 		<value>
 			<maxStock>20</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_FORCEWEB</key>
 		<value>
 			<maxStock>5</maxStock>
@@ -261,7 +261,7 @@
 			<maxStock>6</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MARSEC_HEAVY_LAUNCHER</key>
 		<value>
 			<weekAvailable>2</weekAvailable>
@@ -270,14 +270,14 @@
 			<maxStock>4</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_AG_MISSILE</key>
 		<value>
 			<basePrice>700</basePrice>
 			<maxStock>15</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_HE_MISSILE</key>
 		<value>
 			<weekAvailable>2</weekAvailable>
@@ -286,7 +286,7 @@
 			<maxStock>20</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_IN_MISSILE</key>
 		<value>
 			<weekAvailable>2</weekAvailable>
@@ -355,7 +355,7 @@
 			<maxStock>18</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LASER_SNIPER_GUN</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -364,7 +364,7 @@
 			<maxStock>15</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LASER_POD</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -382,7 +382,7 @@
 			<maxStock>9</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -391,7 +391,7 @@
 			<maxStock>50</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_CLIP</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -418,7 +418,7 @@
 			<maxStock>40</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MIND_SHIELD</key>
 		<value>
 			<weekAvailable>2</weekAvailable>
@@ -427,7 +427,7 @@
 			<maxStock>10</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MARSEC_MINILAUNCHER</key>
 		<value>
 			<weekAvailable>3</weekAvailable>
@@ -436,14 +436,14 @@
 			<maxStock>6</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_AG_MISSILE</key>
 		<value>
 			<basePrice>900</basePrice>
 			<maxStock>30</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_HE_MISSILE</key>
 		<value>
 			<weekAvailable>3</weekAvailable>
@@ -452,7 +452,7 @@
 			<maxStock>30</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_IN_MISSILE</key>
 		<value>
 			<weekAvailable>3</weekAvailable>
@@ -479,7 +479,7 @@
 			<maxStock>30</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MULTI-TRACKER</key>
 		<value>
 			<maxStock>2</maxStock>
@@ -539,28 +539,28 @@
 			<maxStock>18</maxStock>
 		</value>
 	</entry>	
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN</key>
 		<value>
 			<basePrice>2780</basePrice>
 			<maxStock>8</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN_A-CLIP</key>
 		<value>
 			<basePrice>500</basePrice>
 			<maxStock>16</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN_B-CLIP</key>
 		<value>
 			<basePrice>700</basePrice>
 			<maxStock>16</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN_C-CLIP</key>
 		<value>
 			<basePrice>900</basePrice>
@@ -595,13 +595,13 @@
 			<maxStock>16</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TRACKER_GUN</key>
 		<value>
 			<maxStock>2</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TRACKER_GUN_CLIP</key>
 		<value>
 			<maxStock>2</maxStock>
@@ -754,7 +754,7 @@
 			<maxStock>30</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_POPPER_S_BOMB</key>
 		<value>
 			<maxStock>5</maxStock>
@@ -790,7 +790,7 @@
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>VEHICLETYPE_CIVILIAN_CAR</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
@@ -799,7 +799,7 @@
 			<maxStock>20</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>VEHICLETYPE_POLICE_CAR</key>
 		<value>
 			<weekAvailable>2</weekAvailable>
@@ -808,7 +808,7 @@
 			<maxStock>12</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>VEHICLETYPE_POLICE_HOVERCAR</key>
 		<value>
 			<weekAvailable>2</weekAvailable>
@@ -817,14 +817,14 @@
 			<maxStock>8</maxStock>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>VEQUIPMENTAMMOTYPE_ZORIUM</key>
 		<value>
 			<weekAvailable>1</weekAvailable>
 			<basePrice>40</basePrice>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>VEQUIPMENTTYPE_DIMENSION_SHIFTER</key>
 		<value>
 			<basePrice>30000</basePrice>

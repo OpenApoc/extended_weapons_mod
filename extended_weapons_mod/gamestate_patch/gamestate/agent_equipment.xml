@@ -61,7 +61,7 @@
 			<explosion_depletion_rate>15</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_PSI-GRENADE</key>
 		<value>
 			<type>Grenade</type>
@@ -122,7 +122,7 @@
 			<explosion_depletion_rate>10</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_SMOKE_GRENADE</key>
 		<value>
 			<type>Grenade</type>
@@ -183,7 +183,7 @@
 			<explosion_depletion_rate>11</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_ALIEN_DETECTOR</key>
 		<value>
 			<type>AlienDetector</type>
@@ -214,7 +214,7 @@
 			</research_dependency>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_AUTO_CANNON</key>
 		<value>
 			<type>Weapon</type>
@@ -247,7 +247,7 @@
 			<two_handed>true</two_handed>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_AP_CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -328,7 +328,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_HE_CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -409,7 +409,7 @@
 			<explosion_depletion_rate>4</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_IN_CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -1063,7 +1063,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_DESTABILISER</key>
 		<value>
 			<type>Weapon</type>
@@ -1095,7 +1095,7 @@
 			</research_dependency>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_ENERGY_POD</key>
 		<value>
 			<type>Ammo</type>
@@ -1179,7 +1179,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_FORCE_FIELD</key>
 		<value>
 			<type>DimensionForceField</type>
@@ -1210,7 +1210,7 @@
 			</research_dependency>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_FORCEWEB</key>
 		<value>
 			<type>Weapon</type>
@@ -2232,7 +2232,7 @@
 			<explosion_depletion_rate>32</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MARSEC_HEAVY_LAUNCHER</key>
 		<value>
 			<type>Weapon</type>
@@ -2265,7 +2265,7 @@
 			<two_handed>true</two_handed>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_AG_MISSILE</key>
 		<value>
 			<type>Ammo</type>
@@ -2353,7 +2353,7 @@
 			<explosion_depletion_rate>11</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_HE_MISSILE</key>
 		<value>
 			<type>Ammo</type>
@@ -2441,7 +2441,7 @@
 			<explosion_depletion_rate>11</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_IN_MISSILE</key>
 		<value>
 			<type>Ammo</type>
@@ -3135,7 +3135,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LASER_SNIPER_GUN</key>
 		<value>
 			<type>Weapon</type>
@@ -3168,7 +3168,7 @@
 			<two_handed>true</two_handed>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LASER_POD</key>
 		<value>
 			<type>Ammo</type>
@@ -3340,7 +3340,7 @@
 			<trigger_type>Timed</trigger_type>			
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL</key>
 		<value>
 			<type>Weapon</type>
@@ -3372,7 +3372,7 @@
 			</research_dependency>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -3572,7 +3572,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>	
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MIND_SHIELD</key>
 		<value>
 			<type>MindShield</type>
@@ -3604,7 +3604,7 @@
 			</research_dependency>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MARSEC_MINILAUNCHER</key>
 		<value>
 			<type>Weapon</type>
@@ -3637,7 +3637,7 @@
 			<two_handed>true</two_handed>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_AG_MISSILE</key>
 		<value>
 			<type>Ammo</type>
@@ -3721,7 +3721,7 @@
 			<explosion_depletion_rate>5</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_HE_MISSILE</key>
 		<value>
 			<type>Ammo</type>
@@ -3805,7 +3805,7 @@
 			<explosion_depletion_rate>5</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_IN_MISSILE</key>
 		<value>
 			<type>Ammo</type>
@@ -4058,7 +4058,7 @@
 			<explosion_depletion_rate>12</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MULTI-TRACKER</key>
 		<value>
 			<type>MultiTracker</type>
@@ -4446,7 +4446,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN</key>
 		<value>
 			<type>Weapon</type>
@@ -4478,7 +4478,7 @@
 			</research_dependency>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN_A-CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -4544,7 +4544,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN_B-CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -4610,7 +4610,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TOXIGUN_C-CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -4907,7 +4907,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TRACKER_GUN</key>
 		<value>
 			<type>Weapon</type>
@@ -4940,7 +4940,7 @@
 			<two_handed>true</two_handed>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TRACKER_GUN_CLIP</key>
 		<value>
 			<type>Ammo</type>
@@ -5557,7 +5557,7 @@
 			<max_ammo>18</max_ammo>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_X-COM_BASE_TURRET_DISRUPTOR</key>
 		<value>
 			<type>Weapon</type>
@@ -5621,7 +5621,7 @@
 			<trigger_type>Timed</trigger_type>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_X-COM_BASE_TURRET_LASER</key>
 		<value>
 			<type>Weapon</type>
@@ -5754,7 +5754,7 @@
 			<explosion_depletion_rate>16</explosion_depletion_rate>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_MISSILE_LAUNCHER</key>
 		<value>
 			<type>Weapon</type>
@@ -5791,7 +5791,7 @@
 			<two_handed>true</two_handed>
 		</value>
 	</entry>
-	<entry>
+	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_MISSILE</key>
 		<value>
 			<type>Ammo</type>

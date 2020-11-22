@@ -7,11 +7,11 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_PROBE</first>
-					<second>18</second>
+					<second>10</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_SCOUT</first>
-					<second>18</second>
+					<second>10</second>
 				</entry>
 				<sizeHint>2</sizeHint>
 			</vehicleTypeList>
@@ -41,11 +41,11 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_ASSAULT_SHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BATTLESHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_FAST_ATTACK_SHIP</first>
@@ -53,7 +53,7 @@
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_MOTHERSHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<sizeHint>4</sizeHint>
 			</vehicleTypeList>
@@ -83,7 +83,7 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BATTLESHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_FAST_ATTACK_SHIP</first>
@@ -108,7 +108,7 @@
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_MOTHERSHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<sizeHint>2</sizeHint>
 			</vehicleTypeList>
@@ -121,7 +121,7 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BATTLESHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<sizeHint>1</sizeHint>
 			</vehicleTypeList>
@@ -134,19 +134,19 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_FAST_ATTACK_SHIP</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_PROBE</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_SCOUT</first>
-					<second>8</second>
+					<second>5</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_TRANSPORTER</first>
-					<second>6</second>
+					<second>4</second>
 				</entry>
 				<sizeHint>4</sizeHint>
 			</vehicleTypeList>
@@ -159,23 +159,23 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_ASSAULT_SHIP</first>
-					<second>6</second>
+					<second>4</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_FAST_ATTACK_SHIP</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_PROBE</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_SCOUT</first>
-					<second>8</second>
+					<second>5</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_TRANSPORTER</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<sizeHint>5</sizeHint>
 			</vehicleTypeList>
@@ -188,11 +188,11 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_ASSAULT_SHIP</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_DESTROYER</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_FAST_ATTACK_SHIP</first>
@@ -204,7 +204,7 @@
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_SCOUT</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_TRANSPORTER</first>
@@ -225,7 +225,7 @@
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BOMBER</first>
-					<second>4</second>
+					<second>3</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_DESTROYER</first>
@@ -279,7 +279,7 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BATTLESHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BOMBER</first>
@@ -320,7 +320,7 @@
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_MOTHERSHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_SCOUT</first>
@@ -337,7 +337,7 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BATTLESHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_ESCORT</first>
@@ -353,15 +353,15 @@
 			<vehicleTypeList>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_ASSAULT_SHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BATTLESHIP</first>
-					<second>2</second>
+					<second>1</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_BOMBER</first>
-					<second>6</second>
+					<second>2</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_DESTROYER</first>
@@ -369,11 +369,11 @@
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_ESCORT</first>
-					<second>8</second>
+					<second>2</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_FAST_ATTACK_SHIP</first>
-					<second>8</second>
+					<second>2</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_MOTHERSHIP</first>
@@ -381,11 +381,11 @@
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_PROBE</first>
-					<second>4</second>
+					<second>2</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_SCOUT</first>
-					<second>4</second>
+					<second>2</second>
 				</entry>
 				<entry>
 					<first>VEHICLETYPE_ALIEN_TRANSPORTER</first>

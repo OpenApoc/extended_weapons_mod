@@ -5,7 +5,7 @@
 FilmBoy84		-	Development from V2 onwards
 JonnyH			-	OpenApoc Core Developer, Extended Weapons Mod QA Testing and Bug-whacker
 Quickmind		-	EWM Tester and Stream Video Creator
-Proselyte Ethan		-	EWM Tester
+Proselyte Ethan	-	EWM Tester
 SupSuper		-	UFO/TFTD SFX Advice
 Zastaver		-	Real-World Munitions Advisor
 Makus/Ankor		-	Additional Materials
@@ -38,7 +38,21 @@ Voiddweller		-	Original Idea and V1 Development
 ******************
 ***THIS RELEASE***
 ******************
-==V9==
+==V9.0B (INTERNAL)==
+
+[Change]		agent_types.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		damage_modifiers.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		facility_types.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		organisations.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		research.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		[SPOILERS] ufo_growth_lists.xml updated to make things a little easier than before (who wants 36 UFOs on Week 1???) - generally adding +1 but also drastically changing the maximum and week 16+ lists.
+[Change]		ufopaedia.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		vehicle_ammo.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		vehicle_equipment.xml updated to remove all things from the base game that are NOT changed by the mod
+[Change]		vehicle_types.xml updated to remove all things from the base game that are NOT changed by the mod
+
+
+==V9.0A (INTERNAL)==
 
 [Change]		Archives removed from mod, directories renamed to match archive names (EXCEPT SUBMODS RELATING TO GAMESTATE_DIFFICULTY AS THERE ARE CTDs)
 
@@ -266,8 +280,6 @@ Voiddweller		-	Original Idea and V1 Development
 [Remove]	AEQUIPMENTTYPE_POPPER_S_BOMB mod-side from agent_equipment.xml
 
 
-
-
 ==V8.1==
 
 [Add]		Equip Screen for Civilian Car
@@ -280,6 +292,7 @@ Voiddweller		-	Original Idea and V1 Development
 [Add]		Placeholder smalveh sprite for Police Car
 [Add]		Placeholder smalveh sprite Police Hovercar
 [Change]	Civilian Car Icon from OG Blue to Match OG Green on Cityscape (Don't know why they were different?)
+
 
 ==V8==
 
