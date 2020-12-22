@@ -51,6 +51,10 @@ Voiddweller		-	Original Idea and V1 Development
 [Change]		vehicle_equipment.xml updated to remove all things from the base game that are NOT changed by the mod
 [Change]		vehicle_types.xml updated to remove all things from the base game that are NOT changed by the mod
 
+[Add]		Research Criteria for Cells
+[Add]		Research Criteria for One Way to Win
+[Add]		Research Criteria for Dimension Destabiliser
+
 
 ==V9.0A (INTERNAL)==
 

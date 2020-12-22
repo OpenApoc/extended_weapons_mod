@@ -58,6 +58,9 @@
 					<research>
 						<entry>
 							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DEVASTATOR_CANNON</entry>
+							</topics>
 						</entry>
 					</research>
 				</dependencies>
@@ -101,6 +104,9 @@
 					<research>
 						<entry>
 							<type>All</type>
+							<topics>
+								<entry>RESEARCH_UNLOCK_ALIEN_BUILDING_8</entry>
+							</topics>
 						</entry>
 					</research>
 				</dependencies>

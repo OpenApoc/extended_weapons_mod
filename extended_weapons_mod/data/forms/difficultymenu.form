@@ -3,16 +3,16 @@
   <form id="FORM_DIFFICULTYMENU">
     <style minwidth="640" minheight="480">
       <position x="centre" y="centre"/>
-      <size width="1156" height="868"/>
+      <size width="1280" height="960"/>
       <backcolour r="128" g="80" b="80"/>
       <graphic>
-        <image>xcom3/ufodata/titles1152x864.png</image>
+        <image>xcom3/ufodata/title_960p_v9.png</image>
         <position x="2" y="2"/>
-        <size width="1152" height="864"/>
+        <size width="1280" height="960"/>
         <label text="OpenApocalypse">
           <backcolour r="255" g="255" b="255" a="192"/>
           <position x="0" y="0"/>
-          <size width="1152" height="32"/>
+          <size width="1280" height="32"/>
           <alignment horizontal="centre" vertical="centre"/>
           <font>bigfont</font>
         </label>
