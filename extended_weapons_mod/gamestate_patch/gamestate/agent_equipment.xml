@@ -1127,8 +1127,9 @@
 			<weapon_types>
 				<entry>AEQUIPMENTTYPE_DIMENSION_DESTABILISER</entry>
 			</weapon_types>
-			<max_ammo>1</max_ammo>
-			<rechargeTB>1</rechargeTB>
+			<max_ammo>10</max_ammo>
+			<recharge>1</recharge>			
+			<rechargeTB>30</rechargeTB>
 			<speed>26</speed>
 			<projectile_sprites>
 				<entry>bulletsprites/battle/34.png</entry>
@@ -1794,6 +1795,7 @@
 			<research_dependency>
 				<type>All</type>
 			</research_dependency>
+			<burst>1</burst>
 		</value>
 	</entry>
 	<entry>
@@ -1830,7 +1832,6 @@
 				<entry>AEQUIPMENTTYPE_GAUSS_PISTOL</entry>
 			</weapon_types>
 			<max_ammo>20</max_ammo>
-			<burst>1</burst>
 			<speed>60</speed>
 			<projectile_sprites>
 				<entry>bulletsprites/battle/35.png</entry>
@@ -1913,6 +1914,7 @@
 			<research_dependency>
 				<type>All</type>
 			</research_dependency>
+			<burst>2</burst>
 			<two_handed>true</two_handed>			
 		</value>
 	</entry>
@@ -1950,7 +1952,6 @@
 				<entry>AEQUIPMENTTYPE_GAUSS_RIFLE</entry>
 			</weapon_types>
 			<max_ammo>15</max_ammo>
-			<burst>2</burst>
 			<speed>60</speed>
 			<projectile_sprites>
 				<entry>bulletsprites/battle/35.png</entry>
@@ -2033,6 +2034,7 @@
 			<research_dependency>
 				<type>All</type>
 			</research_dependency>
+			<burst>3</burst>
 			<two_handed>true</two_handed>			
 		</value>
 	</entry>
@@ -2070,7 +2072,6 @@
 				<entry>AEQUIPMENTTYPE_HEAVY_GAUSS</entry>
 			</weapon_types>
 			<max_ammo>10</max_ammo>
-			<burst>3</burst>
 			<speed>60</speed>
 			<projectile_sprites>
 				<entry>bulletsprites/battle/35.png</entry>

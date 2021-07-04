@@ -50,7 +50,7 @@
 					<key>PAEDIAENTRY_POPPER</key>
 					<value>
 						<title>Popper</title>
-						<description>The Popper runs at high speed towards its victim and explodes when within a range of about fifteen feet. If the Popper is attacked with armor piercing, incendiary or explosive ammunition then the explosive effect is likely to be triggered. We recommend that other forms of weaponry be used against this creature in most combat situations.</description>
+						<description>The Popper runs at high speed towards its victim and explodes when within a range of about fifteen feet. There appears to be more than one sub-species of this creature, each containing a slightly different mix of chemicals for different effects as the creature detonates. If the Popper is attacked with armor piercing, incendiary or explosive ammunition then the explosive effect is likely to be triggered. We recommend that other forms of weaponry be used against this creature in most combat situations.</description>
 						<background>xcom3/ufopaedi/09popper.pcx</background>
 						<dependency>
 							<topics>
@@ -63,7 +63,7 @@
 					<key>PAEDIAENTRY_POPPER_AUTOPSY</key>
 					<value>
 						<title>Popper Autopsy</title>
-						<description>The Popper is little more than a walking bomb. Its simple brain structure means that Psionic attacks have a very low chance of success. Its body contains no obvious explosive device, although there are several chemicals mixed into the creatures stomach creating a highly unstable explosive compound.</description>
+						<description>The Popper is little more than a walking bomb. Its simple brain structure means that Psionic attacks have a very low chance of success. Its body contains no obvious explosive device, although there are several chemicals mixed into the creatures stomach creating a highly unstable explosive compound. There appears to be more than one sub-species of this creature, each containing a slightly different mix of chemicals for different effects as the creature detonates.</description>
 						<background>xcom3/ufopaedi/09autops.pcx</background>
 						<dependency>
 							<topics>
@@ -122,41 +122,170 @@
 			<description>X-COM Agents should be equipped in preparation for tactical missions. You can choose from a variety of guns, missile launchers, ammunition types, grenades and armor.</description>
 			<background>xcom3/ufopaedi/w-title.pcx</background>
 			<entries>
-				<entry op="delete">
-					<key>PAEDIAENTRY_AUTO_CANNON_AP_CLIP</key>
+				<entry>
+					<key>PAEDIAENTRY_MARSEC_PROXIMITY_STUN_MINE</key>
 					<value>
-						<title>Auto Cannon AP Clip</title>
-						<description>Armor piercing ammunition for the Auto Cannon.</description>
-						<background>xcom3/ufopaedi/w13.pcx</background>
-						<data_id>AEQUIPMENTTYPE_AUTO_CANNON_AP_CLIP</data_id>
+						<title>Marsec Proximity Mine STUN GAS</title>
+						<description>A powerful mine that will release a cloud of Stun Gas when a sizable moving object moves within its detection field. The range of the proximity field can be programmed.</description>
+						<background>ufopaedi/marsec_proximity_stun_mine_1.png</background>
+						<data_id>AEQUIPMENTTYPE_MARSEC_PROXIMITY_STUN_MINE</data_id>
 						<data_type>Equipment</data_type>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_AUTO_CANNON_HE_CLIP</key>
+				<entry>
+					<key>PAEDIAENTRY_PSI-GRENADE</key>
 					<value>
-						<title>Auto Cannon HE Clip</title>
-						<description>High Explosive ammunition for the Auto Cannon.</description>
-						<background>xcom3/ufopaedi/w14.pcx</background>
-						<data_id>AEQUIPMENTTYPE_AUTO_CANNON_HE_CLIP</data_id>
+						<title>Marsec Psi-Grenade</title>
+						<description>A powerful crowd dispersion grenade developed by MarSec. The device causes a Psionic disruption blast. Any target with high Psionic capability is particularly vulnerable to Psi-grenades. The blast will drain Psi-energy, causing a variety of responses and possibly even render the target unconscious.</description>
+						<background>xcom3/ufopaedi/w31.pcx</background>
 						<data_type>Equipment</data_type>
+						<data_id>AEQUIPMENTTYPE_PSI-GRENADE</data_id>
+						<dependency>
+							<type>Any</type>
+							<topics>
+								<entry>RESEARCH_PSI_GRENADE</entry>
+							</topics>
+						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_AUTO_CANNON_IN_CLIP</key>
+				<entry>
+					<key>PAEDIAENTRY_ALIEN_DETECTOR</key>
 					<value>
-						<title>Auto Cannon IN Clip</title>
-						<description>Incendiary ammunition for the Auto Cannon.</description>
+						<title>Alien Detector</title>
+						<description>When this unit is activated the display shows the location of anything containing a micronoid infection within the scan area. The sensors can penetrate any kind of terrain.</description>
+						<background>xcom3/ufopaedi/w40.pcx</background>
+						<data_type>Equipment</data_type>
+						<data_id>AEQUIPMENTTYPE_ALIEN_DETECTOR</data_id>
+						<required_research/>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_AUTO_CANNON_SMART_CLIP</key>
+					<value>
+						<title>Auto Cannon SMART Clip</title>
+						<description>"Guided Projectile" ammunition for the Auto Cannon.</description>
 						<background>xcom3/ufopaedi/w15.pcx</background>
-						<data_id>AEQUIPMENTTYPE_AUTO_CANNON_IN_CLIP</data_id>
+						<data_id>AEQUIPMENTTYPE_AUTO_CANNON_SMART_CLIP</data_id>
 						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_AUTO_CANNON_STUN_CLIP</key>
+					<value>
+						<title>Auto Cannon STUN GAS Clip</title>
+						<description>Stun Gas ammunition for the Auto Cannon.</description>
+						<background>xcom3/ufopaedi/w15.pcx</background>
+						<data_id>AEQUIPMENTTYPE_AUTO_CANNON_STUN_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_DART_PISTOL</key>
+					<value>
+						<title>Megapol Dart Pistol</title>
+						<description>The X-COM dart gun is a small, accurate, high powered unit with a 12 hollow dart ammo clip. The darts are fired by a gas cartridge in the ammo pod. After The Second Alien War, MegaPol found use for the dart technology and now operates as the sole manufacturer.</description>
+						<background>xcom3/ufopaedi/w37.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DART_PISTOL</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_DART_PISTOL_CLIP</key>
+					<value>
+						<title>Dart Pistol AP Clip</title>
+						<description>Standard AP Ammunition for the Dart Pistol</description>
+						<background>xcom3/ufopaedi/w37.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DART_PISTOL_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_DART_PISTOL_CLIP_STUN</key>
+					<value>
+						<title>Dart Pistol STUN Clip</title>
+						<description>Specialist STUN Ammunition for the Dart Pistol. The dart contains a biological agent known to incapacitate most lifeforms.</description>
+						<background>xcom3/ufopaedi/w37.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DART_PISTOL_CLIP_STUN</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_DART_RIFLE</key>
+					<value>
+						<title>Megapol Dart Rifle</title>
+						<description>This X-COM aqua-rifle was updated many times after The Second Alien War by researchers from MegaPol and remains an accurate and powerful solution above and below the waterline. The range of available ammunition has been updated to make use of materials discovered since the war and has seen miniaturisation to large composite darts from the original, rather basic, Steel Harpoons. The darts are contained within sealed packs of 10. Each dart has its own gas reservoir and may contain a variety of biological/chemical/explosive agents that are released on striking a target.</description>
+						<background>xcom3/ufopaedi/w37.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DART_RIFLE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_DART_RIFLE_CLIP</key>
+					<value>
+						<title>Dart Rifle AP Clip</title>
+						<description>Standard AP Ammunition for the Dart Rifle</description>
+						<background>xcom3/ufopaedi/w37.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DART_RIFLE_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_DART_RIFLE_CLIP_STUN</key>
+					<value>
+						<title>Dart Rifle STUN Clip</title>
+						<description>Specialist STUN Ammunition for the Dart Rifle. The dart contains a biological agent known to incapacitate most lifeforms.</description>
+						<background>xcom3/ufopaedi/w37.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DART_RIFLE_CLIP_STUN</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</dependency>
 					</value>
 				</entry>
 				<entry op="delete">
 					<key>PAEDIAENTRY_DIMENSION_DESTABILISER</key>
 					<value>
 						<title>Dimension Destabiliser</title>
-						<description>An X-COM developed Disruptor Beam weapon based on Alien technology. It is a faster firing and more effective weapon than the Devastator Cannon.</description>
+						<description>An X-COM developed Disruptor Beam weapon based on Alien technology. It is a faster firing and more effective weapon than the Devastator Cannon, though requires a separate energy pod to power it for a finite number of shots. Each Energy Pod however is capable of recharging over time and an agent with multiple pods should not run out of ammunition in all but the heaviest firefights.</description>
 						<background>xcom3/ufopaedi/w37.pcx</background>
 						<data_id>AEQUIPMENTTYPE_DIMENSION_DESTABILISER</data_id>
 						<data_type>Equipment</data_type>
@@ -167,183 +296,547 @@
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_DIMENSION_MISSILE</key>
+				<entry>
+					<key>PAEDIAENTRY_ENERGY_POD</key>
 					<value>
-						<title>Dimension Missile</title>
-						<description>The missile explodes with devastating power. It seems to use an inter-dimensional flux to suck in anti-matter from an alternate dimension. This instantly generates an atomic reaction which destroys the missile and most of its surrounding matter. It should not be used in situations where buildings and civilians need to be protected.</description>
-						<background>xcom3/ufopaedi/w48.pcx</background>
-						<data_id>AEQUIPMENTTYPE_DIMENSION_MISSILE</data_id>
+						<title>Energy Pod (Dimension Destabiliser)</title>
+						<description>A vast power source for the Dimension Destabiliser.</description>
+						<background>xcom3/ufopaedi/w54.pcx</background>
+						<data_id>AEQUIPMENTTYPE_ENERGY_POD</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
-								<entry>RESEARCH_DIMENSION_MISSILE</entry>
+								<entry>RESEARCH_DIMENSION_DESTABILISER</entry>
 							</topics>
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_DIMENSION_MISSILE_LAUNCHER</key>
+				<entry>
+					<key>PAEDIAENTRY_DIMENSION_FORCE_FIELD</key>
 					<value>
-						<title>Dimension Missile Launcher</title>
-						<description>This launcher propels devastating Dimension Missiles which contain an immensely powerful explosive system. The missile is guided to its target and is very accurate at long ranges. The technology is reproducible and quite distinct from the organic weaponry that is used by most Aliens.</description>
-						<background>xcom3/ufopaedi/w47.pcx</background>
-						<data_id>AEQUIPMENTTYPE_DIMENSION_MISSILE_LAUNCHER</data_id>
+						<title>Dimension Force Field</title>
+						<description>A deployable barrier based on the Alien's shielding technology that can be used to provide cover for agents behind it whilst still allowing them to shoot at targets on the other side. It requires Energy Pods for each deployment.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DIMENSION_FORCE_FIELD</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
-								<entry>RESEARCH_DIMENSION_MISSILE_LAUNCHER</entry>
+								<entry>RESEARCH_DIMENSION_FORCE_FIELD</entry>
 							</topics>
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_HEAVY_LAUNCHER_AG_MISSILE</key>
+				<entry>
+					<key>PAEDIAENTRY_FORCEWEB</key>
 					<value>
-						<title>Heavy Launcher AG Missile</title>
-						<description>This conventional missile contains a highly effective gas which targets Alien life forms. The gas is harmless against humans and structures making it ideal for forcing Aliens to flee from cover.</description>
-						<background>xcom3/ufopaedi/w19.pcx</background>
-						<data_id>AEQUIPMENTTYPE_HEAVY_LAUNCHER_AG_MISSILE</data_id>
+						<title>ForceWeb</title>
+						<description>An energy beam device which can render a target immobile for a short period of time. The target remains conscious but is unable to move or use equipment. A significant upgrade to the Stun Grapple, allowing us to capture large single targets, or groups of smaller ones at a greater distance with an enormous pulse of energy.</description>
+						<background>xcom3/ufopaedi/w32.pcx</background>
+						<data_id>AEQUIPMENTTYPE_FORCEWEB</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
+								<entry>RESEARCH_FORCEWEB</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_GAS_CANNON</key>
+					<value>
+						<title>Megapol Gas Cannon</title>
+						<description>The heavyweight of The Second Alien War era gas technology family, this cannon fires solid AP bolts and has the capacity to deliver more exotic payloads to a target.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAS_CANNON</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_GAS_CANNON_AG_CLIP</key>
+					<value>
+						<title>Gas Cannon AG Clip</title>
+						<description>Our scientists have found a way to retro-fit an effective Alien Gas Tip on to the bolt ammunition for the Gas Cannon.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAS_CANNON_AG_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
 								<entry>RESEARCH_ALIEN_GAS</entry>
 							</topics>
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_HEAVY_LAUNCHER_HE_MISSILE</key>
+				<entry>
+					<key>PAEDIAENTRY_GAS_CANNON_AP_CLIP</key>
 					<value>
-						<title>Heavy Launcher HE Missile</title>
-						<description>High explosive ammunition for the Heavy Launcher.</description>
-						<background>xcom3/ufopaedi/w20.pcx</background>
-						<data_id>AEQUIPMENTTYPE_HEAVY_LAUNCHER_HE_MISSILE</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_HEAVY_LAUNCHER_IN_MISSILE</key>
-					<value>
-						<title>Heavy Launcher IN Missile</title>
-						<description>Incendiary ammunition for the Heavy Launcher.</description>
-						<background>xcom3/ufopaedi/w21.pcx</background>
-						<data_id>AEQUIPMENTTYPE_HEAVY_LAUNCHER_IN_MISSILE</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MARSEC_HEAVY_LAUNCHER</key>
-					<value>
-						<title>Marsec Heavy Launcher</title>
-						<description>A guided missile launcher that can fire explosive or incendiary missiles. It is an extremely devastating device and should be used with extreme caution. It is unwieldy because of its bulk and Agents with heavy launchers should at least be equipped with a supplementary weapon such as the Megapol Lawpistol.</description>
-						<background>xcom3/ufopaedi/w18.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MARSEC_HEAVY_LAUNCHER</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MARSEC_MINILAUNCHER</key>
-					<value>
-						<title>Marsec MiniLauncher</title>
-						<description>A sophisticated single handed missile launcher. Although the guided missiles are small they are quite destructive.</description>
-						<background>xcom3/ufopaedi/w22.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MARSEC_MINILAUNCHER</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MARSEC_PROXIMITY_MINE</key>
-					<value>
-						<title>Marsec Proximity Mine</title>
-						<description>A powerful explosive that will detonate when a sizable moving object moves within its detection field. The range of the proximity field can be programmed.</description>
-						<background>xcom3/ufopaedi/w04.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MARSEC_PROXIMITY_MINE</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MEGAPOL_AUTO_CANNON</key>
-					<value>
-						<title>Megapol Auto Cannon</title>
-						<description>The Megapol Auto Cannon is a bulky but versatile weapon. It can fire armor piercing rounds, high explosive shells or incendiary shells. It is best used at medium range with explosive or incendiary ammunition, or at close range with armor piercing rounds.</description>
-						<background>xcom3/ufopaedi/w12.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MEGAPOL_AUTO_CANNON</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MEGAPOL_LASER_SNIPER_GUN</key>
-					<value>
-						<title>Megapol Laser Sniper Gun</title>
-						<description>A laser gun with a laser sight designed for accurate long range shooting. This weapon is a good complement for the Marsec M4000 Machine Gun and should be used by Agents with good accuracy ratings.</description>
-						<background>xcom3/ufopaedi/w10.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MEGAPOL_LASER_SNIPER_GUN</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MEGAPOL_LAWPISTOL</key>
-					<value>
-						<title>Megapol Lawpistol</title>
-						<description>A standard issue hand gun which is good at short range and quite powerful. Its usefulness should not be underestimated because it allows an Agent to use other equipment, such as a grenade, with the spare hand.</description>
-						<background>xcom3/ufopaedi/w06.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MEGAPOL_LAWPISTOL_CLIP</key>
-					<value>
-						<title>Megapol Lawpistol Clip</title>
-						<description>Ammunition for the Lawpistol.</description>
-						<background>xcom3/ufopaedi/w07.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_CLIP</data_id>
-						<data_type>Equipment</data_type>
-					</value>
-				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MINILAUNCHER_AG_MISSILE</key>
-					<value>
-						<title>MiniLauncher AG Missile</title>
-						<description>Developed by X-COM to target Alien life forms. When the warhead explodes it releases a cloud of gas deadly to Aliens but harmless to humans.</description>
-						<background>xcom3/ufopaedi/w23.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MINILAUNCHER_AG_MISSILE</data_id>
+						<title>Gas Cannon AP Clip</title>
+						<description>A standard AP Bolt pack for the Gas Cannon.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAS_CANNON_AP_CLIP</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
-								<entry>RESEARCH_ALIEN_GAS</entry>
+								<entry>RESEARCH_GAS_CANNON</entry>
 							</topics>
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MINILAUNCHER_HE_MISSILE</key>
+				<entry>
+					<key>PAEDIAENTRY_GAS_CANNON_HE_CLIP</key>
 					<value>
-						<title>MiniLauncher HE Missile</title>
-						<description>Explosive ammunition for the MiniLauncher.</description>
-						<background>xcom3/ufopaedi/w24.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MINILAUNCHER_HE_MISSILE</data_id>
+						<title>Gas Cannon HE Clip</title>
+						<description>A HE Bolt pack for the Gas Cannon.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAS_CANNON_HE_CLIP</data_id>
 						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_MINILAUNCHER_IN_MISSILE</key>
+				<entry>
+					<key>PAEDIAENTRY_GAS_CANNON_IN_CLIP</key>
 					<value>
-						<title>MiniLauncher IN Missile</title>
-						<description>Incendiary ammunition for the MiniLauncher.</description>
-						<background>xcom3/ufopaedi/w25.pcx</background>
-						<data_id>AEQUIPMENTTYPE_MINILAUNCHER_IN_MISSILE</data_id>
+						<title>Gas Cannon IN Clip</title>
+						<description>A IN Bolt pack for the Gas Cannon.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAS_CANNON_IN_CLIP</data_id>
 						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_TOXIGUN</key>
+				<entry>
+					<key>PAEDIAENTRY_GAS_CANNON_SMART_CLIP</key>
 					<value>
-						<title>Toxigun</title>
+						<title>Gas Cannon SMART Clip</title>
+						<description>A SMART Guided AP Bolt pack for the Gas Cannon. Normally used for Specialist Policing Operations to take down armoured targets quickly and with high accuracy.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAS_CANNON_SMART_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_GAS_CANNON_STUN_CLIP</key>
+					<value>
+						<title>Gas Cannon STUN GAS Clip</title>
+						<description>A Stun Gas Bolt pack for the Gas Cannon. Useful for incapacitating multiple targets.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAS_CANNON_STUN_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_GAUSS_PISTOL</key>
+					<value>
+						<title>Surplus Gauss Pistol</title>
+						<description>The Gauss Pistol uses electromagnetically accelerated projectile technology developed during The Second Alien War. It is different from the original Gauss Weapons of that era that focussed on particle acceleration only in that it launches a solid bolt at the target with the great speeds attainable from magnetic field acceleration. It is fast, accurate and functions above and below water. These weapons were manufactured in abundance throughout the 2050s and we have identified a supplier of surplus units from that troubled period. The pistol only carries one acceleration rail providing a single-round burst.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAUSS_PISTOL</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_GAUSS_PISTOL_CLIP</key>
+					<value>
+						<title>Surplus Gauss Pistol Clip</title>
+						<description>A Surplus Gauss Pistol Ammunition Pack.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAUSS_PISTOL_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_GAUSS_RIFLE</key>
+					<value>
+						<title>Surplus Gauss Rifle</title>
+						<description>A step beyond the Gauss Pistol, the rifle packs a real punch, with its twin accelerator rails. These weapons were manufactured in abundance throughout the 2050s and we have identified a supplier of surplus units from that troubled period. The rifle carries two acceleration rails providing a two-round burst.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAUSS_RIFLE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_GAUSS_RIFLE_CLIP</key>
+					<value>
+						<title>Surplus Gauss Rifle Clip</title>
+						<description>A Surplus Gauss Rifle Ammunition Pack.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_GAUSS_RIFLE_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_HEAVY_GAUSS</key>
+					<value>
+						<title>Surplus Heavy Gauss</title>
+						<description>The Heavy Gauss is cumbersome, but extremely effective. It utilises three accelerator rails. These weapons were manufactured in abundance throughout the 2050s and we have identified a supplier of surplus units from that troubled period. The Heavy Gauss carries three acceleration rails providing a three-round burst.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_HEAVY_GAUSS</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_HEAVY_GAUSS_CLIP</key>
+					<value>
+						<title>Surplus Heavy Gauss Clip</title>
+						<description>A Surplus Heavy Gauss Ammunition Pack.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_HEAVY_GAUSS_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MARSEC_FLAMETHROWER1</key>
+					<value>
+						<title>Marsec F1000 Flame-Thrower</title>
+						<description>A powerful, but short-ranged, weapon developed by MarSec for clearing the remains of the Cydonian Base during the years following The First Alien War. It is typically used with specialist IN fuel, though the capability for using a variety of other chemical and biological agents exists. It has seen limited, illegal, use by MarSec for crowd dispersion in the colonies and by a myriad of powerful gangs over the decades of it's manufacture.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_MARSEC_FLAMETHROWER1</data_id>
+						<data_type>Equipment</data_type>
+						<required_research/>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MARSEC_FLAMETHROWER1_IN_TANK</key>
+					<value>
+						<title>Marsec F1000 Flame-Thrower IN Tank</title>
+						<description>A large, heavy, IN fuel tank for the F1000 Flame-Thrower.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_MARSEC_FLAMETHROWER1_IN_TANK</data_id>
+						<data_type>Equipment</data_type>
+						<required_research/>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_HEAVY_LAUNCHER_SMART_MISSILE</key>
+						<value>
+						<title>Heavy Launcher SMART Kinetic Kill AP Missile</title>
+						<description>A complex Kinetic-Kill Missile that consists of a solid AP warhead steered by a SMART guidance computer designed to penetrate heavily armoured targets.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_HEAVY_LAUNCHER_SMART_MISSILE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_HEAVY_LAUNCHER_STUN_MISSILE</key>
+					<value>
+						<title>Heavy Launcher STUN GAS Missile</title>
+						<description>A heavily modified Stun Gas variant of the Standard IN Heavy Launcher Missile Warhead. Originally Developed by MarSec to allow the incapacitation of large numbers of individuals with one round. It is possible, due to it's intricate gas dispersion mechanism, that this missile will present future opportunities as part of our Biological Warfare research.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_HEAVY_LAUNCHER_STUN_MISSILE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_LASER_PISTOL</key>
+					<value>
+						<title>Surplus Laser Pistol</title>
+						<description>Despite being the legacy of a war some 85 years prior to the present, this old Laser Pistol still packs a punch. Whilst not as accurate as offerings from MegaPol, it deals significantly more damage - having being created for open conflict and not Police Actions.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_LASER_PISTOL</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_LASER_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_LASER_RIFLE</key>
+					<value>
+						<title>Surplus Laser Rifle</title>
+						<description>Similarly to it's smaller sibling, this antique design from a long-passed war, is not as accurate as it's contemporaries. However, it's significantly larger damage output means that it remains a popular design amongst those who can "obtain" examples of this piece of important Human Technological Development.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_LASER_RIFLE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_LASER_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_HEAVY_LASER</key>
+					<value>
+						<title>Surplus Heavy Laser</title>
+						<description>An antique design from early in The First Alien War and probably the peak of human infantry combat weapons technology before alien influence permeated all future design. It remains, still, a powerful weapon though lacks the large battery capacity of modern offerings. As with all laser technology from this era, and since, it is capable of recharging itself over time.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_HEAVY_LASER</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_LASER_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MEGAPOL_LASER_PISTOL</key>
+					<value>
+						<title>Megapol Laser Pistol</title>
+						<description>The Sidearm version of the laser technology seen in the Megapol Laser Sniper Gun. Whilst not as powerful as it's historic counterparts, this Police version has proven to be far more accurate and easily concealable.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_MEGAPOL_LASER_PISTOL</data_id>
+						<data_type>Equipment</data_type>
+						<required_research/>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MEGAPOL_LASER_SNIPER_GUN_RECHARGE</key>
+					<value>
+						<title>Megapol Laser Sniper Gun (Self Recharging)</title>
+						<description>A self-recharging version of the MegaPol Laser Sniper Gun, it has a limited number of shots before a recharge is required and, even more than it's sibling, should only be used by Agents with good accuracy ratings.</description>
+						<background>ufopaedi/megapol_laser_sniper_gun_recharge_1.png</background>
+						<data_type>Equipment</data_type>
+						<data_id>AEQUIPMENTTYPE_MEGAPOL_LASER_SNIPER_GUN_RECHARGE</data_id>
+						<required_research/>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MEGAPOL_LAWPISTOL_SMART_CLIP</key>
+					<value>
+						<title>Megapol Lawpistol SMART AP Clip</title>
+						<description>Guided SMART AP Ammunition for the MegaPol Lawpistol.</description>
+						<background>ufopaedi/megapol_lawpistol_smart_clip_1.png</background>
+						<data_id>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_SMART_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MEGAPOL_LAWPISTOL_STUN_CLIP</key>
+					<value>
+						<title>Megapol Lawpistol STUN Clip</title>
+						<description>None-Lethal Batton Round Ammunition for the MegaPol Lawpistol that can incapacitate aggressors.</description>
+						<background>ufopaedi/megapol_lawpistol_stun_clip_1.png</background>
+						<data_id>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_STUN_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MIND_SHIELD</key>
+					<value>
+						<title>Marsec Mind Shield</title>
+						<description>The Mind Shield is an expensive, clumsy device which protects the wearer from Psionic attacks</description>
+						<background>xcom3/ufopaedi/w38.pcx</background>
+						<data_type>Equipment</data_type>
+						<data_id>AEQUIPMENTTYPE_MIND_SHIELD</data_id>
+						<required_research/>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MINILAUNCHER_SMART_MISSILE</key>
+						<value>
+						<title>MiniLauncher SMART Kinetic Kill AP Missile</title>
+						<description>A complex Kinetic-Kill Missile that consists of a solid AP warhead steered by a SMART guidance computer designed to penetrate heavily armoured targets.</description>
+						<background>ufopaedi/minilauncher_smart_missile_1.png</background>
+						<data_id>AEQUIPMENTTYPE_MINILAUNCHER_SMART_MISSILE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MINILAUNCHER_STUN_MISSILE</key>
+					<value>
+						<title>MiniLauncher STUN GAS Missile</title>
+						<description>A heavily modified Stun Gas variant of the Standard IN MiniLauncher Missile Warhead. Originally Developed by MarSec to allow the incapacitation of groups of individuals with one round. It is possible, due to it's intricate gas dispersion mechanism, that this missile will present future opportunities as part of our Biological Warfare research.</description>
+						<background>ufopaedi/minilauncher_stun_missile_1.png</background>
+						<data_id>AEQUIPMENTTYPE_MINILAUNCHER_STUN_MISSILE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_MULTI-TRACKER</key>
+					<value>
+						<title>Multi-Tracker</title>
+						<description>The Multi-Tracker allows us to trace multiple, tagged, entities around the city. Once a target has been tagged with the Tracker Gun, it will be visible on the screen of this device whilst it remains within the tag transponder range.</description>
+						<background>xcom3/ufopaedi/w30.pcx</background>
+						<data_type>Equipment</data_type>
+						<data_id>AEQUIPMENTTYPE_MULTI-TRACKER</data_id>
+						<required_research/>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_PLASMA_PISTOL</key>
+					<value>
+						<title>Surplus Plasma Pistol</title>
+						<description>A relic of the first alien war. These weapons were both reclaimed from the alien forces, and mass produced, from 1999 through to the mid 2040's in vast quantities. Due to their popularity, surplus weapons exist in abundance and are relatively easy to obtain via the Black Market. There have been many attempts by those organisations responsible for weapons manufacture and policing to reduce or ban usage of such ancient, unregulated, weaponry - though their presence in conflict is still commonplace.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_PLASMA_PISTOL</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_PLASMA_PISTOL_CLIP</key>
+					<value>
+						<title>Surplus Plasma Pistol Clip</title>
+						<description>Ammunition for a relic of the first alien war. These weapons were both reclaimed from the alien forces, and mass produced, from 1999 through to the mid 2040's in vast quantities. Due to their popularity, surplus weapons exist in abundance and are relatively easy to obtain via the Black Market. There have been many attempts by those organisations responsible for weapons manufacture and policing to reduce or ban usage of such ancient, unregulated, weaponry - though their presence in conflict is still commonplace.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_PLASMA_PISTOL_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_PLASMA_RIFLE</key>
+					<value>
+						<title>Surplus Plasma Rifle</title>
+						<description>A relic of the first alien war. These weapons were both reclaimed from the alien forces, and mass produced, from 1999 through to the mid 2040's in vast quantities. Due to their popularity, surplus weapons exist in abundance and are relatively easy to obtain via the Black Market. There have been many attempts by those organisations responsible for weapons manufacture and policing to reduce or ban usage of such ancient, unregulated, weaponry - though their presence in conflict is still commonplace.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_PLASMA_RIFLE</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_PLASMA_RIFLE_CLIP</key>
+					<value>
+						<title>Surplus Plasma Rifle Clip</title>
+						<description>Ammunition for a relic of the first alien war. These weapons were both reclaimed from the alien forces, and mass produced, from 1999 through to the mid 2040's in vast quantities. Due to their popularity, surplus weapons exist in abundance and are relatively easy to obtain via the Black Market. There have been many attempts by those organisations responsible for weapons manufacture and policing to reduce or ban usage of such ancient, unregulated, weaponry - though their presence in conflict is still commonplace.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_PLASMA_RIFLE_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_HEAVY_PLASMA</key>
+					<value>
+						<title>Surplus Heavy Plasma</title>
+						<description>A relic of the first alien war. These weapons were both reclaimed from the alien forces, and mass produced, from 1999 through to the mid 2040's in vast quantities. Due to their popularity, surplus weapons exist in abundance and are relatively easy to obtain via the Black Market. There have been many attempts by those organisations responsible for weapons manufacture and policing to reduce or ban usage of such ancient, unregulated, weaponry - though their presence in conflict is still commonplace.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_HEAVY_PLASMA</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_HEAVY_PLASMA_CLIP</key>
+					<value>
+						<title>Surplus Heavy Plasma</title>
+						<description>Ammunition for a relic of the first alien war. These weapons were both reclaimed from the alien forces, and mass produced, from 1999 through to the mid 2040's in vast quantities. Due to their popularity, surplus weapons exist in abundance and are relatively easy to obtain via the Black Market. There have been many attempts by those organisations responsible for weapons manufacture and policing to reduce or ban usage of such ancient, unregulated, weaponry - though their presence in conflict is still commonplace.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_HEAVY_PLASMA_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_TOXIRIFLE</key>
+					<value>
+						<title>Toxirifle</title>
 						<description>An X-COM weapon designed to shoot high powered projectiles containing anti-Alien toxic fluids. It is designed to cause minimal harm to other targets and is not very good at penetrating armor.</description>
 						<background>xcom3/ufopaedi/w33.pcx</background>
-						<data_id>AEQUIPMENTTYPE_TOXIGUN</data_id>
+						<data_id>AEQUIPMENTTYPE_TOXIRIFLE</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
@@ -352,13 +845,13 @@
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_TOXIGUN_A_CLIP</key>
+				<entry>
+					<key>PAEDIAENTRY_TOXIRIFLE_A_CLIP</key>
 					<value>
-						<title>Toxigun A-Clip</title>
-						<description>Ammunition for Toxigun. It contains a lethal fast acting poison designed to target Alien life forms. It is not so effective against the more advanced bipedal Alien types.</description>
+						<title>Toxirifle A-Clip</title>
+						<description>Ammunition for the Toxirifle. It contains a lethal fast acting poison designed to target Alien life forms. It is not so effective against the more advanced bipedal Alien types.</description>
 						<background>xcom3/ufopaedi/w34.pcx</background>
-						<data_id>AEQUIPMENTTYPE_TOXIGUN_A-CLIP</data_id>
+						<data_id>AEQUIPMENTTYPE_TOXIRIFLE_A-CLIP</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
@@ -367,13 +860,13 @@
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_TOXIGUN_B_CLIP</key>
+				<entry>
+					<key>PAEDIAENTRY_TOXIRIFLE_B_CLIP</key>
 					<value>
-						<title>Toxigun B-Clip</title>
-						<description>Ammunition for Toxigun. It contains a lethal fast acting poison designed to target Alien lifeforms. It effectively renders the earlier A-type toxin obsolete because it is more powerful and more effective against the higher Alien life forms.</description>
+						<title>Toxirifle B-Clip</title>
+						<description>Ammunition for the Toxirifle. It contains a lethal fast acting poison designed to target Alien lifeforms. It effectively renders the earlier A-type toxin obsolete because it is more powerful and more effective against the higher Alien life forms.</description>
 						<background>xcom3/ufopaedi/w35.pcx</background>
-						<data_id>AEQUIPMENTTYPE_TOXIGUN_B-CLIP</data_id>
+						<data_id>AEQUIPMENTTYPE_TOXIRIFLE_B-CLIP</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
@@ -382,17 +875,124 @@
 						</dependency>
 					</value>
 				</entry>
-				<entry op="delete">
-					<key>PAEDIAENTRY_TOXIGUN_C_CLIP</key>
+				<entry>
+					<key>PAEDIAENTRY_TOXIRIFLE_C_CLIP</key>
 					<value>
-						<title>Toxigun C-Clip</title>
-						<description>Ammunition for Toxigun. A fast acting poison which targets all Alien life forms with equally devastating effects. This toxin effectively supersedes the A or B types.</description>
+						<title>Toxirifle C-Clip</title>
+						<description>Ammunition for the Toxirifle. A fast acting poison which targets all Alien life forms with equally devastating effects. This toxin effectively supersedes the A or B types.</description>
 						<background>xcom3/ufopaedi/w36.pcx</background>
-						<data_id>AEQUIPMENTTYPE_TOXIGUN_C-CLIP</data_id>
+						<data_id>AEQUIPMENTTYPE_TOXIRIFLE_C-CLIP</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>
 							<topics>
 								<entry>RESEARCH_TOXIN_TYPE_C</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_TRACKER_GUN</key>
+					<value>
+						<title>Tracker Gun</title>
+						<description>A gun developed for tracking targets around the city. It shoots miniature transponders that embed themselves in a target, these targets can then be traced with the Multi-Tracker.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_TRACKER_GUN</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_TRACKER_GUN</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_TRACKER_GUN_CLIP</key>
+					<value>
+						<title>Tracker Gun Clip</title>
+						<description>Ammunition for the Tracker Gun. This gun was developed for tracking targets around the city. It shoots miniature transponders that embed themselves in a target, these targets can then be traced with the Multi-Tracker.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_TRACKER_GUN_CLIP</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_TRACKER_GUN</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_CULTIST_BODY_ARMOR</key>
+					<value>
+						<title>Cult of Sirius Standard Armour</title>
+						<description>Armour worn by Cult of Sirius members when on operations. We acquired the means to obtain these suits via the manufacturer. It's lightweight and offers basic protection. Useful for infiltrating Cult operations.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_CULTIST_BODY_ARMOR</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_CULTISTL_BODY_ARMOR</key>
+					<value>
+						<title>Cult of Sirius Heavy Armour</title>
+						<description>Heavy Armour worn by Cult of Sirius members when on operations requiring a greater degree of protection. We acquired the means to obtain these suits via the manufacturer. It's large, cumbersome, but offers decent protection. Useful for infiltrating Cult operations.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_CULTISTL_BODY_ARMOR</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_POWER_ARMOR_BODY</key>
+					<value>
+						<title>Power Armour</title>
+						<description>A complex armour derived from First Alien War technology and comprising of a powered suit covered in alien derived metals. Whilst MegaPol's offering offers substantial improvement over this old technology, it has remained popular amongst gangs and militant groups. Diablo Gang Leaders and VIPs can often be seen on operations wearing it.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_POWER_ARMOR_BODY</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_POWER_ARMOUR</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_BOOMEROID_VORTEX</key>
+					<value>
+						<title>Vortex Boomeroid</title>
+						<description>This Alien Mine is capable of leaping towards a target within it's sensor range just like it's Boomeroid Predecessor could. The aliens appear to have now implemented technology from the Vortex Mine allowing for much greater destructive capacity. This device poses an extremely serious threat on the battlefield.</description>
+						<background>xcom3/ufopaedi/w53.pcx</background>
+						<data_id>AEQUIPMENTTYPE_BOOMEROID_VORTEX</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_BOOMEROID</entry>
+								<entry>RESEARCH_VORTEX_MINE</entry>
+							</topics>
+						</dependency>
+					</value>
+				</entry>
+				<entry>
+					<key>PAEDIAENTRY_DIMENSION_MISSILE_ENTROPY_SPECIAL</key>
+					<value>
+						<title>Dimension Missile ENTROPY</title>
+						<description>A further development of the already devastating Dimension Missile. The aliens appear to have perfected a means to not only cause massive concussive damage, but also spread the dreaded Entropy Enzyme across a vast area - burning through equipment, armour and even terrain with ease. It is advised that all X-COM squads practice a loose squad cohesion when faced with this weapon and communicate via their radios. Tight formations will undoubtedly lead to tragedy and the disciplining of any squad leader who survives.</description>
+						<background>xcom3/ufopaedi/w48.pcx</background>
+						<data_id>AEQUIPMENTTYPE_DIMENSION_MISSILE_ENTROPY_SPECIAL</data_id>
+						<data_type>Equipment</data_type>
+						<dependency>
+							<topics>
+								<entry>RESEARCH_DIMENSION_MISSILE</entry>
+								<entry>RESEARCH_ENTROPY_POD</entry>
 							</topics>
 						</dependency>
 					</value>

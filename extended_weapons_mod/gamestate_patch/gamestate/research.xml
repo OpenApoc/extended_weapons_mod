@@ -2,28 +2,6 @@
 <research>
 	<topics>
 		<entry op="delete">
-			<key>MANUFACTURE_DIMENSION_SHIFTER</key>
-			<value>
-				<name>Dimension Shifter</name>
-				<order>30160</order>
-				<man_hours>50000</man_hours>
-				<type>Engineering</type>
-				<required_lab_size>Large</required_lab_size>
-				<dependencies>
-					<research>
-						<entry>
-							<type>All</type>
-							<topics>
-								<entry>RESEARCH_DIMENSION_SHIFTER</entry>
-							</topics>
-						</entry>
-					</research>
-				</dependencies>
-				<cost>14000</cost>
-				<itemId>VEQUIPMENTTYPE_DIMENSION_SHIFTER</itemId>
-			</value>
-		</entry>
-		<entry op="delete">
 			<key>RESEARCH_ADVANCED_ALIEN_CONTAINMENT</key>
 			<value>
 				<name>Advanced Alien Containment</name>
@@ -44,6 +22,67 @@
 				<score>80</score>
 				<!--<hidden>true</hidden>-->
 				<picture>PCK:xcom3/ufodata/base.pck:xcom3/ufodata/base.tab:42:xcom3/ufodata/base.pcx</picture>
+			</value>
+		</entry>
+		<entry op="delete">
+			<key>RESEARCH_UNLOCK_CELLS</key>
+			<value>
+				<name>Cells</name>
+				<order>99999</order>
+				<description>A means to hold captured persons.</description>
+				<man_hours>20000</man_hours>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_ADVANCED_BIOCHEMISTRY_LAB</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_CELLS</ufopaedia_entry>
+				<score>10</score>
+				<!--<hidden>true</hidden>-->
+				<picture>PCK:xcom3/ufodata/base.pck:xcom3/ufodata/base.tab:30:xcom3/ufodata/base.pcx</picture>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_CULT_OF_SIRIUS_ARMOUR</key>
+			<value>
+				<name>Obtain Cult of Sirius Armour</name>
+				<order>60160</order>
+				<description>We need to obtain disguises to aid with investigation of Cult of Sirius activities.</description>
+				<man_hours>20000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_CULTIST_BODY_ARMOR</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_DART_WEAPONS</key>
+			<value>
+				<name>Dart Weapons</name>
+				<order>60160</order>
+				<description>Darts weapons may provide us with a means to lightly damage targets or influence them with all manner of substances.</description>
+				<man_hours>20000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_DART_PISTOL</ufopaedia_entry>
+				<score>10</score>
 			</value>
 		</entry>
 		<entry op="delete">
@@ -69,6 +108,261 @@
 				<!--<hidden>true</hidden>-->
 			</value>
 		</entry>
+		<entry>
+			<key>MANUFACTURE_DIMENSION_DESTABILISER</key>
+			<value>
+				<name>Dimension Destabiliser</name>
+				<order>30160</order>
+				<man_hours>10000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Large</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DIMENSION_DESTABILISER</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>10000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DIMENSION_DESTABILISER</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_ENERGY_POD</key>
+			<value>
+				<name>Energy Pod (Dimension Destabiliser)</name>
+				<order>30160</order>
+				<man_hours>5000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DIMENSION_DESTABILISER</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>5000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_ENERGY_POD</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_DIMENSION_FORCE_FIELD</key>
+			<value>
+				<name>Dimension Force Field</name>
+				<order>60160</order>
+				<description>Research of the alien Personal Disruptor Shield may present the opportunity for us to make a more substancial barrier against incoming projectiles.</description>
+				<man_hours>80000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_DIMENSION_FORCE_FIELD</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_FORCEWEB</key>
+			<value>
+				<name>Force Web</name>
+				<order>60160</order>
+				<description>A device for incapacitating large creatures or multiple units within a small area.</description>
+				<man_hours>64000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_FORCEWEB</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_GAS_CANNON</key>
+			<value>
+				<name>Gas Cannon</name>
+				<order>60160</order>
+				<description>Suitable for use above and below water, and creating minimal noise for the size and power of it's projectiles, this weapon could prove useful.</description>
+				<man_hours>20000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_GAS_CANNON</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_GAUSS_WEAPONS</key>
+			<value>
+				<name>Obtain Surplus Gauss Weaponry</name>
+				<order>60160</order>
+				<description>Rumours circulating the city suggest that there are multiple means for anyone with the money to obtain Gauss weapons left over from previous alien conflicts. We should investigate this potential avenue for acquiring technology no longer produced, or highly controlled, by the main weapons manufacturers.</description>
+				<man_hours>32000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_GAUSS_PISTOL</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_POWER_ARMOUR</key>
+			<value>
+				<name>Power Armour</name>
+				<order>60160</order>
+				<description>Many suits of Power Armour circulate within the underworld of Mega Primus, we should look at how to obtain some for ourselves. Power Armour may assist in some of our operations against gangs that use such equipment.</description>
+				<man_hours>20000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_POWER_ARMOR_BODY</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_PSI_GRENADE</key>
+			<value>
+				<name>Marsec Psi-Grenade</name>
+				<order>60160</order>
+				<description>MarSec is known to use a dangerous, psionic, grenade during it's crowd control and anti-riot operations. We should contact them to see if they are willing to supply us too.</description>
+				<man_hours>12000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_PSI-GRENADE</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_SMART_WEAPONS</key>
+			<value>
+				<name>SMART Munitions</name>
+				<order>60160</order>
+				<description>SMART Munitions are Kinetic-Kill projectiles that are capable of guiding themselves toward a target. The ultimate "Magic Bullets"! We should see which manufacturers are willing to make them for us.</description>
+				<man_hours>20000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_MEGAPOL_LAWPISTOL_SMART_CLIP</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_STUN_WEAPONS</key>
+			<value>
+				<name>STUN Munitions</name>
+				<order>60160</order>
+				<description>Whilst reliable, the Stun Grapple is not the only way to incapacitate enemy combatants. We should see which manufacturers are willing to sell us "alternative" means of knocking down opponents for capture.</description>
+				<man_hours>20000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_MEGAPOL_LAWPISTOL_STUN_CLIP</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_SURPLUS_LASER_WEAPONS</key>
+			<value>
+				<name>Obtain Surplus Laser Weaponry</name>
+				<order>60160</order>
+				<description>Rumours circulating the city suggest that there are multiple means for anyone with the money to obtain Laser weapons left over from previous alien conflicts. We should investigate this potential avenue for acquiring technology no longer produced, or highly controlled, by the main weapons manufacturers.</description>
+				<man_hours>24000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_LASER_PISTOL</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_SURPLUS_PLASMA_WEAPONS</key>
+			<value>
+				<name>Obtain Surplus Plasma Weaponry</name>
+				<order>60160</order>
+				<description>Rumours circulating the city suggest that there are multiple means for anyone with the money to obtain Plasma weapons left over from previous alien conflicts. We should investigate this potential avenue for acquiring technology no longer produced, or highly controlled, by the main weapons manufacturers.</description>
+				<man_hours>48000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_PLASMA_PISTOL</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_TRACKER_GUN</key>
+			<value>
+				<name>Tracker Gun</name>
+				<order>60160</order>
+				<description>A device used to tag targets with a tiny transponder and then proceed to trace around the city.</description>
+				<man_hours>18000</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_TRACKER_GUN</ufopaedia_entry>
+				<score>10</score>
+			</value>
+		</entry>
 		<entry op="delete">
 			<key>RESEARCH_DIMENSION_SHIFTER</key>
 			<value>
@@ -90,6 +384,29 @@
 				</dependencies>
 				<score>400</score>
 				<!--<hidden>true</hidden>-->
+			</value>
+		</entry>
+		<entry op="delete">
+			<key>MANUFACTURE_DIMENSION_SHIFTER</key>
+			<value>
+				<name>Dimension Shifter</name>
+				<order>30160</order>
+				<man_hours>50000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Large</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DIMENSION_SHIFTER</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>14000</cost>
+				<item_type>VehicleEquipment</item_type>
+				<itemId>VEQUIPMENTTYPE_DIMENSION_SHIFTER</itemId>
 			</value>
 		</entry>
 		<entry op="delete">
@@ -146,29 +463,6 @@
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_OVERSPAWN_AUTOPSY_1</ufopaedia_entry>
 				<score>450</score>
-			</value>
-		</entry>
-		<entry op="delete">
-			<key>RESEARCH_UNLOCK_CELLS</key>
-			<value>
-				<name>Cells</name>
-				<order>99999</order>
-				<description>A means to hold captured persons.</description>
-				<man_hours>20000</man_hours>
-				<dependencies>
-					<research>
-						<entry>
-							<type>All</type>
-							<topics>
-								<entry>RESEARCH_ADVANCED_BIOCHEMISTRY_LAB</entry>
-							</topics>
-						</entry>
-					</research>
-				</dependencies>
-				<ufopaedia_entry>PAEDIAENTRY_CELLS</ufopaedia_entry>
-				<score>10</score>
-				<!--<hidden>true</hidden>-->
-				<picture>PCK:xcom3/ufodata/base.pck:xcom3/ufodata/base.tab:30:xcom3/ufodata/base.pcx</picture>
 			</value>
 		</entry>
 	</topics>

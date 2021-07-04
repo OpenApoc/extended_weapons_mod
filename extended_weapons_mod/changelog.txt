@@ -31,6 +31,7 @@ Voiddweller		-	Original Idea and V1 Development
 [Add]				Marsec F1000 Flame-Thrower IN Tank Battlescape Objects (Using M4000 Clip as a placeholder at present)
 [Add]				Gender Specific Surnames from around the world (Requires new code)
 [Add]				Unisex First Names from around the world (Requires new code)
+[Add]				Manufacture Research Articles to research.xml for all X-COM made devices added by the EWM
 [Change]/[Balance]	Further weapon, equipment and armour balancing
 [Change]/[Balance]	Confirm that OG items are using the same stats as OG (In other words, fix OpenApoc bugs and report them to be fixed in core game also)
 
@@ -38,6 +39,88 @@ Voiddweller		-	Original Idea and V1 Development
 ******************
 ***THIS RELEASE***
 ******************
+==V9.0D (INTERNAL)==
+
+[Change]		Extract Difficulty XML to Folders (No Longer Packed)
+[Change]		Add <recharge> Value of 1 to Energy Pod (Pods recharge over time)
+[Change]		Add <max_ammo> Value of 10 to Energy Pod
+[Change]		Dimension Destabiliser now mentions a need for Energy Pods as ammunition
+[Add]			PAEDIAENTRY_DIMENSION_FORCE_FIELD to UFOPaedia
+[Add]			PAEDIAENTRY_FORCEWEB to UFOPaedia
+[Add]			PAEDIAENTRY_GAS_CANNON to UFOPaedia
+[Add]			PAEDIAENTRY_GAS_CANNON_AG_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_GAS_CANNON_AP_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_GAS_CANNON_HE_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_GAS_CANNON_IN_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_GAS_CANNON_SMART_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_GAS_CANNON_STUN_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_GAUSS_PISTOL to UFOPaedia
+[Add]			PAEDIAENTRY_GAUSS_PISTOL_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_GAUSS_RIFLE to UFOPaedia
+[Add]			PAEDIAENTRY_GAUSS_RIFLE_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_HEAVY_GAUSS to UFOPaedia
+[Add]			PAEDIAENTRY_HEAVY_GAUSS_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_MARSEC_FLAMETHROWER1 to UFOPaedia
+[Add]			PAEDIAENTRY_MARSEC_FLAMETHROWER1_IN_TANK to UFOPaedia
+[Add]			PAEDIAENTRY_HEAVY_LAUNCHER_SMART_MISSILE to UFOPaedia
+[Add]			PAEDIAENTRY_HEAVY_LAUNCHER_STUN_MISSILE to UFOPaedia
+[Add]			PAEDIAENTRY_LASER_PISTOL to UFOPaedia
+[Add]			PAEDIAENTRY_LASER_RIFLE to UFOPaedia
+[Add]			PAEDIAENTRY_HEAVY_LASER to UFOPaedia
+[Add]			PAEDIAENTRY_MEGAPOL_LASER_PISTOL to UFOPaedia
+[Add]			PAEDIAENTRY_MEGAPOL_LASER_SNIPER_GUN_RECHARGE to UFOPaedia
+[Add]			PAEDIAENTRY_MEGAPOL_LAWPISTOL_SMART_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_MEGAPOL_LAWPISTOL_STUN_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_MIND_SHIELD to UFOPaedia
+[Add]			PAEDIAENTRY_MINILAUNCHER_SMART_MISSILE to UFOPaedia
+[Add]			PAEDIAENTRY_MINILAUNCHER_STUN_MISSILE to UFOPaedia
+[Add]			PAEDIAENTRY_MULTI-TRACKER to UFOPaedia
+[Add]			PAEDIAENTRY_PLASMA_PISTOL to UFOPaedia
+[Add]			PAEDIAENTRY_PLASMA_PISTOL_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_PLASMA_RIFLE to UFOPaedia
+[Add]			PAEDIAENTRY_PLASMA_RIFLE_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_HEAVY_PLASMA to UFOPaedia
+[Add]			PAEDIAENTRY_HEAVY_PLASMA_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_TOXIRIFLE to UFOPaedia
+[Add]			PAEDIAENTRY_TOXIRIFLE_A_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_TOXIRIFLE_B_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_TOXIRIFLE_C_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_TRACKER_GUN to UFOPaedia
+[Add]			PAEDIAENTRY_TRACKER_GUN_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_CULTIST_BODY_ARMOR to UFOPaedia
+[Add]			PAEDIAENTRY_CULTISTL_BODY_ARMOR to UFOPaedia
+[Add]			PAEDIAENTRY_POWER_ARMOR_BODY to UFOPaedia
+[Add]			PAEDIAENTRY_BOOMEROID_VORTEX to UFOPaedia
+[Add]			PAEDIAENTRY_DIMENSION_MISSILE_ENTROPY_SPECIAL to UFOPaedia
+[Updated]		PAEDIAENTRY_POPPER in UFOPaedia
+[Updated]		PAEDIAENTRY_POPPER_AUTOPSY in UFOPaedia
+[Updated]		PAEDIAENTRY_ADVANCED_ALIEN_CONTAINMENT in UFOPaedia
+[Updated]		PAEDIAENTRY_CELLS in UFOPaedia
+[Updated]		PAEDIAENTRY_AIRGUARD_ANTI_AIR_CANNON in UFOPaedia
+[Updated]		PAEDIAENTRY_DIMENSION_SHIFTER in UFOPaedia
+
+
+==V9.0C (INTERNAL)==
+To Do
+Add Research XML entries for all the UFOPaedia changes
+Add RESEARCH_SMART_WEAPONS Research
+Add RESEARCH_STUN_WEAPONS Research
+
+[Add]			PAEDIAENTRY_MARSEC_PROXIMITY_STUN_MINE to UFOPaedia
+[Add]			PAEDIAENTRY_PSI-GRENADE to UFOPaedia
+[Add]			PAEDIAENTRY_ALIEN_DETECTOR to UFOPaedia
+[Add]			PAEDIAENTRY_AUTO_CANNON_SMART_CLIP to UFOPaedia
+[Add}			PAEDIAENTRY_AUTO_CANNON_STUN_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_DART_PISTOL to UFOPaedia
+[Add]			PAEDIAENTRY_DART_PISTOL_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_DART_PISTOL_CLIP_STUN to UFOPaedia
+[Add]			PAEDIAENTRY_DART_RIFLE to UFOPaedia
+[Add]			PAEDIAENTRY_DART_RIFLE_CLIP to UFOPaedia
+[Add]			PAEDIAENTRY_DART_RIFLE_CLIP_STUN to UFOPaedia
+[Add]			PAEDIAENTRY_DIMENSION_DESTABILISER to UFOPaedia
+[Add]			PAEDIAENTRY_ENERGY_POD to UFOPaedia
+
+
 ==V9.0B (INTERNAL)==
 
 [Change]		agent_types.xml updated to remove all things from the base game that are NOT changed by the mod
