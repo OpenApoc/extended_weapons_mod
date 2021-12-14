@@ -39,6 +39,15 @@ Voiddweller		-	Original Idea and V1 Development
 ******************
 ***THIS RELEASE***
 ******************
+==V9.0H (INTERNAL)==
+
+[Add]			HAZARD_PSIONIC_GAS added to hazard_types.xml
+[Add]			DOODAD_23_PSIONIC_GAS added to doodad_types.xml
+[Add]			<explosionDoodad> added to DAMAGETYPE_PSIONIC_BLAST under damage_types.xml
+[Add]			<effectType> added to DAMAGETYPE_PSIONIC_BLAST under damage_types.xml
+[Add]			<hazardType> added to DAMAGETYPE_PSIONIC_BLAST under damage_types.xml
+
+
 ==V9.0G (INTERNAL)==
 
 [Change]		WIP Tags added to most research paths that end in incomplete weapons or equipment

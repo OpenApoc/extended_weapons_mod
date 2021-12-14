@@ -1725,7 +1725,10 @@
 				</entry>
 			</modifiers>
 			<explosive>true</explosive>
+			<explosionDoodad>DOODAD_18_SMOKE</explosionDoodad>
 			<blockType>Psionic</blockType>
+			<effectType>Psionic</effectType>
+			<hazardType>HAZARD_PSIONIC_GAS</hazardType>
 			<explosionSounds>
 				<entry>RAWSOUND:xcom3/rawsound/tactical/explosns/psigrnad.raw:22050</entry>
 			</explosionSounds>

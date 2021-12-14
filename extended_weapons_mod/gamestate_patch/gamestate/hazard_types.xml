@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazard_types>
+	<entry>
+		<key>HAZARD_PSIONIC_GAS</key>
+		<value>
+			<doodadType>DOODAD_23_PSIONIC_GAS</doodadType>
+			<minLifetime>12</minLifetime>
+			<maxLifetime>26</maxLifetime>
+		</value>
+	</entry>
+</hazard_types>

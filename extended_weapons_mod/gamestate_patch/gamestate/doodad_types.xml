@@ -1877,4 +1877,49 @@
 			</frames>
 		</value>
 	</entry>
+	<entry>
+		<key>DOODAD_23_PSIONIC_GAS</key>
+		<value>
+			<lifetime>20</lifetime>
+			<imageOffset>
+				<x>23</x>
+				<y>34</y>
+			</imageOffset>
+			<frames>
+				<entry>
+					<image>tacdata/ptang/44_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<entry>
+					<image>tacdata/ptang/45_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<entry>
+					<image>tacdata/ptang/46_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<entry>
+					<image>tacdata/ptang/47_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<entry>
+					<image>tacdata/ptang/48_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<entry>
+					<image>tacdata/ptang/49_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<entry>
+					<image>tacdata/ptang/50_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<entry>
+					<image>tacdata/ptang/51_psi_smoke.png</image>
+					<time>2</time>
+				</entry>
+				<sizeHint>8</sizeHint>
+			</frames>
+		</value>
+	</entry>
 </doodad_types>
