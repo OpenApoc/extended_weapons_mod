@@ -8,7 +8,7 @@
 			<name>Marsec Proximity Mine STUN GAS</name>
 			<weight>3</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item3</held_image_pack>
-			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:3</dropped_sprite>
+			<dropped_sprite>tacdata/gameobj/3_stun_mine.png</dropped_sprite>
 			<dropped_offset>
 				<x>23</x>
 				<y>34</y>
@@ -498,7 +498,7 @@
 			<name>Auto Cannon SMART Clip</name>
 			<weight>2</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item13</held_image_pack>
-			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:13</dropped_sprite>
+			<dropped_sprite>tacdata/gameobj/14_ac_smart_clip.png</dropped_sprite>
 			<dropped_offset>
 				<x>23</x>
 				<y>34</y>
@@ -581,7 +581,7 @@
 			<name>Auto Cannon STUN GAS Clip</name>
 			<weight>2</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item13</held_image_pack>
-			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:13</dropped_sprite>
+			<dropped_sprite>tacdata/gameobj/14_ac_stun_clip.png</dropped_sprite>
 			<dropped_offset>
 				<x>23</x>
 				<y>34</y>
@@ -1831,7 +1831,7 @@
 			<weapon_types>
 				<entry>AEQUIPMENTTYPE_GAUSS_PISTOL</entry>
 			</weapon_types>
-			<max_ammo>20</max_ammo>
+			<max_ammo>24</max_ammo>
 			<speed>60</speed>
 			<projectile_sprites>
 				<entry>bulletsprites/battle/35.png</entry>
@@ -1951,7 +1951,7 @@
 			<weapon_types>
 				<entry>AEQUIPMENTTYPE_GAUSS_RIFLE</entry>
 			</weapon_types>
-			<max_ammo>15</max_ammo>
+			<max_ammo>30</max_ammo>
 			<speed>60</speed>
 			<projectile_sprites>
 				<entry>bulletsprites/battle/35.png</entry>
@@ -2071,7 +2071,7 @@
 			<weapon_types>
 				<entry>AEQUIPMENTTYPE_HEAVY_GAUSS</entry>
 			</weapon_types>
-			<max_ammo>10</max_ammo>
+			<max_ammo>30</max_ammo>
 			<speed>60</speed>
 			<projectile_sprites>
 				<entry>bulletsprites/battle/35.png</entry>

@@ -7,7 +7,7 @@
 				<name>Advanced Alien Containment</name>
 				<order>40110</order>
 				<description>To secure and research large or dangerous Alien life forms.</description>
-				<man_hours>28800</man_hours>
+				<man_hours>22400</man_hours>
 				<dependencies>
 					<research>
 						<entry>
@@ -54,7 +54,7 @@
 				<name>WIP Alien Detector</name>
 				<order>60160</order>
 				<description>(WIP None-Functional) A device capable of tracking Aliens from their distinct genetic signatures revealed to us in our Research of the Alien Genetic Structure in combination with our identification of Micronoid life</description>
-				<man_hours>38400</man_hours>
+				<man_hours>28800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -77,7 +77,7 @@
 			<value>
 				<name>WIP Alien Detector</name>
 				<order>50140</order>
-				<man_hours>19200</man_hours>
+				<man_hours>7200</man_hours>
 				<type>Engineering</type>
 				<dependencies>
 					<research>
@@ -492,7 +492,7 @@
 				<name>WIP Dimension Destabiliser</name>
 				<order>60160</order>
 				<description>(WIP Partially Functional) A device based on disruption field research which could be used to disable Alien disruption shields.</description>
-				<man_hours>38400</man_hours>
+				<man_hours>28800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -561,7 +561,7 @@
 				<name>WIP Dimension Force Field</name>
 				<order>60160</order>
 				<description>(WIP None-Functional) Research of the alien Personal Disruptor Shield may present the opportunity for us to make a more substancial barrier against incoming projectiles.</description>
-				<man_hours>38400</man_hours>
+				<man_hours>28800</man_hours>
 				<type>Physics</type>
 				<required_lab_size>Large</required_lab_size>
 				<dependencies>
@@ -1122,9 +1122,9 @@
 		<entry>
 			<key>RESEARCH_PSI_GRENADE</key>
 			<value>
-				<name>WIP Marsec Psi-Grenade</name>
+				<name>Marsec Psi-Grenade</name>
 				<order>60160</order>
-				<description>(WIP None-Functional) MarSec is known to use a dangerous, psionic, grenade during it's crowd control and anti-riot operations. We should contact them to see if they are willing to supply us too.</description>
+				<description>MarSec is known to use a dangerous, psionic, grenade during it's crowd control and anti-riot operations. We should contact them to see if they are willing to supply us too.</description>
 				<man_hours>2400</man_hours>
 				<type>Physics</type>
 				<dependencies>

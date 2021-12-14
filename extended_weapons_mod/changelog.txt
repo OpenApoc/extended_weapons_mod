@@ -5,6 +5,7 @@
 FilmBoy84		-	Development from V2 onwards
 JonnyH			-	OpenApoc Core Developer, Extended Weapons Mod QA Testing and Bug-whacker
 Quickmind		-	EWM Tester and Stream Video Creator
+Jarskih			-	Programmer, Developer, Burst Mode Weapons, Psionic Blast
 Proselyte Ethan	-	EWM Tester
 SupSuper		-	UFO/TFTD SFX Advice
 Zastaver		-	Real-World Munitions Advisor
@@ -16,29 +17,27 @@ Voiddweller		-	Original Idea and V1 Development
 ***WIP FUTURE VERSION***
 ************************
 
-[Add]				EWM Weapons to Alien Equipment Load-Outs
-[Add]				New Alien Weapons to Equipment Load-Outs
-[Add]				Dart Pistol
-[Add]				Dart Pistol UFOPaedia Entries (Including Clips)
-[Add]				Dart Rifle
-[Add]				Dart Rifle UFOPaedia Entries (Including Clips)
-[Add]				Gas Cannon (TFTD) [The Heavy Cannon (UFO) is basically the same, but with a stupidly large barrel so i'm not doing that one]
-[Add]				Gas Cannon UFOPaedia Entries (Including Clips)
-[Add]				Toxi-Rifle (Cut Item) from either the OG mod (If i can find it) or new sprites
-[Add]				Toxi-Rifle UFOPaedia Entries (Including Clips)
-[Add]				A new disruptor shield for the aliens only giving 2.5x the HP of the original, but for only twice the inventory space. It should be finished and accessible to them in future versions
-[Add]				Alternative Marsec F1000 Flame-Thrower Fuels???
-[Add]				Marsec F1000 Flame-Thrower IN Tank Battlescape Objects (Using M4000 Clip as a placeholder at present)
-[Add]				Gender Specific Surnames from around the world (Requires new code)
-[Add]				Unisex First Names from around the world (Requires new code)
-[Add]				Manufacture Research Articles to research.xml for all X-COM made devices added by the EWM
-[Change]/[Balance]	Further weapon, equipment and armour balancing
-[Change]/[Balance]	Confirm that OG items are using the same stats as OG (In other words, fix OpenApoc bugs and report them to be fixed in core game also)
+See Trello at https://trello.com/b/2pi638kL/extended-weapons-mod-ewm (PRIVATE - Developers and Testers can request access via the OpenApoc Discord)
 
 
 ******************
 ***THIS RELEASE***
 ******************
+==V9.0I (INTERNAL)==
+
+[Credit]		credits.txt added to the mod
+[Credit]		"Jarskih - Programmer, Developer, Burst Mode Weapons, Psionic Blast" added to changelog.txt creator credits and credits.txt
+[Change]		Remove WIP FUTURE VERSION content to Trello so multiple developers and testers can keep on top of things behind closed doors (no spoilers)
+[Change]		AEQUIPMENTTYPE_GAUSS_PISTOL_CLIP given <max_ammo>24</max_ammo> from 20
+[Change]		AEQUIPMENTTYPE_GAUSS_RIFLE_CLIP given <max_ammo>30</max_ammo> from 15 because <burst>2</burst> (so allows 15 blasts per clip)
+[Change]		AEQUIPMENTTYPE_HEAVY_GAUSS_CLIP given <max_ammo>30</max_ammo> from 10 because <burst>3</burst> (so allows 10 blasts per clip)
+[Change]		Lots of <man_hours> values in research.xml
+[Change]		Remove WIP tags from MarSec Psi-Grenade as the relevant Pull Request will merge soon
+[Add]			AEQUIPMENTTYPE_MARSEC_PROXIMITY_STUN_MINE <dropped_sprite>tacdata/gameobj/3_stun_mine.png</dropped_sprite>
+[Add]			AEQUIPMENTTYPE_AUTO_CANNON_SMART_CLIP <dropped_sprite>tacdata/gameobj/14_ac_smart_clip.png</dropped_sprite>
+[Add]			AEQUIPMENTTYPE_AUTO_CANNON_STUN_CLIP <dropped_sprite>tacdata/gameobj/14_ac_stun_clip.png</dropped_sprite>
+
+
 ==V9.0H (INTERNAL)==
 
 [Add]			HAZARD_PSIONIC_GAS added to hazard_types.xml
