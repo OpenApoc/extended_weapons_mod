@@ -7,7 +7,7 @@
 				<name>Advanced Alien Containment</name>
 				<order>40110</order>
 				<description>To secure and research large or dangerous Alien life forms.</description>
-				<man_hours>22000</man_hours>
+				<man_hours>28800</man_hours>
 				<dependencies>
 					<research>
 						<entry>
@@ -27,24 +27,71 @@
 		<entry op="delete">
 			<key>RESEARCH_UNLOCK_CELLS</key>
 			<value>
-				<name>Cells</name>
+				<name>WIP Cells</name>
 				<order>99999</order>
-				<description>A means to hold captured persons.</description>
-				<man_hours>20000</man_hours>
+				<description>(WIP Present In Base Defence and works as Living Quarters for now) A means to hold captured persons.</description>
+				<man_hours>9600</man_hours>
 				<dependencies>
 					<research>
 						<entry>
 							<type>All</type>
 							<topics>
 								<entry>RESEARCH_ADVANCED_BIOCHEMISTRY_LAB</entry>
+								<entry>RESEARCH_ADVANCED_SECURITY_STATION</entry>
 							</topics>
 						</entry>
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_CELLS</ufopaedia_entry>
-				<score>10</score>
+				<score>80</score>
 				<!--<hidden>true</hidden>-->
 				<picture>PCK:xcom3/ufodata/base.pck:xcom3/ufodata/base.tab:30:xcom3/ufodata/base.pcx</picture>
+			</value>
+		</entry>
+		<entry>
+			<key>RESEARCH_ALIEN_DETECTOR</key>
+			<value>
+				<name>WIP Alien Detector</name>
+				<order>60160</order>
+				<description>(WIP None-Functional) A device capable of tracking Aliens from their distinct genetic signatures revealed to us in our Research of the Alien Genetic Structure in combination with our identification of Micronoid life</description>
+				<man_hours>38400</man_hours>
+				<type>Physics</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_THE_ALIEN_GENETIC_STRUCTURE</entry>
+								<entry>RESEARCH_BIOLOGICAL_WARFARE</entry>
+								<entry>RESEARCH_MICRONOID</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_ALIEN_DETECTOR</ufopaedia_entry>
+				<score>150</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_ALIEN_DETECTOR</key>
+			<value>
+				<name>WIP Alien Detector</name>
+				<order>50140</order>
+				<man_hours>19200</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_ALIEN_DETECTOR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>5000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_ALIEN_DETECTOR</itemId>
 			</value>
 		</entry>
 		<entry>
@@ -53,7 +100,7 @@
 				<name>Obtain Cult of Sirius Armour</name>
 				<order>60160</order>
 				<description>We need to obtain disguises to aid with investigation of Cult of Sirius activities.</description>
-				<man_hours>20000</man_hours>
+				<man_hours>4800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -63,16 +110,236 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_CULTIST_BODY_ARMOR</ufopaedia_entry>
-				<score>10</score>
+				<score>50</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTIST_BODY_ARMOUR</key>
+			<value>
+				<name>Obtain Cultist Body Armour</name>
+				<order>50140</order>
+				<man_hours>4800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>425</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTIST_BODY_ARMOR</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTIST_HELMET</key>
+			<value>
+				<name>Obtain Cultist Helmet</name>
+				<order>50140</order>
+				<man_hours>3800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>425</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTIST_HELMET</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTIST_LEFT_ARM_ARMOUR</key>
+			<value>
+				<name>Cultist Left Arm Armour</name>
+				<order>50140</order>
+				<man_hours>3400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>375</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTIST_LEFT_ARM_ARMOR</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTIST_RIGHT_ARM_ARMOUR</key>
+			<value>
+				<name>Cultist Right Arm Armour</name>
+				<order>50140</order>
+				<man_hours>3400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>375</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTIST_RIGHT_ARM_ARMOR</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTIST_LEG_ARMOUR</key>
+			<value>
+				<name>Obtain Cultist Leg Armour</name>
+				<order>50140</order>
+				<man_hours>4800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>425</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTIST_LEG_ARMOR</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTISTL_BODY_ARMOUR</key>
+			<value>
+				<name>Obtain Cultist Heavy Body Armour</name>
+				<order>50140</order>
+				<man_hours>5800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTISTL_BODY_ARMOR</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTISTL_HELMET</key>
+			<value>
+				<name>Obtain Cultist Heavy Helmet</name>
+				<order>50140</order>
+				<man_hours>4600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTISTL_HELMET</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTISTL_LEFT_ARM_ARMOUR</key>
+			<value>
+				<name>Cultist Heavy Left Arm Armour</name>
+				<order>50140</order>
+				<man_hours>4100</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>400</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTISTL_LEFT_ARM_ARMOR</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTISTL_RIGHT_ARM_ARMOUR</key>
+			<value>
+				<name>Cultist Heavy Right Arm Armour</name>
+				<order>50140</order>
+				<man_hours>4100</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>400</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTISTL_RIGHT_ARM_ARMOR</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_CULTISTL_LEG_ARMOUR</key>
+			<value>
+				<name>Obtain Cultist Heavy Leg Armour</name>
+				<order>50140</order>
+				<man_hours>5800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_CULT_OF_SIRIUS_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_CULTISTL_LEG_ARMOR</itemId>
 			</value>
 		</entry>
 		<entry>
 			<key>RESEARCH_DART_WEAPONS</key>
 			<value>
-				<name>Dart Weapons</name>
+				<name>WIP Dart Weapons</name>
 				<order>60160</order>
-				<description>Darts weapons may provide us with a means to lightly damage targets or influence them with all manner of substances.</description>
-				<man_hours>20000</man_hours>
+				<description>(WIP Some Sprites are missing) Darts weapons may provide us with a means to lightly damage targets or influence them with all manner of substances.</description>
+				<man_hours>14400</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -82,16 +349,150 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_DART_PISTOL</ufopaedia_entry>
-				<score>10</score>
+				<score>30</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_DART_PISTOL</key>
+			<value>
+				<name>Dart Pistol</name>
+				<order>50140</order>
+				<man_hours>2400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>200</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DART_PISTOL</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_DART_PISTOL_CLIP</key>
+			<value>
+				<name>Dart Pistol Clip</name>
+				<order>50140</order>
+				<man_hours>400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>10</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DART_PISTOL_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_DART_PISTOL_CLIP_STUN</key>
+			<value>
+				<name>Dart Pistol STUN Clip</name>
+				<order>50140</order>
+				<man_hours>600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>10</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DART_PISTOL_CLIP_STUN</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_DART_RIFLE</key>
+			<value>
+				<name>Dart Rifle</name>
+				<order>50140</order>
+				<man_hours>4800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DART_RIFLE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_DART_RIFLE_CLIP</key>
+			<value>
+				<name>Dart Rifle Clip</name>
+				<order>50140</order>
+				<man_hours>500</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>15</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DART_RIFLE_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_DART_RIFLE_CLIP_STUN</key>
+			<value>
+				<name>Dart Rifle STUN Clip</name>
+				<order>50140</order>
+				<man_hours>700</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DART_WEAPONS</entry>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>20</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DART_RIFLE_CLIP_STUN</itemId>
 			</value>
 		</entry>
 		<entry op="delete">
 			<key>RESEARCH_DIMENSION_DESTABILISER</key>
 			<value>
-				<name>Dimension Destabiliser</name>
+				<name>WIP Dimension Destabiliser</name>
 				<order>60160</order>
-				<description>A device based on disruption field research which could be used to disable Alien disruption shields.</description>
-				<man_hours>85000</man_hours>
+				<description>(WIP Partially Functional) A device based on disruption field research which could be used to disable Alien disruption shields.</description>
+				<man_hours>38400</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -113,7 +514,7 @@
 			<value>
 				<name>Dimension Destabiliser</name>
 				<order>30160</order>
-				<man_hours>10000</man_hours>
+				<man_hours>6400</man_hours>
 				<type>Engineering</type>
 				<required_lab_size>Large</required_lab_size>
 				<dependencies>
@@ -126,7 +527,7 @@
 						</entry>
 					</research>
 				</dependencies>
-				<cost>10000</cost>
+				<cost>5000</cost>
 				<item_type>AgentEquipment</item_type>
 				<itemId>AEQUIPMENTTYPE_DIMENSION_DESTABILISER</itemId>
 			</value>
@@ -136,7 +537,7 @@
 			<value>
 				<name>Energy Pod (Dimension Destabiliser)</name>
 				<order>30160</order>
-				<man_hours>5000</man_hours>
+				<man_hours>800</man_hours>
 				<type>Engineering</type>
 				<required_lab_size>Small</required_lab_size>
 				<dependencies>
@@ -149,7 +550,7 @@
 						</entry>
 					</research>
 				</dependencies>
-				<cost>5000</cost>
+				<cost>500</cost>
 				<item_type>AgentEquipment</item_type>
 				<itemId>AEQUIPMENTTYPE_ENERGY_POD</itemId>
 			</value>
@@ -157,29 +558,58 @@
 		<entry>
 			<key>RESEARCH_DIMENSION_FORCE_FIELD</key>
 			<value>
-				<name>Dimension Force Field</name>
+				<name>WIP Dimension Force Field</name>
 				<order>60160</order>
-				<description>Research of the alien Personal Disruptor Shield may present the opportunity for us to make a more substancial barrier against incoming projectiles.</description>
-				<man_hours>80000</man_hours>
+				<description>(WIP None-Functional) Research of the alien Personal Disruptor Shield may present the opportunity for us to make a more substancial barrier against incoming projectiles.</description>
+				<man_hours>38400</man_hours>
 				<type>Physics</type>
+				<required_lab_size>Large</required_lab_size>
 				<dependencies>
 					<research>
 						<entry>
 							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DISRUPTOR_GUN</entry>
+								<entry>RESEARCH_PERSONAL_DISRUPTOR_SHIELD</entry>
+								<entry>RESEARCH_SMALL_DISRUPTION_SHIELD</entry>
+							</topics>
 						</entry>
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_DIMENSION_FORCE_FIELD</ufopaedia_entry>
-				<score>10</score>
+				<score>200</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_DIMENSION_FORCE_FIELD</key>
+			<value>
+				<name>Dimension Force Field</name>
+				<order>30160</order>
+				<man_hours>14400</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Large</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_DIMENSION_FORCE_FIELD</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>10000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_DIMENSION_FORCE_FIELD</itemId>
 			</value>
 		</entry>
 		<entry>
 			<key>RESEARCH_FORCEWEB</key>
 			<value>
-				<name>Force Web</name>
+				<name>WIP ForceWeb</name>
 				<order>60160</order>
-				<description>A device for incapacitating large creatures or multiple units within a small area.</description>
-				<man_hours>64000</man_hours>
+				<description>(WIP None-Functional) A device for incapacitating large creatures or multiple units within a small area.</description>
+				<man_hours>9600</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -189,16 +619,39 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_FORCEWEB</ufopaedia_entry>
-				<score>10</score>
+				<score>100</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_FORCEWEB</key>
+			<value>
+				<name>ForceWeb</name>
+				<order>30160</order>
+				<man_hours>2400</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_FORCEWEB</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>800</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_FORCEWEB</itemId>
 			</value>
 		</entry>
 		<entry>
 			<key>RESEARCH_GAS_CANNON</key>
 			<value>
-				<name>Gas Cannon</name>
+				<name>WIP Gas Cannon</name>
 				<order>60160</order>
-				<description>Suitable for use above and below water, and creating minimal noise for the size and power of it's projectiles, this weapon could prove useful.</description>
-				<man_hours>20000</man_hours>
+				<description>(WIP Some Sprites are missing) Suitable for use above and below water, and creating minimal noise for the size and power of it's projectiles, this weapon could prove useful.</description>
+				<man_hours>4800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -208,7 +661,171 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_GAS_CANNON</ufopaedia_entry>
-				<score>10</score>
+				<score>30</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAS_CANNON</key>
+			<value>
+				<name>Gas Cannon</name>
+				<order>30160</order>
+				<man_hours>4800</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAS_CANNON</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAS_CANNON_AG_CLIP</key>
+			<value>
+				<name>Gas Cannon AG Clip</name>
+				<order>30160</order>
+				<man_hours>1200</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_ALIEN_GAS</entry>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>45</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAS_CANNON_AG_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAS_CANNON_AP_CLIP</key>
+			<value>
+				<name>Gas Cannon AP Clip</name>
+				<order>30160</order>
+				<man_hours>400</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>25</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAS_CANNON_AP_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAS_CANNON_HE_CLIP</key>
+			<value>
+				<name>Gas Cannon HE Clip</name>
+				<order>30160</order>
+				<man_hours>450</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>35</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAS_CANNON_HE_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAS_CANNON_IN_CLIP</key>
+			<value>
+				<name>Gas Cannon IN Clip</name>
+				<order>30160</order>
+				<man_hours>450</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>30</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAS_CANNON_IN_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAS_CANNON_SMART_CLIP</key>
+			<value>
+				<name>Gas Cannon SMART Clip</name>
+				<order>30160</order>
+				<man_hours>600</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>50</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAS_CANNON_SMART_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAS_CANNON_STUN_CLIP</key>
+			<value>
+				<name>Gas Cannon STUN Clip</name>
+				<order>30160</order>
+				<man_hours>500</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAS_CANNON</entry>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>40</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAS_CANNON_STUN_CLIP</itemId>
 			</value>
 		</entry>
 		<entry>
@@ -217,7 +834,7 @@
 				<name>Obtain Surplus Gauss Weaponry</name>
 				<order>60160</order>
 				<description>Rumours circulating the city suggest that there are multiple means for anyone with the money to obtain Gauss weapons left over from previous alien conflicts. We should investigate this potential avenue for acquiring technology no longer produced, or highly controlled, by the main weapons manufacturers.</description>
-				<man_hours>32000</man_hours>
+				<man_hours>4800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -227,16 +844,154 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_GAUSS_PISTOL</ufopaedia_entry>
-				<score>10</score>
+				<score>40</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAUSS_PISTOL</key>
+			<value>
+				<name>Obtain Surplus Gauss Pistol</name>
+				<order>30160</order>
+				<man_hours>4800</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1100</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAUSS_PISTOL</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAUSS_PISTOL_CLIP</key>
+			<value>
+				<name>Obtain Surplus Gauss Pistol Clip</name>
+				<order>30160</order>
+				<man_hours>800</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>50</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAUSS_PISTOL_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAUSS_RIFLE</key>
+			<value>
+				<name>Obtain Surplus Gauss Rifle</name>
+				<order>30160</order>
+				<man_hours>7200</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1300</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAUSS_RIFLE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_GAUSS_RIFLE_CLIP</key>
+			<value>
+				<name>Obtain Surplus Gauss Rifle Clip</name>
+				<order>30160</order>
+				<man_hours>1000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>75</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_GAUSS_RIFLE_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_HEAVY_GAUSS</key>
+			<value>
+				<name>Obtain Surplus Heavy Gauss</name>
+				<order>30160</order>
+				<man_hours>9600</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_HEAVY_GAUSS</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_HEAVY_GAUSS_CLIP</key>
+			<value>
+				<name>Obtain Surplus Heavy Gauss Clip</name>
+				<order>30160</order>
+				<man_hours>1200</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_GAUSS_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>100</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_HEAVY_GAUSS_CLIP</itemId>
 			</value>
 		</entry>
 		<entry>
 			<key>RESEARCH_POWER_ARMOUR</key>
 			<value>
-				<name>Power Armour</name>
+				<name>Obtain Power Armour</name>
 				<order>60160</order>
 				<description>Many suits of Power Armour circulate within the underworld of Mega Primus, we should look at how to obtain some for ourselves. Power Armour may assist in some of our operations against gangs that use such equipment.</description>
-				<man_hours>20000</man_hours>
+				<man_hours>4800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -246,16 +1001,131 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_POWER_ARMOR_BODY</ufopaedia_entry>
-				<score>10</score>
+				<score>30</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_POWER_ARMOR_BODY</key>
+			<value>
+				<name>Obtain Osiron Power Armour (Body)</name>
+				<order>30160</order>
+				<man_hours>4000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_POWER_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>450</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_POWER_ARMOR_BODY</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_POWER_ARMOR_HELMET</key>
+			<value>
+				<name>Obtain Osiron Power Armour Helmet</name>
+				<order>30160</order>
+				<man_hours>3000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_POWER_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>450</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_POWER_ARMOR_HELMET</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_POWER_ARMOR_LEFT_ARM</key>
+			<value>
+				<name>Obtain Osiron Power Armour Left Arm</name>
+				<order>30160</order>
+				<man_hours>2000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_POWER_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>350</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_POWER_ARMOR_LEFT_ARM</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_POWER_ARMOR_RIGHT_ARM</key>
+			<value>
+				<name>Obtain Osiron Power Armour Right Arm</name>
+				<order>30160</order>
+				<man_hours>2000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_POWER_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>350</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_POWER_ARMOR_RIGHT_ARM</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_POWER_ARMOR_LEGS</key>
+			<value>
+				<name>Obtain Osiron Power Armour Legs</name>
+				<order>30160</order>
+				<man_hours>4000</man_hours>
+				<type>Engineering</type>
+				<required_lab_size>Small</required_lab_size>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_POWER_ARMOUR</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>450</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_POWER_ARMOR_LEGS</itemId>
 			</value>
 		</entry>
 		<entry>
 			<key>RESEARCH_PSI_GRENADE</key>
 			<value>
-				<name>Marsec Psi-Grenade</name>
+				<name>WIP Marsec Psi-Grenade</name>
 				<order>60160</order>
-				<description>MarSec is known to use a dangerous, psionic, grenade during it's crowd control and anti-riot operations. We should contact them to see if they are willing to supply us too.</description>
-				<man_hours>12000</man_hours>
+				<description>(WIP None-Functional) MarSec is known to use a dangerous, psionic, grenade during it's crowd control and anti-riot operations. We should contact them to see if they are willing to supply us too.</description>
+				<man_hours>2400</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -265,7 +1135,29 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_PSI-GRENADE</ufopaedia_entry>
-				<score>10</score>
+				<score>50</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_PSI-GRENADE</key>
+			<value>
+				<name>Obtain MarSec Psi-Grenades</name>
+				<order>50140</order>
+				<man_hours>1600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_PSI_GRENADE</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_PSI-GRENADE</itemId>
 			</value>
 		</entry>
 		<entry>
@@ -274,7 +1166,7 @@
 				<name>SMART Munitions</name>
 				<order>60160</order>
 				<description>SMART Munitions are Kinetic-Kill projectiles that are capable of guiding themselves toward a target. The ultimate "Magic Bullets"! We should see which manufacturers are willing to make them for us.</description>
-				<man_hours>20000</man_hours>
+				<man_hours>4800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -284,7 +1176,95 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_MEGAPOL_LAWPISTOL_SMART_CLIP</ufopaedia_entry>
-				<score>10</score>
+				<score>40</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_AUTO_CANNON_SMART_CLIP</key>
+			<value>
+				<name>Auto Cannon SMART Clip</name>
+				<order>50140</order>
+				<man_hours>400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>180</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_AUTO_CANNON_SMART_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_HEAVY_LAUNCHER_SMART_MISSILE</key>
+			<value>
+				<name>Heavy Launcher SMART Missile</name>
+				<order>50140</order>
+				<man_hours>1200</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>240</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_HEAVY_LAUNCHER_SMART_MISSILE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_MEGAPOL_LAWPISTOL_SMART_CLIP</key>
+			<value>
+				<name>Megapol Lawpistol SMART AP Clip</name>
+				<order>50140</order>
+				<man_hours>600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>65</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_SMART_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_MINILAUNCHER_SMART_MISSILE</key>
+			<value>
+				<name>MiniLauncher SMART Missile</name>
+				<order>50140</order>
+				<man_hours>1000</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SMART_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>240</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_MINILAUNCHER_SMART_MISSILE</itemId>
 			</value>
 		</entry>
 		<entry>
@@ -293,7 +1273,7 @@
 				<name>STUN Munitions</name>
 				<order>60160</order>
 				<description>Whilst reliable, the Stun Grapple is not the only way to incapacitate enemy combatants. We should see which manufacturers are willing to sell us "alternative" means of knocking down opponents for capture.</description>
-				<man_hours>20000</man_hours>
+				<man_hours>3600</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -303,7 +1283,117 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_MEGAPOL_LAWPISTOL_STUN_CLIP</ufopaedia_entry>
-				<score>10</score>
+				<score>35</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_MARSEC_PROXIMITY_STUN_MINE</key>
+			<value>
+				<name>Obtain Marsec Proximity Mine STUN GAS</name>
+				<order>50140</order>
+				<man_hours>400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>400</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_MARSEC_PROXIMITY_STUN_MINE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_AUTO_CANNON_STUN_CLIP</key>
+			<value>
+				<name>Auto Cannon STUN Clip</name>
+				<order>50140</order>
+				<man_hours>400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>100</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_AUTO_CANNON_STUN_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_HEAVY_LAUNCHER_STUN_MISSILE</key>
+			<value>
+				<name>Heavy Launcher STUN Missile</name>
+				<order>50140</order>
+				<man_hours>1000</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>120</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_HEAVY_LAUNCHER_STUN_MISSILE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_MEGAPOL_LAWPISTOL_STUN_CLIP</key>
+			<value>
+				<name>Megapol Lawpistol STUN Clip</name>
+				<order>50140</order>
+				<man_hours>500</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>45</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_STUN_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_MINILAUNCHER_STUN_MISSILE</key>
+			<value>
+				<name>MiniLauncher STUN Missile</name>
+				<order>50140</order>
+				<man_hours>800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_STUN_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>160</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_MINILAUNCHER_STUN_MISSILE</itemId>
 			</value>
 		</entry>
 		<entry>
@@ -312,7 +1402,7 @@
 				<name>Obtain Surplus Laser Weaponry</name>
 				<order>60160</order>
 				<description>Rumours circulating the city suggest that there are multiple means for anyone with the money to obtain Laser weapons left over from previous alien conflicts. We should investigate this potential avenue for acquiring technology no longer produced, or highly controlled, by the main weapons manufacturers.</description>
-				<man_hours>24000</man_hours>
+				<man_hours>4800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -322,7 +1412,73 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_LASER_PISTOL</ufopaedia_entry>
-				<score>10</score>
+				<score>25</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_LASER_PISTOL</key>
+			<value>
+				<name>Obtain Surplus Laser Pistol</name>
+				<order>50140</order>
+				<man_hours>3600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_LASER_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>800</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_LASER_PISTOL</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_LASER_RIFLE</key>
+			<value>
+				<name>Obtain Surplus Laser Rifle</name>
+				<order>50140</order>
+				<man_hours>4800</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_LASER_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_LASER_RIFLE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_HEAVY_LASER</key>
+			<value>
+				<name>Obtain Surplus Heavy Laser</name>
+				<order>50140</order>
+				<man_hours>7200</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_LASER_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1200</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_HEAVY_LASER</itemId>
 			</value>
 		</entry>
 		<entry>
@@ -331,7 +1487,7 @@
 				<name>Obtain Surplus Plasma Weaponry</name>
 				<order>60160</order>
 				<description>Rumours circulating the city suggest that there are multiple means for anyone with the money to obtain Plasma weapons left over from previous alien conflicts. We should investigate this potential avenue for acquiring technology no longer produced, or highly controlled, by the main weapons manufacturers.</description>
-				<man_hours>48000</man_hours>
+				<man_hours>4800</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -341,16 +1497,236 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_PLASMA_PISTOL</ufopaedia_entry>
-				<score>10</score>
+				<score>50</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_PLASMA_PISTOL</key>
+			<value>
+				<name>Obtain Surplus Plasma Pistol</name>
+				<order>50140</order>
+				<man_hours>9600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1750</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_PLASMA_PISTOL</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_PLASMA_PISTOL_CLIP</key>
+			<value>
+				<name>Obtain Surplus Plasma Pistol Clip</name>
+				<order>50140</order>
+				<man_hours>1200</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>70</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_PLASMA_PISTOL_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_PLASMA_RIFLE</key>
+			<value>
+				<name>Obtain Surplus Plasma Rifle</name>
+				<order>50140</order>
+				<man_hours>12000</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>2500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_PLASMA_RIFLE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_PLASMA_RIFLE_CLIP</key>
+			<value>
+				<name>Obtain Surplus Plasma Rifle Clip</name>
+				<order>50140</order>
+				<man_hours>1400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>90</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_PLASMA_RIFLE_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_HEAVY_PLASMA</key>
+			<value>
+				<name>Obtain Heavy Plasma</name>
+				<order>50140</order>
+				<man_hours>14400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>3500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_HEAVY_PLASMA</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_HEAVY_PLASMA_CLIP</key>
+			<value>
+				<name>Obtain Surplus Heavy Plasma Clip</name>
+				<order>50140</order>
+				<man_hours>1600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_SURPLUS_PLASMA_WEAPONS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>110</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_HEAVY_PLASMA_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_TOXIRIFLE</key>
+			<value>
+				<name>WIP Toxirifle</name>
+				<order>40100</order>
+				<man_hours>4000</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_BIOLOGICAL_WARFARE</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>4200</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_TOXIRIFLE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_TOXIRIFLE_A-CLIP</key>
+			<value>
+				<name>WIP Toxin Type A (Rifle)</name>
+				<order>40110</order>
+				<man_hours>1000</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_BIOLOGICAL_WARFARE</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>800</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_TOXIRIFLE_A-CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_TOXIRIFLE_B-CLIP</key>
+			<value>
+				<name>WIP Toxin Type B (Rifle)</name>
+				<order>40110</order>
+				<man_hours>1200</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_TOXIN_TYPE_B</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_TOXIRIFLE_B-CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_TOXIRIFLE_C-CLIP</key>
+			<value>
+				<name>WIP Toxin Type C (Rifle)</name>
+				<order>40110</order>
+				<man_hours>1400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_TOXIN_TYPE_C</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1200</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_TOXIRIFLE_C-CLIP</itemId>
 			</value>
 		</entry>
 		<entry>
 			<key>RESEARCH_TRACKER_GUN</key>
 			<value>
-				<name>Tracker Gun</name>
+				<name>WIP Tracker Gun</name>
 				<order>60160</order>
-				<description>A device used to tag targets with a tiny transponder and then proceed to trace around the city.</description>
-				<man_hours>18000</man_hours>
+				<description>(WIP None-Functional) A device used to tag targets with a tiny transponder and then proceed to trace around the city.</description>
+				<man_hours>14400</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>
@@ -360,16 +1736,82 @@
 					</research>
 				</dependencies>
 				<ufopaedia_entry>PAEDIAENTRY_TRACKER_GUN</ufopaedia_entry>
-				<score>10</score>
+				<score>100</score>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_TRACKER_GUN</key>
+			<value>
+				<name>Obtain MegaPol Tracker Gun</name>
+				<order>50140</order>
+				<man_hours>9600</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_TRACKER_GUN</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>2000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_TRACKER_GUN</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_TRACKER_GUN_CLIP</key>
+			<value>
+				<name>Obtain MegaPol Tracker Gun Clip</name>
+				<order>50140</order>
+				<man_hours>1200</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_TRACKER_GUN</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>1000</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_TRACKER_GUN_CLIP</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_MULTI-TRACKER</key>
+			<value>
+				<name>Obtain MegaPol Multi-Tracker</name>
+				<order>50140</order>
+				<man_hours>7200</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_TRACKER_GUN</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>2500</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_MULTI-TRACKER</itemId>
 			</value>
 		</entry>
 		<entry op="delete">
 			<key>RESEARCH_DIMENSION_SHIFTER</key>
 			<value>
-				<name>Dimension Shifter</name>
+				<name>WIP Dimension Shifter</name>
 				<order>70150</order>
-				<description>Transports a vehicle between Dimensions.</description>
-				<man_hours>190000</man_hours>
+				<description>(WIP None-Functional) Transports a vehicle between Dimensions.</description>
+				<man_hours>134400</man_hours>
 				<type>Physics</type>
 				<required_lab_size>Large</required_lab_size>
 				<dependencies>
@@ -410,12 +1852,12 @@
 			</value>
 		</entry>
 		<entry op="delete">
-			<key>RESEARCH_ONE_WAY_TO_WIN</key>
+			<key>WIP RESEARCH_ONE_WAY_TO_WIN</key>
 			<value>
 				<name>One way to win</name>
 				<order>10120</order>
-				<description>We must discover a way to beat the Aliens once and for all</description>
-				<man_hours>35000</man_hours>
+				<description>(WIP None-Functional) We must discover a way to beat the Aliens once and for all</description>
+				<man_hours>134400</man_hours>
 				<type>Physics</type>
 				<dependencies>
 					<research>

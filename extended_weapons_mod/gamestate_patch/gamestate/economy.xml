@@ -3,7 +3,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_MARSEC_PROXIMITY_STUN_MINE</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>400</basePrice>
 			<minStock>10</minStock>
 			<maxStock>30</maxStock>
@@ -12,7 +11,6 @@
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_PSI-GRENADE</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>1000</basePrice>
 			<minStock>6</minStock>
 			<maxStock>18</maxStock>
@@ -30,6 +28,8 @@
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_ALIEN_DETECTOR</key>
 		<value>
+			<basePrice>5000</basePrice>
+			<minStock>1</minStock>
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
@@ -72,7 +72,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_SMART_CLIP</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>180</basePrice>
 			<minStock>10</minStock>
 			<maxStock>20</maxStock>
@@ -81,7 +80,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_AUTO_CANNON_STUN_CLIP</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>100</basePrice>
 			<minStock>5</minStock>
 			<maxStock>10</maxStock>
@@ -90,109 +88,142 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_DART_PISTOL</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>200</basePrice>
+			<minStock>1</minStock>
+			<maxStock>7</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_DART_PISTOL_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>10</basePrice>
+			<minStock>3</minStock>
+			<maxStock>17</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_DART_PISTOL_CLIP_STUN</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>15</basePrice>
+			<minStock>2</minStock>
+			<maxStock>12</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_DART_RIFLE</key>
 		<value>
+			<basePrice>500</basePrice>
+			<minStock>1</minStock>
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_DART_RIFLE_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>15</basePrice>
+			<minStock>3</minStock>
+			<maxStock>15</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_DART_RIFLE_CLIP_STUN</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>20</basePrice>
+			<minStock>2</minStock>
+			<maxStock>12</maxStock>
 		</value>
 	</entry>
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_DESTABILISER</key>
 		<value>
+			<basePrice>5000</basePrice>
+			<minStock>1</minStock>
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_ENERGY_POD</key>
 		<value>
+			<basePrice>500</basePrice>
+			<minStock>1</minStock>
 			<maxStock>20</maxStock>
 		</value>
 	</entry>
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_DIMENSION_FORCE_FIELD</key>
 		<value>
-			<maxStock>20</maxStock>
+			<basePrice>10000</basePrice>
+			<minStock>1</minStock>
+			<maxStock>3</maxStock>
 		</value>
 	</entry>
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_FORCEWEB</key>
 		<value>
+			<basePrice>800</basePrice>
+			<minStock>1</minStock>
 			<maxStock>5</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAS_CANNON</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>1000</basePrice>
+			<minStock>1</minStock>
+			<maxStock>3</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAS_CANNON_AG_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>45</basePrice>
+			<minStock>1</minStock>
+			<maxStock>12</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAS_CANNON_AP_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>25</basePrice>
+			<minStock>3</minStock>
+			<maxStock>15</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAS_CANNON_HE_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>35</basePrice>
+			<minStock>2</minStock>
+			<maxStock>10</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAS_CANNON_IN_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>30</basePrice>
+			<minStock>4</minStock>
+			<maxStock>10</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAS_CANNON_SMART_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>50</basePrice>
+			<minStock>1</minStock>
+			<maxStock>7</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAS_CANNON_STUN_CLIP</key>
 		<value>
-			<maxStock>5</maxStock>
+			<basePrice>40</basePrice>
+			<minStock>1</minStock>
+			<maxStock>9</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_GAUSS_PISTOL</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>1100</basePrice>
 			<minStock>3</minStock>
 			<maxStock>9</maxStock>
@@ -201,7 +232,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_GAUSS_PISTOL_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>50</basePrice>
 			<minStock>9</minStock>
 			<maxStock>27</maxStock>
@@ -210,7 +240,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_GAUSS_RIFLE</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>1300</basePrice>
 			<minStock>5</minStock>
 			<maxStock>15</maxStock>
@@ -219,7 +248,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_GAUSS_RIFLE_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>75</basePrice>
 			<minStock>15</minStock>
 			<maxStock>45</maxStock>
@@ -228,7 +256,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_HEAVY_GAUSS</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>1500</basePrice>
 			<minStock>3</minStock>
 			<maxStock>7</maxStock>
@@ -237,7 +264,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_HEAVY_GAUSS_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>100</basePrice>
 			<minStock>9</minStock>
 			<maxStock>27</maxStock>
@@ -273,6 +299,7 @@
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_AG_MISSILE</key>
 		<value>
+			<weekAvailable>18</weekAvailable>
 			<basePrice>700</basePrice>
 			<maxStock>15</maxStock>
 		</value>
@@ -298,7 +325,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_SMART_MISSILE</key>
 		<value>
-			<weekAvailable>3</weekAvailable>
 			<basePrice>240</basePrice>
 			<minStock>5</minStock>
 			<maxStock>20</maxStock>
@@ -307,7 +333,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_HEAVY_LAUNCHER_STUN_MISSILE</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>120</basePrice>
 			<minStock>5</minStock>
 			<maxStock>20</maxStock>
@@ -322,7 +347,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_LASER_PISTOL</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>800</basePrice>
 			<minStock>4</minStock>
 			<maxStock>12</maxStock>
@@ -331,7 +355,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_LASER_RIFLE</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>1000</basePrice>
 			<minStock>6</minStock>
 			<maxStock>18</maxStock>
@@ -340,7 +363,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_HEAVY_LASER</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>1200</basePrice>
 			<minStock>2</minStock>
 			<maxStock>6</maxStock>
@@ -403,7 +425,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_SMART_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>65</basePrice>
 			<minStock>20</minStock>
 			<maxStock>80</maxStock>
@@ -412,7 +433,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_MEGAPOL_LAWPISTOL_STUN_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>45</basePrice>
 			<minStock>10</minStock>
 			<maxStock>40</maxStock>
@@ -421,7 +441,6 @@
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MIND_SHIELD</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>3600</basePrice>
 			<minStock>3</minStock>
 			<maxStock>10</maxStock>
@@ -464,7 +483,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_SMART_MISSILE</key>
 		<value>
-			<weekAvailable>4</weekAvailable>
 			<basePrice>240</basePrice>
 			<minStock>10</minStock>
 			<maxStock>30</maxStock>
@@ -473,7 +491,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_MINILAUNCHER_STUN_MISSILE</key>
 		<value>
-			<weekAvailable>3</weekAvailable>
 			<basePrice>160</basePrice>
 			<minStock>10</minStock>
 			<maxStock>30</maxStock>
@@ -482,13 +499,14 @@
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MULTI-TRACKER</key>
 		<value>
-			<maxStock>2</maxStock>
+			<basePrice>2500</basePrice>
+			<minStock>1</minStock>
+			<maxStock>5</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_PLASMA_PISTOL</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>1750</basePrice>
 			<minStock>2</minStock>
 			<maxStock>8</maxStock>
@@ -497,7 +515,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_PLASMA_PISTOL_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>70</basePrice>
 			<minStock>6</minStock>
 			<maxStock>18</maxStock>
@@ -506,7 +523,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_PLASMA_RIFLE</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>2500</basePrice>
 			<minStock>4</minStock>
 			<maxStock>12</maxStock>
@@ -515,7 +531,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_PLASMA_RIFLE_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>90</basePrice>
 			<minStock>12</minStock>
 			<maxStock>36</maxStock>
@@ -524,7 +539,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_HEAVY_PLASMA</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>3500</basePrice>
 			<minStock>2</minStock>
 			<maxStock>5</maxStock>
@@ -533,7 +547,7 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_HEAVY_PLASMA_CLIP</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
+			<weekAvailable>4</weekAvailable>
 			<basePrice>110</basePrice>
 			<minStock>6</minStock>
 			<maxStock>18</maxStock>
@@ -598,19 +612,22 @@
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TRACKER_GUN</key>
 		<value>
-			<maxStock>2</maxStock>
+			<basePrice>2000</basePrice>
+			<minStock>1</minStock>
+			<maxStock>10</maxStock>
 		</value>
 	</entry>
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_TRACKER_GUN_CLIP</key>
 		<value>
-			<maxStock>2</maxStock>
+			<basePrice>1000</basePrice>
+			<minStock>10</minStock>
+			<maxStock>20</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTIST_BODY_ARMOR</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>425</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -619,7 +636,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTIST_HELMET</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>425</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -628,7 +644,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTIST_LEFT_ARM_ARMOR</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>375</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -637,7 +652,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTIST_RIGHT_ARM_ARMOR</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>375</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -646,7 +660,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTIST_LEG_ARMOR</key>
 		<value>
-			<weekAvailable>2</weekAvailable>
 			<basePrice>425</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -655,7 +668,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTISTL_BODY_ARMOR</key>
 		<value>
-			<weekAvailable>3</weekAvailable>
 			<basePrice>500</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -664,7 +676,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTISTL_HELMET</key>
 		<value>
-			<weekAvailable>3</weekAvailable>
 			<basePrice>500</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -673,7 +684,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTISTL_LEFT_ARM_ARMOR</key>
 		<value>
-			<weekAvailable>3</weekAvailable>
 			<basePrice>400</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -682,7 +692,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTISTL_RIGHT_ARM_ARMOR</key>
 		<value>
-			<weekAvailable>3</weekAvailable>
 			<basePrice>400</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -691,7 +700,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_CULTISTL_LEG_ARMOR</key>
 		<value>
-			<weekAvailable>3</weekAvailable>
 			<basePrice>500</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -700,7 +708,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_POWER_ARMOR_BODY</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>450</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -709,7 +716,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_POWER_ARMOR_HELMET</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>450</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -718,7 +724,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_POWER_ARMOR_LEFT_ARM</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>350</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -727,7 +732,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_POWER_ARMOR_RIGHT_ARM</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>350</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -736,7 +740,6 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_POWER_ARMOR_LEGS</key>
 		<value>
-			<weekAvailable>1</weekAvailable>
 			<basePrice>450</basePrice>
 			<minStock>8</minStock>
 			<maxStock>24</maxStock>
@@ -745,13 +748,15 @@
 	<entry>
 		<key>AEQUIPMENTTYPE_BOOMEROID_VORTEX</key>
 		<value>
-			<maxStock>30</maxStock>
+			<basePrice>640</basePrice>
+			<maxStock>20</maxStock>
 		</value>
 	</entry>
 	<entry>
 		<key>AEQUIPMENTTYPE_DIMENSION_MISSILE_ENTROPY_SPECIAL</key>
 		<value>
-			<maxStock>30</maxStock>
+			<basePrice>640</basePrice>
+			<maxStock>20</maxStock>
 		</value>
 	</entry>
 	<entry op="delete">

@@ -331,7 +331,7 @@
 					<value>
 						<title>ForceWeb</title>
 						<description>An energy beam device which can render a target immobile for a short period of time. The target remains conscious but is unable to move or use equipment. A significant upgrade to the Stun Grapple, allowing us to capture large single targets, or groups of smaller ones at a greater distance with an enormous pulse of energy.</description>
-						<background>xcom3/ufopaedi/w32.pcx</background>
+						<background>ufopaedi/forceweb.png</background>
 						<data_id>AEQUIPMENTTYPE_FORCEWEB</data_id>
 						<data_type>Equipment</data_type>
 						<dependency>

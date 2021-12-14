@@ -661,7 +661,7 @@
 			<id>AEQUIPMENTTYPE_DART_PISTOL</id>
 			<name>Megapol Dart Pistol</name>
 			<weight>5</weight>
-			<held_image_pack>BATTLEUNITIMAGEPACK_item67</held_image_pack>
+			<held_image_pack>BATTLEUNITIMAGEPACK_laserpistol</held_image_pack>
 			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:15</dropped_sprite>
 			<dropped_offset>
 				<x>23</x>
@@ -865,7 +865,7 @@
 			<id>AEQUIPMENTTYPE_DART_RIFLE</id>
 			<name>Megapol Dart Rifle</name>
 			<weight>8</weight>
-			<held_image_pack>BATTLEUNITIMAGEPACK_item67</held_image_pack>
+			<held_image_pack>BATTLEUNITIMAGEPACK_laserrifle</held_image_pack>
 			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:15</dropped_sprite>
 			<dropped_offset>
 				<x>23</x>
@@ -876,7 +876,7 @@
 				<x>23</x>
 				<y>6</y>
 			</shadow_offset>
-			<equipscreen_sprite>ufodata/pequip/dartpistol.png</equipscreen_sprite>
+			<equipscreen_sprite>ufodata/pequip/dartrifle1.png</equipscreen_sprite>
 			<equipscreen_size>
 				<x>2</x>
 				<y>4</y>
@@ -5194,7 +5194,7 @@
 		<value>
 			<type>Armor</type>
 			<id>AEQUIPMENTTYPE_CULTISTL_BODY_ARMOR</id>
-			<name>Cultist Heavy Body Armour</name>
+			<name>Obtain Cultist Heavy Body Armour</name>
 			<weight>12</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
 			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:60</dropped_sprite>
@@ -5231,7 +5231,7 @@
 		<value>
 			<type>Armor</type>
 			<id>AEQUIPMENTTYPE_CULTISTL_HELMET</id>
-			<name>Cultist Heavy Helmet</name>
+			<name>Obtain Cultist Heavy Helmet</name>
 			<weight>10</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
 			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:63</dropped_sprite>
@@ -5268,7 +5268,7 @@
 		<value>
 			<type>Armor</type>
 			<id>AEQUIPMENTTYPE_CULTISTL_LEFT_ARM_ARMOR</id>
-			<name>Cultist Heavy Left Arm Armour</name>
+			<name>Obtain Cultist Heavy Left Arm Armour</name>
 			<weight>9</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
 			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:61</dropped_sprite>
@@ -5305,7 +5305,7 @@
 		<value>
 			<type>Armor</type>
 			<id>AEQUIPMENTTYPE_CULTISTL_RIGHT_ARM_ARMOR</id>
-			<name>Cultist Heavy Right Arm Armour</name>
+			<name>Obtain Cultist Heavy Right Arm Armour</name>
 			<weight>9</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
 			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:62</dropped_sprite>
@@ -5342,7 +5342,7 @@
 		<value>
 			<type>Armor</type>
 			<id>AEQUIPMENTTYPE_CULTISTL_LEG_ARMOR</id>
-			<name>Cultist Heavy Leg Armour</name>
+			<name>Obtain Cultist Heavy Leg Armour</name>
 			<weight>12</weight>
 			<held_image_pack>BATTLEUNITIMAGEPACK_item59</held_image_pack>
 			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:59</dropped_sprite>

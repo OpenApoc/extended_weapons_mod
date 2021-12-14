@@ -39,6 +39,26 @@ Voiddweller		-	Original Idea and V1 Development
 ******************
 ***THIS RELEASE***
 ******************
+==V9.0G (INTERNAL)==
+
+[Change]		WIP Tags added to most research paths that end in incomplete weapons or equipment
+
+
+==V9.0F (INTERNAL)==
+
+[Change]		Most Items as Manufacturable instead of purchaseable
+
+
+==V9.0E (INTERNAL)==
+
+[Change]		<man_hours> For many Research Items to balance things a little more
+[Change]		<score> For many Research Items to balance things a little more
+[Add]			<weekAvailable> Values to most items in the economy
+[Add]			<basePrice> Values to most items in the economy
+[Add]			<minStock> Values to most items in the economy
+[Add]			<maxStock> Values to most items in the economy
+[Add]			Cultist Armours as Manufacturable instead of purchaseable
+
 ==V9.0D (INTERNAL)==
 
 [Change]		Extract Difficulty XML to Folders (No Longer Packed)
