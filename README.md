@@ -1,5 +1,5 @@
 # OpenApoc Extended Weapons Mod
-OpenApoc Extended Weapons Mod v8.1
+OpenApoc Extended Weapons Mod
 
 by FilmBoy84
 
