@@ -119,7 +119,70 @@
 			<ttl>1000</ttl>
 			<damage_type>DAMAGETYPE_PSIONIC_BLAST</damage_type>
 			<trigger_type>Timed</trigger_type>
-			<explosion_depletion_rate>10</explosion_depletion_rate>
+			<explosion_depletion_rate>12</explosion_depletion_rate>
+		</value>
+	</entry>
+	<entry>
+		<key>AEQUIPMENTTYPE_ALIEN_PSI-GRENADE</key>
+		<value>
+			<type>Grenade</type>
+			<id>AEQUIPMENTTYPE_ALIEN_PSI-GRENADE</id>
+			<name>Psi-Gas Pod</name>
+			<weight>1</weight>
+			<held_image_pack>BATTLEUNITIMAGEPACK_item30</held_image_pack>
+			<dropped_sprite>PCK:xcom3/tacdata/gameobj.pck:xcom3/tacdata/gameobj.tab:30</dropped_sprite>
+			<dropped_offset>
+				<x>23</x>
+				<y>34</y>
+			</dropped_offset>
+			<dropped_shadow_sprite>PCKSHADOW:xcom3/tacdata/oshadow.pck:xcom3/tacdata/oshadow.tab:30</dropped_shadow_sprite>
+			<shadow_offset>
+				<x>23</x>
+				<y>6</y>
+			</shadow_offset>
+			<equipscreen_sprite>PCK:xcom3/ufodata/pequip.pck:xcom3/ufodata/pequip.tab:30:xcom3/tacdata/tactical.pal</equipscreen_sprite>
+			<equipscreen_size>
+				<x>1</x>
+				<y>1</y>
+			</equipscreen_size>
+			<manufacturer>ORG_ALIEN</manufacturer>
+			<store_space>5</store_space>
+			<armor>30</armor>
+			<score>3</score>
+			<research_dependency>
+				<type>All</type>
+			</research_dependency>
+			<max_ammo>1</max_ammo>
+			<speed>6</speed>
+			<projectile_sprites>
+				<entry>bulletsprites/battle/15.png</entry>
+				<entry>bulletsprites/battle/00.png</entry>
+				<entry>bulletsprites/battle/01.png</entry>
+				<entry>bulletsprites/battle/02.png</entry>
+				<entry>bulletsprites/battle/03.png</entry>
+				<entry>bulletsprites/battle/04.png</entry>
+				<entry>bulletsprites/battle/05.png</entry>
+				<entry>bulletsprites/battle/06.png</entry>
+				<entry>bulletsprites/battle/07.png</entry>
+				<entry>bulletsprites/battle/08.png</entry>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+			</projectile_sprites>
+			<damage>100</damage>
+			<accuracy>100</accuracy>
+			<fire_delay>200</fire_delay>
+			<tail_size>16</tail_size>
+			<guided>true</guided>
+			<turn_rate>40</turn_rate>
+			<range>500</range>
+			<ttl>1000</ttl>
+			<damage_type>DAMAGETYPE_PSIONIC_BLAST</damage_type>
+			<trigger_type>Boomeroid</trigger_type>
+			<explosion_depletion_rate>11</explosion_depletion_rate>
 		</value>
 	</entry>
 	<entry op="delete">
@@ -245,6 +308,87 @@
 				<type>All</type>
 			</research_dependency>
 			<two_handed>true</two_handed>
+		</value>
+	</entry>
+	<entry>
+		<key>AEQUIPMENTTYPE_AUTO_CANNON_ALIEN_GAS_CLIP</key>
+		<value>
+			<type>Ammo</type>
+			<id>AEQUIPMENTTYPE_AUTO_CANNON_ALIEN_GAS_CLIP</id>
+			<name>Auto Cannon AG Clip</name>
+			<weight>2</weight>
+			<held_image_pack>BATTLEUNITIMAGEPACK_item13</held_image_pack>
+			<dropped_sprite>tacdata/gameobj/14_ac_alien_gas_clip.png</dropped_sprite>
+			<dropped_offset>
+				<x>23</x>
+				<y>34</y>
+			</dropped_offset>
+			<dropped_shadow_sprite>PCKSHADOW:xcom3/tacdata/oshadow.pck:xcom3/tacdata/oshadow.tab:13</dropped_shadow_sprite>
+			<shadow_offset>
+				<x>23</x>
+				<y>6</y>
+			</shadow_offset>
+			<equipscreen_sprite>ufodata/pequip/autocannonagclip.png</equipscreen_sprite>
+			<equipscreen_size>
+				<x>1</x>
+				<y>1</y>
+			</equipscreen_size>
+			<manufacturer>ORG_MEGAPOL</manufacturer>
+			<store_space>8</store_space>
+			<armor>20</armor>
+			<research_dependency>
+				<type>All</type>
+			</research_dependency>
+			<weapon_types>
+				<entry>AEQUIPMENTTYPE_MEGAPOL_AUTO_CANNON</entry>
+			</weapon_types>
+			<max_ammo>24</max_ammo>
+			<rechargeTB>24</rechargeTB>
+			<speed>22</speed>
+			<projectile_sprites>
+				<entry>bulletsprites/battle/30.png</entry>
+				<entry>bulletsprites/battle/10.png</entry>
+				<entry>bulletsprites/battle/10.png</entry>
+				<entry>bulletsprites/battle/11.png</entry>
+				<entry>bulletsprites/battle/11.png</entry>
+				<entry>bulletsprites/battle/11.png</entry>
+				<entry>bulletsprites/battle/00.png</entry>
+				<entry>bulletsprites/battle/01.png</entry>
+				<entry>bulletsprites/battle/02.png</entry>
+				<entry>bulletsprites/battle/03.png</entry>
+				<entry>bulletsprites/battle/04.png</entry>
+				<entry>bulletsprites/battle/05.png</entry>
+				<entry>bulletsprites/battle/06.png</entry>
+				<entry>bulletsprites/battle/07.png</entry>
+				<entry>bulletsprites/battle/08.png</entry>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+			</projectile_sprites>
+			<damage>50</damage>
+			<accuracy>40</accuracy>
+			<fire_delay>176</fire_delay>
+			<tail_size>31</tail_size>
+			<range>900</range>
+			<ttl>2700</ttl>
+			<fire_sfx>RAWSOUND:xcom3/rawsound/tactical/weapons/megcanon.raw:22050</fire_sfx>
+			<impact_sfx>RAWSOUND:xcom3/rawsound/tactical/weapons/bullet3.raw:22050</impact_sfx>
+			<damage_type>DAMAGETYPE_ANTI-ALIEN_GAS</damage_type>
+			<trigger_type>Timed</trigger_type>
+			<explosion_depletion_rate>12</explosion_depletion_rate>
 		</value>
 	</entry>
 	<entry op="delete">
@@ -1242,6 +1386,39 @@
 				<type>All</type>
 			</research_dependency>
 			<two_handed>true</two_handed>
+			<max_ammo>3</max_ammo>
+			<recharge>1</recharge>
+			<rechargeTB>5</rechargeTB>
+			<speed>22</speed>
+			<projectile_sprites>
+				<entry>bulletsprites/battle/15.png</entry>
+				<entry>bulletsprites/battle/00.png</entry>
+				<entry>bulletsprites/battle/01.png</entry>
+				<entry>bulletsprites/battle/02.png</entry>
+				<entry>bulletsprites/battle/03.png</entry>
+				<entry>bulletsprites/battle/04.png</entry>
+				<entry>bulletsprites/battle/05.png</entry>
+				<entry>bulletsprites/battle/06.png</entry>
+				<entry>bulletsprites/battle/07.png</entry>
+				<entry>bulletsprites/battle/08.png</entry>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+				<entry/>
+				<entry/>
+				<entry>bulletsprites/battle/09.png</entry>
+			</projectile_sprites>
+			<damage>120</damage>
+			<accuracy>40</accuracy>
+			<fire_delay>220</fire_delay>
+			<tail_size>16</tail_size>
+			<range>150</range>
+			<ttl>240</ttl>
+			<explosion_graphic>DOODAD_26_STUN</explosion_graphic>
+			<fire_sfx>RAWSOUND:xcom3/rawsound/tactical/weapons/megastun.raw:22050</fire_sfx>
+			<damage_type>DAMAGETYPE_STUN</damage_type>
+			<trigger_type>Timed</trigger_type>
+			<explosion_depletion_rate>12</explosion_depletion_rate>
 		</value>
 	</entry>
 	<entry>

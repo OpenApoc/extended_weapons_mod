@@ -16,6 +16,13 @@
 			<maxStock>18</maxStock>
 		</value>
 	</entry>
+	<entry>
+		<key>AEQUIPMENTTYPE_ALIEN_PSI-GRENADE</key>
+		<value>
+			<basePrice>1500</basePrice>
+			<maxStock>5</maxStock>
+		</value>
+	</entry>
 	<entry op="delete">
 		<key>AEQUIPMENTTYPE_MEGAPOL_SMOKE_GRENADE</key>
 		<value>
@@ -40,6 +47,14 @@
 			<basePrice>1200</basePrice>
 			<minStock>3</minStock>
 			<maxStock>8</maxStock>
+		</value>
+	</entry>
+	<entry>
+		<key>AEQUIPMENTTYPE_AUTO_CANNON_ALIEN_GAS_CLIP</key>
+		<value>
+			<basePrice>200</basePrice>
+			<minStock>3</minStock>
+			<maxStock>12</maxStock>
 		</value>
 	</entry>
 	<entry op="delete">

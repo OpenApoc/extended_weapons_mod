@@ -13,7 +13,11 @@
 					<first>VEHICLETYPE_ALIEN_SCOUT</first>
 					<second>10</second>
 				</entry>
-				<sizeHint>2</sizeHint>
+				<entry>
+					<first>VEHICLETYPE_ALIEN_BOMBER_DUMB</first>
+					<second>1</second>
+				</entry>
+				<sizeHint>3</sizeHint>
 			</vehicleTypeList>
 		</value>
 	</entry>
@@ -148,7 +152,11 @@
 					<first>VEHICLETYPE_ALIEN_TRANSPORTER</first>
 					<second>4</second>
 				</entry>
-				<sizeHint>4</sizeHint>
+				<entry>
+					<first>VEHICLETYPE_ALIEN_BOMBER_DUMB</first>
+					<second>1</second>
+				</entry>
+				<sizeHint>5</sizeHint>
 			</vehicleTypeList>
 		</value>
 	</entry>
@@ -412,6 +420,10 @@
 					<second>12</second>
 				</entry>
 				<entry>
+					<first>VEHICLETYPE_ALIEN_BOMBER_DUMB</first>
+					<second>3</second>
+				</entry>
+				<entry>
 					<first>VEHICLETYPE_ALIEN_DESTROYER</first>
 					<second>12</second>
 				</entry>
@@ -439,7 +451,7 @@
 					<first>VEHICLETYPE_ALIEN_TRANSPORTER</first>
 					<second>12</second>
 				</entry>
-				<sizeHint>10</sizeHint>
+				<sizeHint>11</sizeHint>
 			</vehicleTypeList>
 		</value>
 	</entry>

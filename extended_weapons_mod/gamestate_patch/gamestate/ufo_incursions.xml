@@ -37,6 +37,28 @@
 		</value>
 	</entry>
 	<entry>
+		<key>UFO_INCURSION_A11</key>
+		<value>
+			<primaryMission>Attack</primaryMission>
+			<primaryList>
+				<entry>
+					<first>VEHICLETYPE_ALIEN_PROBE</first>
+					<second>2</second>
+				</entry>
+				<entry>
+					<first>VEHICLETYPE_ALIEN_SCOUT</first>
+					<second>4</second>
+				</entry>
+				<entry>
+					<first>VEHICLETYPE_ALIEN_BOMBER_DUMB</first>
+					<second>1</second>
+				</entry>
+				<sizeHint>3</sizeHint>
+			</primaryList>
+			<priority>1</priority>
+		</value>
+	</entry>
+	<entry>
 		<key>UFO_INCURSION_A2</key>
 		<value>
 			<primaryMission>Attack</primaryMission>

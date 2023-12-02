@@ -1617,7 +1617,7 @@
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_ANDROID</key>
-					<value>0</value>
+					<value>10</value>
 				</entry>
 				<entry>
 					<key>DAMAGEMODIFIER_ANTHROPOD</key>
@@ -1725,7 +1725,7 @@
 				</entry>
 			</modifiers>
 			<explosive>true</explosive>
-			<explosionDoodad>DOODAD_18_SMOKE</explosionDoodad>
+			<explosionDoodad>DOODAD_23_PSIONIC_GAS</explosionDoodad>
 			<blockType>Psionic</blockType>
 			<effectType>Psionic</effectType>
 			<hazardType>HAZARD_PSIONIC_GAS</hazardType>

@@ -23,6 +23,41 @@ See Trello at https://trello.com/b/2pi638kL/extended-weapons-mod-ewm (PRIVATE - 
 ******************
 ***THIS RELEASE***
 ******************
+
+==V9.0J (INTERNAL)==
+
+[Change]		Conversion of forceweb.png to 8-bit Indexed Colour to 8-bit RGB Colour to see if this resolves a UFOPaedia Crash with the image
+[Change]		Conversion of megapol_lawpistol_smart_clip_1.png to 8-bit RGB Colour and visual update to match pequip sprite more closely
+[Change]		Conversion of megapol_lawpistol_stun_clip_1.png to 8-bit RGB Colour and visual update to match pequip sprite more closely
+[Change]		Conversion of minilauncher_smart_missile_1.png to 8-bit RGB Colour and visual update to match pequip sprite more closely
+[Change]		Conversion of minilauncher_stun_missile_1.png to 8-bit RGB Colour and visual update to match pequip sprite more closely
+[Change]		Addition of "missing" tags for the ForceWeb under agent_equipment.xml based on the Stun Grapple entry with placeholder stats to try and stop the weapon crashing the game
+[Change]		MAY CRASH THE GAME added to the Research Entry for the ForceWeb until we work out why it crashes - there is no obvious reason at present
+[Change]		<explosionDoodad> for DAMAGETYPE_PSIONIC_BLAST changed to DOODAD_23_PSIONIC_GAS from DOODAD_18_SMOKE in damage_types.xml
+[Change]		<explosion_depletion_rate> for AEQUIPMENTTYPE_PSI-GRENADE changed from 10 to 12 to make the smoke from the blast clear quicker in agent_equipment.xml
+[Change]		DAMAGEMODIFIER_ANDROID changed from 0 to 10 for DAMAGETYPE_PSIONIC_BLAST to stop represent the blast affecting Android components (EMP-Like Effect) in damage_types.xml
+[Change]		A single VEHICLETYPE_ALIEN_BOMBER_DUMB added to week 1 of the ufo_growth_lists.xml to allow the aliens to spawn a bombing mission on week 1 as represented in the starting video - It cannot be accessed for a ground mission when it crashes to avoid the player getting research early and will be recovered just as the Alien Probe and Alien Scout offering the same research.
+[Change]		A single VEHICLETYPE_ALIEN_BOMBER_DUMB added to week 2 of the ufo_growth_lists.xml
+[Change]		UFO_INCURSION_A11 added to the ufo_incursions.xml to support the introduction of VEHICLETYPE_ALIEN_BOMBER_DUMB at Week 1
+[Change]		Week 1, Week 2 and Week 3 UFO Mission Prefences changed to include a 20% chance of an Attack Mission instead of it being 100% Infiltration Missions under ufo_mission_preference.xml
+[Change]		VEHICLETYPE_ALIEN_BOMBER_DUMB added with a limit of 3 to UFO Growth Limit list in ufo_growth_lists.xml
+[Change]		Most entries in ufopaedia.xml changed to refer to their corresponding PNG background image under data/ufopaedi of the mod
+[Add]			Most new items in ufopaedi.xml now have new PNG backgrounds under data/ufopaedi or, at the very least, placeholder PNG files
+[Add]			VEHICLETYPE_ALIEN_BOMBER_DUMB added to vehicle_types.xml to function as a version of the Alien Bomber UFO that does not give anything but research matching the Alien Scout and Alien Probe UFO types. It does NOT generate a ground mission for recovery either.
+[Add]			AEQUIPMENTTYPE_ALIEN_PSI-GRENADE added to agent_equipment.xml, economy.xml and both research.xml ( RESEARCH_ALIEN_PSI_GRENADE ) and ufopaedia.xml ( PAEDIAENTRY_ALIEN_PSI_GRENADE )ready for inclusion at a later point under the working name of "Psi-Gas Pod"
+[Add]			alien_psi_grenade_v1.png added to data/ufopaedi for later use
+[Add]			AEQUIPMENTTYPE_AUTO_CANNON_ALIEN_GAS_CLIP for the AutoCannon to agent_equipment.xml
+[Add]			AEQUIPMENTTYPE_AUTO_CANNON_ALIEN_GAS_CLIP for the AutoCannon to economy.xml
+[Add]			MANUFACTURE_AUTO_CANNON_ALIEN_GAS_CLIP for the Autocannon to research.xml
+[Add]			PAEDIAENTRY_AUTO_CANNON_ALIEN_GAS_CLIP for the Autocannon to ufopaedia.xml
+
+****CHANGED THEN REVERTED back to 0****
+[Change]		DAMAGEMODIFIER_MEGAPOL_ARMOR changed from 0 to 70 for DAMAGETYPE_PSIONIC_BLAST to stop armour blocking the effect in damage_types.xml
+[Change]		DAMAGEMODIFIER_MARSEC_ARMOR changed from 0 to 80 for DAMAGETYPE_PSIONIC_BLAST to stop armour blocking the effect in damage_types.xml
+[Change]		DAMAGEMODIFIER_DISRUPTOR_SHIELD changed from 0 to 40 for DAMAGETYPE_PSIONIC_BLAST to stop Disruptor Shields blocking the effect in damage_types.xml
+[Change]		DAMAGEMODIFIER_X-COM_DISRUPTOR_ARMOR changed from 0 to 40 for DAMAGETYPE_PSIONIC_BLAST to stop Disruptor Shields blocking the effect in damage_types.xml
+
+
 ==V9.0I (INTERNAL)==
 
 [Credit]		credits.txt added to the mod

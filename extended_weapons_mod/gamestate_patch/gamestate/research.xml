@@ -608,7 +608,7 @@
 			<value>
 				<name>WIP ForceWeb</name>
 				<order>60160</order>
-				<description>(WIP None-Functional) A device for incapacitating large creatures or multiple units within a small area.</description>
+				<description>(WIP None-Functional - MAY CRASH THE GAME) A device for incapacitating large creatures or multiple units within a small area.</description>
 				<man_hours>9600</man_hours>
 				<type>Physics</type>
 				<dependencies>
@@ -1161,6 +1161,38 @@
 			</value>
 		</entry>
 		<entry>
+			<key>RESEARCH_ALIEN_PSI_GRENADE</key>
+			<value>
+				<name>Psi-Gas Pod</name>
+				<order>60160</order>
+				<description>The Aliens appear to have deployed a terrifying grenade that can cause fear and panic in whomever enters the gasseous cloud that it emits on detonation.</description>
+				<man_hours>4800</man_hours>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+						</entry>
+					</research>
+					<items>
+						<agentItemsRequired>
+							<entry>
+								<key>AEQUIPMENTTYPE_ALIEN_PSI-GRENADE</key>
+								<value>3</value>
+							</entry>
+						</agentItemsRequired>
+						<agentItemsConsumed>
+							<entry>
+								<key>AEQUIPMENTTYPE_ALIEN_PSI-GRENADE</key>
+								<value>3</value>
+							</entry>
+						</agentItemsConsumed>
+					</items>
+				</dependencies>
+				<ufopaedia_entry>PAEDIAENTRY_ALIEN_PSI_GRENADE</ufopaedia_entry>
+				<score>75</score>
+			</value>
+		</entry>
+		<entry>
 			<key>RESEARCH_SMART_WEAPONS</key>
 			<value>
 				<name>SMART Munitions</name>
@@ -1394,6 +1426,28 @@
 				<cost>160</cost>
 				<item_type>AgentEquipment</item_type>
 				<itemId>AEQUIPMENTTYPE_MINILAUNCHER_STUN_MISSILE</itemId>
+			</value>
+		</entry>
+		<entry>
+			<key>MANUFACTURE_AUTO_CANNON_ALIEN_GAS_CLIP</key>
+			<value>
+				<name>Auto Cannon AG Clip</name>
+				<order>50140</order>
+				<man_hours>400</man_hours>
+				<type>Engineering</type>
+				<dependencies>
+					<research>
+						<entry>
+							<type>All</type>
+							<topics>
+								<entry>RESEARCH_ALIEN_GAS</entry>
+							</topics>
+						</entry>
+					</research>
+				</dependencies>
+				<cost>200</cost>
+				<item_type>AgentEquipment</item_type>
+				<itemId>AEQUIPMENTTYPE_AUTO_CANNON_ALIEN_GAS_CLIP</itemId>
 			</value>
 		</entry>
 		<entry>
